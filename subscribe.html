@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduCenter | Subscribe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .form-group { margin-bottom: 1.5rem; text-align: left; }
+        label { font-weight: 600; color: var(--secondary); display: block; margin-bottom: 0.5rem; }
+        input, textarea, select { width: 100%; padding: 1rem; border: 1px solid #D1D9E6; border-radius: 12px; font-family: inherit; background: var(--bg-light); }
+        input:focus, textarea:focus { border-color: var(--accent); outline: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Edu<span>Center</span></a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="online.html">Online</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="join.html">Jobs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="padding-top: 10rem; padding-bottom: 6rem; background: var(--bg-light); min-height: 100vh;">
+        <div class="container reveal">
+            <h2 class="section-title">Anmeldung & Registrierung</h2>
+            
+            <!-- TABS -->
+            <div class="tabs">
+                <button class="tab-btn active" data-target="student">Ich bin ein Schüler/Elternteil</button>
+                <button class="tab-btn" data-target="tutor">Ich bin ein Lehrer</button>
+            </div>
+
+            <!-- STUDENT FORM -->
+            <div id="student" class="tab-content active card" style="max-width: 800px; margin: 0 auto; padding: 3rem;">
+                <h3 style="text-align: center; margin-bottom: 2rem;">Schüler Registrierung</h3>
+                <form onsubmit="event.preventDefault(); alert('Schüler-Anfrage gesendet!');">
+                    <div class="grid grid-2">
+                        <div class="form-group">
+                            <label>Name des Schülers</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Klassenstufe</label>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Benötigte Fächer</label>
+                        <input type="text" placeholder="z.B. Mathematik, Englisch" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Unterrichtsart</label>
+                        <select>
+                            <option>Online</option>
+                            <option>Vor Ort (Offline)</option>
+                            <option>Beides / Flexibel</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Als Schüler anmelden</button>
+                </form>
+            </div>
+
+            <!-- TUTOR FORM -->
+            <div id="tutor" class="tab-content card" style="max-width: 800px; margin: 0 auto; padding: 3rem;">
+                <h3 style="text-align: center; margin-bottom: 2rem;">Lehrer Bewerbung</h3>
+                <form onsubmit="event.preventDefault(); alert('Bewerbung gesendet!');">
+                    <div class="grid grid-2">
+                        <div class="form-group">
+                            <label>Vollständiger Name</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <label>E-Mail-Adresse</label>
+                            <input type="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Unterrichtsfächer (Qualifikation)</label>
+                        <input type="text" placeholder="z.B. Abitur in Mathe, C1 Deutsch" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Verfügbarkeit</label>
+                        <select>
+                            <option>Nur Online</option>
+                            <option>Nur Vor Ort (Offline)</option>
+                            <option>Online & Offline</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Bisherige Erfahrung</label>
+                        <textarea rows="4" placeholder="Beschreibe kurz deine Erfahrung..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary" style="width: 100%; background: var(--secondary); color: var(--primary);">Als Lehrer bewerben</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduCenter | Online</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { nav: '#0B162C', primary: '#2A68FF', accent: '#FF9B24', dark: '#2D3748', light: '#718096' },
+                    fontFamily: { sans: ['Poppins', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-dark overflow-x-hidden font-sans">
+
+    <header class="bg-nav fixed w-full top-0 z-50 px-6 py-4 flex justify-between items-center shadow-md">
+        <a href="index.html" class="block">
+            <img src="assets/logo.png" alt="EduCenter Logo" class="h-10 w-auto">
+        </a>
+        
+        <nav class="hidden md:block">
+            <ul class="flex gap-8 text-white font-medium opacity-90">
+                <li><a href="index.html" class="hover:text-accent transition-colors" data-i18n="nav_welcome">Home</a></li>
+                <li><a href="#online-home" class="text-accent transition-colors" data-i18n="nav_online">Online</a></li>
+                <li><a href="#pricing" class="hover:text-accent transition-colors" data-i18n="nav_pricing">Pricing</a></li>
+                <li><a href="#jobs" class="hover:text-accent transition-colors" data-i18n="nav_jobs">Jobs</a></li>
+                <li><a href="#contact" class="hover:text-accent transition-colors" data-i18n="nav_contact">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <select id="langSelect" class="bg-transparent border border-white/20 text-white rounded px-3 py-1 outline-none cursor-pointer">
+            <option value="de" class="text-black">DE</option>
+            <option value="en" class="text-black">EN</option>
+            <option value="ar" class="text-black">AR</option>
+            <option value="uk" class="text-black">UK</option>
+        </select>
+    </header>
+
+    <main>
+        <section id="online-home" class="relative bg-nav pt-48 pb-32 px-6 flex flex-col justify-center text-start items-start">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1920&q=80" alt="Online Learning" class="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none">
+            
+            <div class="relative z-10 w-full max-w-5xl mx-auto reveal">
+                <div class="text-accent font-semibold mb-4 tracking-widest uppercase">DISCOVER 2026</div>
+                <h1 data-i18n="on_hero_title" class="text-white text-4xl md:text-6xl font-extrabold mb-6 leading-tight tracking-tight">Online-Nachhilfe, die wirklich hilft.</h1>
+                <p data-i18n="on_hero_subtitle" class="text-slate-300 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl">Individuelle Nachhilfe von geprüften Lehrkräften – flexibel, effektiv und auf deine Ziele abgestimmt.</p>
+                <a href="#contact" data-i18n="btn_consult" class="inline-block bg-primary hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl shadow-lg shadow-primary/30 transition-transform transform hover:-translate-y-1">Kostenlose Probestunde anfragen</a>
+            </div>
+        </section>
+
+        <div class="bg-white rounded-2xl shadow-[0_15px_40px_rgba(0,0,0,0.06)] mx-4 md:mx-auto max-w-5xl -mt-12 relative z-20 py-6 px-4 flex flex-wrap justify-center gap-6 md:gap-12 reveal">
+            <div class="flex items-center gap-3 font-semibold text-dark"><span class="text-primary text-xl">✓</span> <span data-i18n="on_trust_1">Geprüfte Lehrkräfte</span></div>
+            <div class="flex items-center gap-3 font-semibold text-dark"><span class="text-primary text-xl">✓</span> <span data-i18n="on_trust_2">100 % qualifiziert</span></div>
+            <div class="flex items-center gap-3 font-semibold text-dark"><span class="text-primary text-xl">✓</span> <span data-i18n="on_trust_3">Keine Verträge</span></div>
+            <div class="flex items-center gap-3 font-semibold text-dark"><span class="text-primary text-xl">✓</span> <span data-i18n="on_trust_4">Kein Abo, kein Risiko</span></div>
+        </div>
+
+        <section class="py-24 px-6 max-w-7xl mx-auto reveal">
+            <div class="text-center mb-16">
+                <h2 data-i18n="on_subj_title" class="text-3xl md:text-4xl font-bold text-nav mb-4 tracking-tight">Gewünschte Fächer und Klassenstufe</h2>
+                <p data-i18n="on_subj_sub" class="text-light text-lg">Finde die perfekte Unterstützung für jedes Fach und jedes Niveau.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center hover:shadow-2xl hover:-translate-y-2 hover:border-primary transition-all duration-300">
+                    <div class="w-20 h-20 rounded-full bg-blue-50 text-primary flex items-center justify-center text-4xl mx-auto mb-6">📐</div>
+                    <h4 data-i18n="subj_math" class="font-bold text-xl text-nav">Mathematics</h4>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center hover:shadow-xl hover:-translate-y-2 hover:border-primary transition-all duration-300">
+                    <div class="w-20 h-20 rounded-full bg-blue-50 text-primary flex items-center justify-center text-4xl mx-auto mb-6">🌍</div>
+                    <h4 data-i18n="subj_eng" class="font-bold text-xl text-nav">English</h4>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center hover:shadow-xl hover:-translate-y-2 hover:border-primary transition-all duration-300">
+                    <div class="w-20 h-20 rounded-full bg-blue-50 text-primary flex items-center justify-center text-4xl mx-auto mb-6">💻</div>
+                    <h4 data-i18n="subj_it" class="font-bold text-xl text-nav">Computer Science</h4>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center hover:shadow-xl hover:-translate-y-2 hover:border-primary transition-all duration-300">
+                    <div class="w-20 h-20 rounded-full bg-blue-50 text-primary flex items-center justify-center text-4xl mx-auto mb-6">🧪</div>
+                    <h4 data-i18n="subj_sci" class="font-bold text-xl text-nav">Sciences</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 px-6 max-w-7xl mx-auto reveal">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="relative w-[90%] md:w-[80%] mx-auto lg:mx-0">
+                    <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=800&q=80" alt="Learning Experience" class="w-full aspect-square object-cover rounded-3xl shadow-xl">
+                    <div class="absolute -bottom-8 end-[-1rem] md:end-[-2rem] bg-primary text-white p-6 md:p-8 rounded-2xl shadow-2xl max-w-[200px] md:max-w-[250px]">
+                        <h3 data-i18n="on_step_3" class="text-xl md:text-2xl font-bold leading-tight">Gemeinsam zu besseren Noten</h3>
+                    </div>
+                </div>
+                
+                <div class="mt-12 lg:mt-0 text-start ps-0 lg:ps-8">
+                    <h2 data-i18n="on_process_title" class="text-3xl md:text-4xl font-extrabold text-nav mb-12 tracking-tight">Online-Nachhilfe in 3 einfachen Schritten.</h2>
+                    <ul class="space-y-10">
+                        <li>
+                            <h4 class="text-nav text-xl font-bold flex items-center gap-4 mb-2">
+                                <span class="bg-blue-50 text-primary w-12 h-12 rounded-full flex items-center justify-center shrink-0">1</span>
+                                <span data-i18n="on_step_1">Finde den Lehrer</span>
+                            </h4>
+                            <p data-i18n="on_step_1_desc" class="text-light ms-16 text-lg">In den Lehrerprofilen siehst du schnell, welcher Lehrer zu deinem Niveau passt.</p>
+                        </li>
+                        <li>
+                            <h4 class="text-nav text-xl font-bold flex items-center gap-4 mb-2">
+                                <span class="bg-blue-50 text-primary w-12 h-12 rounded-full flex items-center justify-center shrink-0">2</span>
+                                <span data-i18n="on_step_2">Kostenlose Probestunden</span>
+                            </h4>
+                            <p data-i18n="on_step_2_desc" class="text-light ms-16 text-lg">Du erhältst eine kostenlose Probestunde, um den Unterricht kennenzulernen.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="py-24 px-6 bg-slate-50 reveal mt-12">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 data-i18n="on_pricing_title" class="text-3xl md:text-5xl font-extrabold text-nav mb-4 tracking-tight">Unsere Preise</h2>
+                    <p data-i18n="on_price_sub" class="text-light text-xl">Transparent and refined.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
+                    <div class="bg-white rounded-3xl p-8 border border-slate-100 shadow-lg relative overflow-hidden hover:-translate-y-2 transition-transform text-center">
+                        <h3 data-i18n="price_short" class="text-slate-500 font-bold tracking-widest uppercase text-xs mb-4">Short</h3>
+                        <div class="flex items-baseline justify-center gap-1 mb-8">
+                            <span class="text-5xl font-extrabold text-nav">18</span>
+                            <span class="text-2xl font-bold text-slate-300">€</span>
+                        </div>
+                        <div data-i18n="min_45" class="inline-block bg-blue-50 text-primary px-5 py-2.5 rounded-full font-semibold text-sm">45 Minuten</div>
+                    </div>
+
+                    <div class="bg-nav rounded-3xl p-10 shadow-[0_20px_50px_rgba(11,22,44,0.3)] relative overflow-hidden transform lg:-translate-y-6 border border-slate-800 text-center">
+                        <div class="absolute top-0 end-0 w-32 h-32 bg-gradient-to-br from-accent to-orange-600 rounded-es-full opacity-20"></div>
+                        <h3 data-i18n="price_std" class="text-accent font-bold tracking-widest uppercase text-sm mb-4">Standard</h3>
+                        <div class="flex items-baseline justify-center gap-1 mb-8 relative z-10">
+                            <span class="text-6xl font-extrabold text-white">24</span>
+                            <span class="text-2xl font-bold text-slate-400">€</span>
+                        </div>
+                        <div data-i18n="min_60" class="inline-block bg-white/10 text-white px-6 py-3 rounded-full font-semibold text-sm border border-white/10 relative z-10">60 Minuten</div>
+                    </div>
+
+                    <div class="bg-white rounded-3xl p-8 border border-slate-100 shadow-lg relative overflow-hidden hover:-translate-y-2 transition-transform text-center">
+                        <h3 data-i18n="price_int" class="text-slate-500 font-bold tracking-widest uppercase text-sm mb-4">Intensive</h3>
+                        <div class="flex items-baseline justify-center gap-1 mb-8">
+                            <span class="text-5xl font-extrabold text-nav">36</span>
+                            <span class="text-2xl font-bold text-slate-300">€</span>
+                        </div>
+                        <div data-i18n="min_90" class="inline-block bg-blue-50 text-primary px-5 py-2.5 rounded-full font-semibold text-sm">90 Minuten</div>
+                    </div>
+
+                    <div class="bg-white rounded-3xl p-8 border border-slate-100 shadow-lg relative overflow-hidden hover:-translate-y-2 transition-transform text-center">
+                        <h3 data-i18n="price_ext" class="text-slate-500 font-bold tracking-widest uppercase text-sm mb-4">Extended</h3>
+                        <div class="flex items-baseline justify-center gap-1 mb-8">
+                            <span class="text-5xl font-extrabold text-nav">45</span>
+                            <span class="text-2xl font-bold text-slate-300">€</span>
+                        </div>
+                        <div data-i18n="min_120" class="inline-block bg-blue-50 text-primary px-5 py-2.5 rounded-full font-semibold text-sm">120 Minuten</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-24 px-6 reveal">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="text-center lg:text-start pe-0 lg:pe-12">
+                    <h2 data-i18n="form_student_title" class="text-4xl md:text-5xl font-extrabold text-primary mb-4 tracking-tight">Start Your Application</h2>
+                    <h3 data-i18n="form_student_sub" class="text-2xl font-bold text-nav mb-6">Simple & Fast Submission</h3>
+                    <p data-i18n="form_student_desc" class="text-light text-lg leading-relaxed">Submit your details below and we will contact you immediately.</p>
+                </div>
+                <div class="bg-white p-8 md:p-12 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.06)] border border-slate-100">
+                    <form onsubmit="event.preventDefault(); alert('Request Sent!');" class="space-y-5">
+                        <input type="text" data-i18n="form_name" placeholder="Name" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
+                        <input type="email" data-i18n="form_email" placeholder="Email" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
+                        <input type="tel" data-i18n="form_phone" placeholder="Phone" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
+                        <button type="submit" data-i18n="btn_submit" class="w-full bg-primary hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-colors mt-2 shadow-lg shadow-primary/30 text-lg">Apply Now</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="jobs" class="py-24 px-6 max-w-7xl mx-auto text-center reveal">
+            <h2 data-i18n="form_tutor_title" class="text-3xl md:text-4xl font-extrabold text-nav mb-4 tracking-tight">Become An Instructor.</h2>
+            <p data-i18n="form_tutor_sub" class="text-light text-xl mb-12">Join our platform and teach students online.</p>
+            
+            <div class="bg-gradient-to-br from-[#FF9B24] to-[#E65C00] rounded-3xl p-8 md:p-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-start shadow-2xl shadow-orange-500/20">
+                <div class="text-center lg:text-start">
+                    <h3 data-i18n="form_tutor_banner" class="text-white text-3xl md:text-5xl font-extrabold leading-tight mb-4 tracking-tight">Want to become an Online Instructor?</h3>
+                    <p data-i18n="form_tutor_banner_sub" class="text-white/90 text-xl font-medium">Start your application today.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl w-full max-w-md mx-auto lg:ms-auto lg:me-0 shadow-xl">
+                    <form onsubmit="event.preventDefault(); alert('Application Sent!');" class="space-y-5">
+                        <input type="text" data-i18n="form_full_name" placeholder="Full Name" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-500/10 transition-all font-medium">
+                        <input type="email" data-i18n="form_email" placeholder="Email Address" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-500/10 transition-all font-medium">
+                        <button type="submit" data-i18n="btn_submit_tutor" class="w-full bg-nav hover:bg-slate-800 text-white font-bold py-4 rounded-xl transition-all shadow-lg text-lg">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-nav text-white pt-24 pb-12 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 border-b border-white/10 pb-16 mb-8 text-center md:text-start">
+            <div class="lg:col-span-2">
+            <a href="#home" class="block text-3xl font-extrabold mb-6 tracking-wide">
+            <img src="assets/logo.png" alt="EduCenter Logo" class="h-12 w-auto">
+        </a>                <p data-i18n="footer_desc" class="text-slate-400 text-lg leading-relaxed max-w-sm mx-auto md:mx-0">Premium education platform delivering high-quality offline and online tutoring.</p>
+            </div>
+            <div>
+                <h3 data-i18n="footer_info" class="text-xl font-bold mb-6 text-white">Information</h3>
+                <ul class="space-y-4">
+                    <li><a href="index.html" data-i18n="foot_about" class="text-slate-400 hover:text-accent font-medium transition-colors">About Us</a></li>
+                    <li><a href="#pricing" data-i18n="nav_pricing" class="text-slate-400 hover:text-accent font-medium transition-colors">Pricing</a></li>
+                    <li><a href="#jobs" data-i18n="nav_jobs" class="text-slate-400 hover:text-accent font-medium transition-colors">Jobs</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 data-i18n="footer_cond" class="text-xl font-bold mb-6 text-white">Conditions</h3>
+                <ul>
+                    <li><a href="#" data-i18n="foot_priv" class="text-slate-400 hover:text-accent font-medium transition-colors">Privacy Policy</a></li>
+                    <li><a href="#" data-i18n="foot_terms" class="text-slate-400 hover:text-accent font-medium transition-colors">Terms of Service</a></li>
+                    <li><a href="#contact" data-i18n="foot_support" class="text-slate-400 hover:text-accent font-medium transition-colors">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center text-slate-500 font-medium" data-i18n="foot_rights">
+            © 2026 EduCenter. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
