@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduCenter | Home (Offline)</title>
+    <title>Nachhilfe2Go | Home (Offline)</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -29,28 +29,58 @@
     </script>
 </head>
 <body class="bg-slate-50 text-dark overflow-x-hidden font-sans">
-
-    <header class="bg-nav fixed w-full top-0 z-50 px-6 py-4 flex justify-between items-center shadow-md">
+<!-- NAVIGATION -->
+    <header class="bg-nav fixed w-full top-0 z-50 px-6 py-4 flex justify-between items-center shadow-md relative">
         <a href="#home" class="block">
-            <img src="assets/logo.png" alt="EduCenter Logo" class="h-10 w-auto">
+            <img src="assets/logo.png" alt="Nachhilfe2Go Logo" class="h-10 w-auto">
         </a>
         
+        <!-- Desktop Nav -->
         <nav class="hidden md:block">
-            <ul class="flex gap-8 text-white font-medium opacity-90">
+            <ul class="flex gap-8 text-white font-medium opacity-90 items-center">
                 <li><a href="#home" class="text-accent transition-colors" data-i18n="nav_welcome">Home</a></li>
                 <li><a href="online.html" class="hover:text-accent transition-colors" data-i18n="nav_online">Online</a></li>
                 <li><a href="#pricing" class="hover:text-accent transition-colors" data-i18n="nav_pricing">Pricing</a></li>
                 <li><a href="#jobs" class="hover:text-accent transition-colors" data-i18n="nav_jobs">Jobs</a></li>
                 <li><a href="#contact" class="hover:text-accent transition-colors" data-i18n="nav_contact">Contact Us</a></li>
+                <li>
+                    <select class="lang-select bg-transparent border border-white/20 text-white rounded px-3 py-1 outline-none cursor-pointer">
+                        <option value="de" class="text-black">DE</option>
+                        <option value="en" class="text-black">EN</option>
+                        <option value="ar" class="text-black">AR</option>
+                        <option value="uk" class="text-black">UK</option>
+                        <option value="nl" class="text-black">NL</option>
+                    </select>
+                </li>
             </ul>
         </nav>
 
-        <select id="langSelect" class="bg-transparent border border-white/20 text-white rounded px-3 py-1 outline-none cursor-pointer">
-            <option value="de" class="text-black">DE</option>
-            <option value="en" class="text-black">EN</option>
-            <option value="ar" class="text-black">AR</option>
-            <option value="uk" class="text-black">UK</option>
-        </select>
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-nav shadow-2xl border-t border-white/10 flex-col py-6 px-6 md:hidden">
+            <ul class="flex flex-col gap-6 text-white font-medium text-lg mb-6 text-center">
+                <li><a href="#home" class="mobile-link text-accent" data-i18n="nav_welcome">Home</a></li>
+                <li><a href="online.html" class="mobile-link" data-i18n="nav_online">Online</a></li>
+                <li><a href="#pricing" class="mobile-link" data-i18n="nav_pricing">Pricing</a></li>
+                <li><a href="#jobs" class="mobile-link" data-i18n="nav_jobs">Jobs</a></li>
+                <li><a href="#contact" class="mobile-link" data-i18n="nav_contact">Contact Us</a></li>
+            </ul>
+            <div class="flex justify-center border-t border-white/10 pt-6">
+                <select class="lang-select bg-transparent border border-white/20 text-white rounded px-4 py-2 outline-none cursor-pointer w-full max-w-[200px] text-center">
+                    <option value="de" class="text-black">DE</option>
+                    <option value="en" class="text-black">EN</option>
+                    <option value="ar" class="text-black">AR</option>
+                    <option value="uk" class="text-black">UK</option>
+                    <option value="nl" class="text-black">NL</option>
+                </select>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -58,7 +88,7 @@
                         <img src="assets/school.jpg" alt="local Learning" class="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none">
 
             <div class="w-full max-w-4xl mx-auto reveal relative z-10">
-                <div data-i18n="hero_kicker" class="text-accent font-semibold mb-6 tracking-[0.2em] uppercase text-sm">WELCOME TO EDUCENTER</div>
+                <div data-i18n="hero_kicker" class="text-accent font-semibold mb-6 tracking-[0.2em] uppercase text-sm">WELCOME TO Nachhilfe2Go</div>
                 <h1 data-i18n="off_hero_title" class="text-white text-4xl md:text-6xl font-extrabold mb-6 leading-tight tracking-tight">Individual tutoring for better grades.</h1>
                 <p data-i18n="off_hero_subtitle" class="text-slate-300 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl mx-auto">Tailor-made support for your child - individual, professional and motivating.</p>
                 <a href="#contact" data-i18n="btn_consult" class="inline-block bg-primary hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl shadow-lg shadow-primary/30 transition-transform transform hover:-translate-y-1">Request free consultation</a>
@@ -242,7 +272,7 @@
             </div>
         </div>
         <div class="text-center text-slate-500 font-medium" data-i18n="foot_rights">
-            © 2026 EduCenter. All rights reserved.
+            © 2026 Nachhilfe2Go. All rights reserved.
         </div>
     </footer>
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduCenter | Online</title>
+    <title>Nachhilfe2Go | Online</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -22,27 +22,58 @@
 </head>
 <body class="bg-white text-dark overflow-x-hidden font-sans">
 
-    <header class="bg-nav fixed w-full top-0 z-50 px-6 py-4 flex justify-between items-center shadow-md">
+<!-- HEADER -->
+    <header class="bg-nav fixed w-full top-0 z-50 px-6 py-4 flex justify-between items-center shadow-md relative">
         <a href="index.html" class="block">
-            <img src="assets/logo.png" alt="EduCenter Logo" class="h-10 w-auto">
+            <img src="assets/logo.png" alt="Nachhilfe2Go Logo" class="h-10 w-auto">
         </a>
         
+        <!-- Desktop Nav -->
         <nav class="hidden md:block">
-            <ul class="flex gap-8 text-white font-medium opacity-90">
+            <ul class="flex gap-8 text-white font-medium opacity-90 items-center">
                 <li><a href="index.html" class="hover:text-accent transition-colors" data-i18n="nav_welcome">Home</a></li>
                 <li><a href="#online-home" class="text-accent transition-colors" data-i18n="nav_online">Online</a></li>
                 <li><a href="#pricing" class="hover:text-accent transition-colors" data-i18n="nav_pricing">Pricing</a></li>
                 <li><a href="#jobs" class="hover:text-accent transition-colors" data-i18n="nav_jobs">Jobs</a></li>
                 <li><a href="#contact" class="hover:text-accent transition-colors" data-i18n="nav_contact">Contact Us</a></li>
+                <li>
+                    <select class="lang-select bg-transparent border border-white/20 text-white rounded px-3 py-1 outline-none cursor-pointer">
+                        <option value="de" class="text-black">DE</option>
+                        <option value="en" class="text-black">EN</option>
+                        <option value="ar" class="text-black">AR</option>
+                        <option value="uk" class="text-black">UK</option>
+                        <option value="nl" class="text-black">NL</option>
+                    </select>
+                </li>
             </ul>
         </nav>
 
-        <select id="langSelect" class="bg-transparent border border-white/20 text-white rounded px-3 py-1 outline-none cursor-pointer">
-            <option value="de" class="text-black">DE</option>
-            <option value="en" class="text-black">EN</option>
-            <option value="ar" class="text-black">AR</option>
-            <option value="uk" class="text-black">UK</option>
-        </select>
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-nav shadow-2xl border-t border-white/10 flex-col py-6 px-6 md:hidden">
+            <ul class="flex flex-col gap-6 text-white font-medium text-lg mb-6 text-center">
+                <li><a href="index.html" class="mobile-link" data-i18n="nav_welcome">Home</a></li>
+                <li><a href="#online-home" class="mobile-link text-accent" data-i18n="nav_online">Online</a></li>
+                <li><a href="#pricing" class="mobile-link" data-i18n="nav_pricing">Pricing</a></li>
+                <li><a href="#jobs" class="mobile-link" data-i18n="nav_jobs">Jobs</a></li>
+                <li><a href="#contact" class="mobile-link" data-i18n="nav_contact">Contact Us</a></li>
+            </ul>
+            <div class="flex justify-center border-t border-white/10 pt-6">
+                <select class="lang-select bg-transparent border border-white/20 text-white rounded px-4 py-2 outline-none cursor-pointer w-full max-w-[200px] text-center">
+                    <option value="de" class="text-black">DE</option>
+                    <option value="en" class="text-black">EN</option>
+                    <option value="ar" class="text-black">AR</option>
+                    <option value="uk" class="text-black">UK</option>
+                    <option value="nl" class="text-black">NL</option>
+                </select>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -211,7 +242,7 @@
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 border-b border-white/10 pb-16 mb-8 text-center md:text-start">
             <div class="lg:col-span-2">
             <a href="#home" class="block text-3xl font-extrabold mb-6 tracking-wide">
-            <img src="assets/logo.png" alt="EduCenter Logo" class="h-12 w-auto">
+            <img src="assets/logo.png" alt="Nachhilfe2Go Logo" class="h-12 w-auto">
         </a>                <p data-i18n="footer_desc" class="text-slate-400 text-lg leading-relaxed max-w-sm mx-auto md:mx-0">Premium education platform delivering high-quality offline and online tutoring.</p>
             </div>
             <div>
@@ -232,7 +263,7 @@
             </div>
         </div>
         <div class="text-center text-slate-500 font-medium" data-i18n="foot_rights">
-            © 2026 EduCenter. All rights reserved.
+            © 2026 Nachhilfe2Go. All rights reserved.
         </div>
     </footer>
 

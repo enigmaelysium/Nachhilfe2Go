@@ -5,15 +5,23 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    const langSelect = document.getElementById('langSelect');
+    // --- 1. Language Handling (Syncing Mobile & Desktop Selectors) ---
+    const langSelects = document.querySelectorAll('.lang-select');
     const savedLang = localStorage.getItem('siteLang') || 'de';
     
-    if(langSelect) {
-        langSelect.value = savedLang;
-        langSelect.addEventListener('change', (e) => {
-            const newLang = e.target.value;
-            localStorage.setItem('siteLang', newLang);
-            applyLanguage(newLang);
+    if (langSelects.length > 0) {
+        langSelects.forEach(select => {
+            select.value = savedLang; // Set initial value for all dropdowns
+            
+            select.addEventListener('change', (e) => {
+                const newLang = e.target.value;
+                localStorage.setItem('siteLang', newLang);
+                
+                // Update all other dropdowns to match the selection
+                langSelects.forEach(s => s.value = newLang); 
+                
+                applyLanguage(newLang);
+            });
         });
     }
     
@@ -31,13 +39,33 @@ document.addEventListener('DOMContentLoaded', () => {
                                     : translations['de'][key]; // Fallback
             
             if (translatedText) {
-                // Apply translation to placeholders if the element is an input or textarea
                 if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
                     el.placeholder = translatedText;
                 } else {
                     el.innerText = translatedText;
                 }
             }
+        });
+    }
+
+    // --- 2. Mobile Menu Toggle Logic ---
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    if (mobileBtn && mobileMenu) {
+        // Open/Close menu when clicking the hamburger icon
+        mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('flex');
+        });
+
+        // Close the mobile menu automatically when a link is clicked
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                mobileMenu.classList.remove('flex');
+            });
         });
     }
 });
