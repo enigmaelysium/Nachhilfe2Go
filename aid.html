@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nachhilfe2Go | BuT Förderung</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { nav: '#0B162C', primary: '#2A68FF', accent: '#FF9B24', dark: '#2D3748', light: '#718096' },
+                    fontFamily: { sans: ['Poppins', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-dark overflow-x-hidden font-sans">
+
+    <!-- HEADER -->
+    <header class="bg-nav fixed w-full top-0 z-50 px-6 py-4 flex justify-between items-center shadow-md relative">
+        <a href="index.html" class="block">
+            <img src="logo.png" alt="Nachhilfe2Go Logo" class="h-10 w-auto">
+        </a>
+        
+        <!-- Desktop Nav -->
+        <nav class="hidden md:block">
+            <ul class="flex gap-8 text-white font-medium opacity-90 items-center">
+                <li><a href="index.html" class="hover:text-accent transition-colors" data-i18n="nav_welcome">Home</a></li>
+                <li><a href="online.html" class="hover:text-accent transition-colors" data-i18n="nav_online">Online</a></li>
+                <li><a href="aid.html" class="text-accent transition-colors" data-i18n="nav_aid">Förderung</a></li>
+                <li><a href="index.html#pricing" class="hover:text-accent transition-colors" data-i18n="nav_pricing">Pricing</a></li>
+                <li><a href="index.html#contact" class="hover:text-accent transition-colors" data-i18n="nav_contact">Contact Us</a></li>
+                <li>
+                    <select class="lang-select bg-transparent border border-white/20 text-white rounded px-3 py-1 outline-none cursor-pointer">
+                        <option value="de" class="text-black">DE</option>
+                        <option value="en" class="text-black">EN</option>
+                        <option value="ar" class="text-black">AR</option>
+                        <option value="uk" class="text-black">UK</option>
+                        <option value="nl" class="text-black">NL</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-nav shadow-2xl border-t border-white/10 flex-col py-6 px-6 md:hidden">
+            <ul class="flex flex-col gap-6 text-white font-medium text-lg mb-6 text-center">
+                <li><a href="index.html" class="mobile-link" data-i18n="nav_welcome">Home</a></li>
+                <li><a href="online.html" class="mobile-link" data-i18n="nav_online">Online</a></li>
+                <li><a href="aid.html" class="mobile-link text-accent" data-i18n="nav_aid">Förderung</a></li>
+                <li><a href="index.html#pricing" class="mobile-link" data-i18n="nav_pricing">Pricing</a></li>
+                <li><a href="index.html#contact" class="mobile-link" data-i18n="nav_contact">Contact Us</a></li>
+            </ul>
+            <div class="flex justify-center border-t border-white/10 pt-6">
+                <select class="lang-select bg-transparent border border-white/20 text-white rounded px-4 py-2 outline-none cursor-pointer w-full max-w-[200px] text-center">
+                    <option value="de" class="text-black">DE</option>
+                    <option value="en" class="text-black">EN</option>
+                    <option value="ar" class="text-black">AR</option>
+                    <option value="uk" class="text-black">UK</option>
+                    <option value="nl" class="text-black">NL</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="bg-nav pt-48 pb-24 px-6 flex flex-col justify-center text-center items-center relative overflow-hidden">
+            <div class="absolute inset-0 w-full h-full bg-gradient-to-br from-primary/20 to-nav z-0 pointer-events-none"></div>
+            <div class="w-full max-w-4xl mx-auto reveal relative z-10">
+                <h1 data-i18n="aid_title" class="text-white text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight tracking-tight">Kostenlose Nachhilfe mit BuT-Förderung</h1>
+                <p data-i18n="aid_subtitle" class="text-accent text-xl md:text-2xl font-semibold mb-8 tracking-wide">Wir unterstützen Ihr Kind</p>
+                <p data-i18n="aid_desc_1" class="text-slate-300 text-lg leading-relaxed max-w-3xl mx-auto mb-6">Jedes Kind verdient die Chance auf schulischen Erfolg. Wenn Ihr Kind Schwierigkeiten in der Schule hat oder die Versetzung gefährdet ist, kann es unter bestimmten Voraussetzungen Anspruch auf kostenlose Lernförderung über das Bildungs- und Teilhabepaket (BuT) haben.</p>
+                <p data-i18n="aid_desc_2" class="text-slate-300 text-lg leading-relaxed max-w-3xl mx-auto mb-10">Wir bieten qualifizierte und individuelle Nachhilfe für Schülerinnen und Schüler aller Klassenstufen und unterstützen Familien dabei, die passende Förderung zu erhalten.</p>
+                <a href="index.html#contact" data-i18n="btn_consult" class="inline-block bg-primary hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl shadow-lg shadow-primary/30 transition-transform transform hover:-translate-y-1">Kostenlose Beratung anfragen</a>
+            </div>
+        </section>
+
+        <!-- WHO GETS IT (Grid) -->
+        <section class="py-24 px-6 max-w-7xl mx-auto reveal">
+            <div class="text-center mb-16">
+                <h2 data-i18n="aid_who_title" class="text-3xl md:text-4xl font-extrabold text-nav mb-4 tracking-tight">Wer kann die BuT-Förderung erhalten?</h2>
+                <div class="w-16 h-1 bg-accent mx-auto mt-6 rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                    <div class="w-16 h-16 rounded-2xl bg-blue-50 text-primary flex items-center justify-center text-3xl mx-auto mb-6">💶</div>
+                    <h4 data-i18n="aid_who_1" class="font-bold text-lg text-nav">Bürgergeld</h4>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                    <div class="w-16 h-16 rounded-2xl bg-blue-50 text-primary flex items-center justify-center text-3xl mx-auto mb-6">🤝</div>
+                    <h4 data-i18n="aid_who_2" class="font-bold text-lg text-nav">Sozialhilfe</h4>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                    <div class="w-16 h-16 rounded-2xl bg-blue-50 text-primary flex items-center justify-center text-3xl mx-auto mb-6">🏠</div>
+                    <h4 data-i18n="aid_who_3" class="font-bold text-lg text-nav">Wohngeld</h4>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                    <div class="w-16 h-16 rounded-2xl bg-blue-50 text-primary flex items-center justify-center text-3xl mx-auto mb-6">👶</div>
+                    <h4 data-i18n="aid_who_4" class="font-bold text-lg text-nav">Kinderzuschlag</h4>
+                </div>
+                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 sm:col-span-2 lg:col-span-1">
+                    <div class="w-16 h-16 rounded-2xl bg-blue-50 text-primary flex items-center justify-center text-3xl mx-auto mb-6">🌍</div>
+                    <h4 data-i18n="aid_who_5" class="font-bold text-lg text-nav">Leistungen nach dem Asylbewerberleistungsgesetz</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHAT IS FUNDED & SERVICES -->
+        <section class="py-16 px-6 max-w-6xl mx-auto reveal">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+                
+                <!-- What is funded -->
+                <div class="bg-white rounded-[2rem] p-10 md:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border border-slate-100">
+                    <div class="w-12 h-12 rounded-xl bg-orange-50 text-accent flex items-center justify-center text-2xl mb-8">💡</div>
+                    <h3 data-i18n="aid_what_title" class="text-2xl font-bold text-nav mb-6">Was wird gefördert?</h3>
+                    <p data-i18n="aid_what_desc" class="text-light leading-relaxed text-lg">
+                        Wenn die Schule bestätigt, dass Ihr Kind zusätzliche Unterstützung benötigt, können die Kosten für die Nachhilfe in vielen Fällen vollständig übernommen werden.
+                    </p>
+                </div>
+
+                <!-- Services List -->
+                <div class="bg-gradient-to-b from-nav to-[#070e1c] rounded-[2rem] p-10 md:p-14 shadow-2xl relative overflow-hidden">
+                    <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-2xl mb-8 text-accent">⭐</div>
+                    <h3 data-i18n="aid_services_title" class="text-2xl font-bold text-white mb-8 relative z-10">Unsere Leistungen</h3>
+                    
+                    <ul class="space-y-5 relative z-10">
+                        <li class="flex items-center gap-4 text-white font-medium">
+                            <span class="text-accent text-xl">✓</span> <span data-i18n="aid_service_1">Individuelle Nachhilfe in verschiedenen Fächern</span>
+                        </li>
+                        <li class="flex items-center gap-4 text-white font-medium">
+                            <span class="text-accent text-xl">✓</span> <span data-i18n="aid_service_2">Erfahrene und engagierte Lehrkräfte</span>
+                        </li>
+                        <li class="flex items-center gap-4 text-white font-medium">
+                            <span class="text-accent text-xl">✓</span> <span data-i18n="aid_service_3">Persönliche Betreuung und Lernpläne</span>
+                        </li>
+                        <li class="flex items-center gap-4 text-white font-medium">
+                            <span class="text-accent text-xl">✓</span> <span data-i18n="aid_service_4">Flexible Terminvereinbarung</span>
+                        </li>
+                        <li class="flex items-center gap-4 text-white font-medium">
+                            <span class="text-accent text-xl">✓</span> <span data-i18n="aid_service_5">Unterstützung bei den Antragsunterlagen</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA HELP BANNER -->
+        <section class="py-24 px-6 max-w-7xl mx-auto text-center reveal">
+            <div class="bg-gradient-to-br from-primary to-blue-800 rounded-3xl p-10 md:p-16 shadow-2xl shadow-blue-500/20 text-white">
+                <h2 data-i18n="aid_help_title" class="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">Wir helfen Ihnen beim Antrag</h2>
+                <p data-i18n="aid_help_desc" class="text-white/90 text-xl font-medium max-w-3xl mx-auto mb-10 leading-relaxed">Kontaktieren Sie uns für ein unverbindliches Beratungsgespräch. Gemeinsam finden wir die beste Unterstützung für Ihr Kind.</p>
+                <a href="index.html#contact" class="inline-block bg-white text-nav hover:bg-slate-100 font-bold py-4 px-10 rounded-xl shadow-lg transition-transform transform hover:-translate-y-1 text-lg">Kontaktieren Sie uns</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-nav text-white pt-24 pb-12 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 border-b border-white/10 pb-16 mb-8 text-center md:text-start">
+            <div class="lg:col-span-2">
+                <h3 class="text-3xl font-extrabold mb-6 tracking-wide">Edu<span class="text-accent">Center</span></h3>
+                <p data-i18n="footer_desc" class="text-slate-400 text-lg leading-relaxed max-w-sm mx-auto md:mx-0">Premium education platform delivering high-quality offline and online tutoring.</p>
+            </div>
+            <div>
+                <h3 data-i18n="footer_info" class="text-xl font-bold mb-6 text-white">Information</h3>
+                <ul class="space-y-4">
+                    <li><a href="index.html" data-i18n="foot_about" class="text-slate-400 hover:text-accent font-medium transition-colors">About Us</a></li>
+                    <li><a href="index.html#pricing" data-i18n="nav_pricing" class="text-slate-400 hover:text-accent font-medium transition-colors">Pricing</a></li>
+                    <li><a href="index.html#jobs" data-i18n="nav_jobs" class="text-slate-400 hover:text-accent font-medium transition-colors">Jobs</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 data-i18n="footer_cond" class="text-xl font-bold mb-6 text-white">Conditions</h3>
+                <ul>
+                    <li><a href="#" data-i18n="foot_priv" class="text-slate-400 hover:text-accent font-medium transition-colors">Privacy Policy</a></li>
+                    <li><a href="#" data-i18n="foot_terms" class="text-slate-400 hover:text-accent font-medium transition-colors">Terms of Service</a></li>
+                    <li><a href="index.html#contact" data-i18n="foot_support" class="text-slate-400 hover:text-accent font-medium transition-colors">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center text-slate-500 font-medium" data-i18n="foot_rights">
+            © 2026 Nachhilfe2Go. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- EXTERNAL SCRIPTS -->
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

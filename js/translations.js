@@ -1,13 +1,14 @@
 // js/translations.js
 const translations = {
-de: {
+  de: {
     // Shared Navigation & Footer
     nav_welcome: "Home",
     nav_online: "Online",
     nav_pricing: "Preise",
     nav_jobs: "Karriere",
     nav_contact: "Kontakt",
-    footer_desc: "Premium-Bildungsplattform für hochwertige Nachhilfe vor Ort und online.",
+    footer_desc:
+      "Premium-Bildungsplattform für hochwertige Nachhilfe vor Ort und online.",
     footer_info: "Informationen",
     footer_cond: "Bedingungen",
     foot_about: "Über uns",
@@ -19,7 +20,8 @@ de: {
     // Shared Forms
     form_student_title: "Starte deine Anfrage",
     form_student_sub: "Einfache & schnelle Einreichung",
-    form_student_desc: "Trage unten deine Daten ein und wir kontaktieren dich umgehend.",
+    form_student_desc:
+      "Trage unten deine Daten ein und wir kontaktieren dich umgehend.",
     form_name: "Name",
     form_email: "E-Mail",
     form_phone: "Telefon",
@@ -34,13 +36,16 @@ de: {
     // Offline Specific (index.html)
     hero_kicker: "WILLKOMMEN BEI Nachhilfe2Go",
     off_hero_title: "Individuelle Nachhilfe für bessere Noten.",
-    off_hero_subtitle: "Passgenaue Unterstützung für Ihr Kind – individuell, professionell und motivierend.",
+    off_hero_subtitle:
+      "Passgenaue Unterstützung für Ihr Kind – individuell, professionell und motivierend.",
     btn_consult: "Kostenlose Beratung anfragen",
     about_title: "Über uns",
     about_me_title: "Wer wir sind",
-    about_me_desc: "Jedes Kind lernt anders. Deshalb bieten wir individuelle Nachhilfe und Lernbegleitung für Schülerinnen und Schüler aller Klassenstufen.",
+    about_me_desc:
+      "Jedes Kind lernt anders. Deshalb bieten wir individuelle Nachhilfe und Lernbegleitung für Schülerinnen und Schüler aller Klassenstufen.",
     exp_title: "Unsere Erfahrung",
-    exp_desc: "Ob Einzelunterricht oder kleine Lerngruppen – wir fördern jedes Kind gezielt nach seinem persönlichen Lernbedarf.",
+    exp_desc:
+      "Ob Einzelunterricht oder kleine Lerngruppen – wir fördern jedes Kind gezielt nach seinem persönlichen Lernbedarf.",
     exp_point_1: "Erfahrene und engagierte Lehrkräfte",
     exp_point_2: "Individuell angepasste Lernkonzepte",
     exp_point_3: "Hochwertige Lernmaterialien",
@@ -52,22 +57,26 @@ de: {
 
     // Online Specific (online.html)
     on_hero_title: "Online-Nachhilfe, die wirklich hilft.",
-    on_hero_subtitle: "Individuelle Nachhilfe von geprüften Lehrkräften – flexibel, effektiv und auf deine Ziele abgestimmt.",
+    on_hero_subtitle:
+      "Individuelle Nachhilfe von geprüften Lehrkräften – flexibel, effektiv und auf deine Ziele abgestimmt.",
     on_trust_1: "Geprüfte Lehrkräfte",
     on_trust_2: "100 % qualifiziert",
     on_trust_3: "Keine Verträge",
     on_trust_4: "Kein Abo, kein Risiko",
     on_subj_title: "Gewünschte Fächer und Klassenstufe",
-    on_subj_sub: "Finde die perfekte Unterstützung für jedes Fach und jedes Niveau.",
+    on_subj_sub:
+      "Finde die perfekte Unterstützung für jedes Fach und jedes Niveau.",
     subj_math: "Mathematik",
     subj_eng: "Englisch",
     subj_it: "Informatik",
     subj_sci: "Naturwissenschaften",
     on_process_title: "Online-Nachhilfe in 3 einfachen Schritten.",
     on_step_1: "Finde den Lehrer",
-    on_step_1_desc: "In den Lehrerprofilen siehst du schnell, welcher Lehrer zu deinem Niveau passt.",
+    on_step_1_desc:
+      "In den Lehrerprofilen siehst du schnell, welcher Lehrer zu deinem Niveau passt.",
     on_step_2: "Kostenlose Probestunden",
-    on_step_2_desc: "Du erhältst eine kostenlose Probestunde, um den Unterricht kennenzulernen.",
+    on_step_2_desc:
+      "Du erhältst eine kostenlose Probestunde, um den Unterricht kennenzulernen.",
     on_step_3: "Gemeinsam zu besseren Noten",
     on_pricing_title: "Unsere Preise – Online-Nachhilfe",
     on_price_sub: "Transparent und fair. Keine versteckten Kosten.",
@@ -79,6 +88,32 @@ de: {
     min_60: "60 Minuten",
     min_90: "90 Minuten",
     min_120: "120 Minuten",
+    // Aid / BuT Page
+    nav_aid: "Förderung",
+    aid_title: "Kostenlose Nachhilfe mit BuT-Förderung",
+    aid_subtitle: "Wir unterstützen Ihr Kind",
+    aid_desc_1:
+      "Jedes Kind verdient die Chance auf schulischen Erfolg. Wenn Ihr Kind Schwierigkeiten in der Schule hat oder die Versetzung gefährdet ist, kann es unter bestimmten Voraussetzungen Anspruch auf kostenlose Lernförderung über das Bildungs- und Teilhabepaket (BuT) haben.",
+    aid_desc_2:
+      "Wir bieten qualifizierte und individuelle Nachhilfe für Schülerinnen und Schüler aller Klassenstufen und unterstützen Familien dabei, die passende Förderung zu erhalten.",
+    aid_who_title: "Wer kann die BuT-Förderung erhalten?",
+    aid_who_1: "Bürgergeld",
+    aid_who_2: "Sozialhilfe",
+    aid_who_3: "Wohngeld",
+    aid_who_4: "Kinderzuschlag",
+    aid_who_5: "Leistungen nach dem Asylbewerberleistungsgesetz",
+    aid_what_title: "Was wird gefördert?",
+    aid_what_desc:
+      "Wenn die Schule bestätigt, dass Ihr Kind zusätzliche Unterstützung benötigt, können die Kosten für die Nachhilfe in vielen Fällen vollständig übernommen werden.",
+    aid_services_title: "Unsere Leistungen",
+    aid_service_1: "Individuelle Nachhilfe in verschiedenen Fächern",
+    aid_service_2: "Erfahrene und engagierte Lehrkräfte",
+    aid_service_3: "Persönliche Betreuung und Lernpläne",
+    aid_service_4: "Flexible Terminvereinbarung",
+    aid_service_5: "Unterstützung bei den Antragsunterlagen",
+    aid_help_title: "Wir helfen Ihnen beim Antrag",
+    aid_help_desc:
+      "Kontaktieren Sie uns für ein unverbindliches Beratungsgespräch. Gemeinsam finden wir die beste Unterstützung für Ihr Kind.",
   },
   en: {
     nav_welcome: "Home",
@@ -160,6 +195,32 @@ de: {
     min_60: "60 Minutes",
     min_90: "90 Minutes",
     min_120: "120 Minutes",
+    // Aid / BuT Page
+    nav_aid: "Funding Help",
+    aid_title: "Free Tutoring with BuT Support",
+    aid_subtitle: "We support your child",
+    aid_desc_1:
+      "Every child deserves the chance to succeed in school. If your child is having difficulties at school, they may be entitled to free learning support via the Education and Participation Package (BuT).",
+    aid_desc_2:
+      "We offer qualified and individual tutoring for students of all grades and support families in getting the right funding.",
+    aid_who_title: "Who can receive BuT support?",
+    aid_who_1: "Citizen's benefit (Bürgergeld)",
+    aid_who_2: "Social assistance",
+    aid_who_3: "Housing benefit",
+    aid_who_4: "Child supplement",
+    aid_who_5: "Asylum seeker benefits",
+    aid_what_title: "What is funded?",
+    aid_what_desc:
+      "If the school confirms that your child needs additional support, the costs for tutoring can often be fully covered.",
+    aid_services_title: "Our Services",
+    aid_service_1: "Individual tutoring in various subjects",
+    aid_service_2: "Experienced and dedicated teachers",
+    aid_service_3: "Personal support and learning plans",
+    aid_service_4: "Flexible appointments",
+    aid_service_5: "Help with application documents",
+    aid_help_title: "We help you with the application",
+    aid_help_desc:
+      "Contact us for a free, no-obligation consultation. Together we will find the best support for your child.",
   },
   ar: {
     nav_welcome: "الرئيسية",
@@ -235,6 +296,32 @@ de: {
     min_60: "60 دقيقة",
     min_90: "90 دقيقة",
     min_120: "120 دقيقة",
+    // Aid / BuT Page
+    nav_aid: "المساعدات",
+    aid_title: "دروس تقوية مجانية من خلال برنامج (BuT)",
+    aid_subtitle: "نحن ندعم طفلك",
+    aid_desc_1:
+      "كل طفل يستحق فرصة النجاح في المدرسة. إذا كان طفلك يواجه صعوبات دراسية أو كان نجاحه في الصف الدراسي مهددًا، فقد يكون له الحق في الحصول على دروس تقوية مجانية من خلال برنامج التعليم والمشاركة (BuT).",
+    aid_desc_2:
+      "نقدم دروس تقوية مؤهلة وفردية للطلاب من جميع المراحل الدراسية وندعم العائلات في الحصول على التمويل المناسب.",
+    aid_who_title: "من يمكنه الاستفادة من البرنامج؟",
+    aid_who_1: "إعانة المواطن (Bürgergeld)",
+    aid_who_2: "المساعدة الاجتماعية",
+    aid_who_3: "إعانة السكن",
+    aid_who_4: "إعانة الأطفال",
+    aid_who_5: "مساعدات طالبي اللجوء",
+    aid_what_title: "ما الذي يتم تمويله؟",
+    aid_what_desc:
+      "إذا أكدت المدرسة أن طفلك بحاجة إلى دعم إضافي، فغالبًا ما يمكن تغطية تكاليف دروس التقوية بالكامل.",
+    aid_services_title: "خدماتنا",
+    aid_service_1: "دروس تقوية فردية في مواد مختلفة",
+    aid_service_2: "مدرسون مؤهلون وذوو خبرة",
+    aid_service_3: "متابعة شخصية وخطط تعليمية",
+    aid_service_4: "مواعيد مرنة",
+    aid_service_5: "المساعدة في إجراءات التقديم",
+    aid_help_title: "نحن نساعدك في تقديم الطلب",
+    aid_help_desc:
+      "تواصلوا معنا للحصول على استشارة مجانية وبدون أي التزام. معًا سنجد أفضل دعم لطفلك.",
   },
   uk: {
     nav_welcome: "Головна",
@@ -315,5 +402,138 @@ de: {
     min_60: "60 Хвилин",
     min_90: "90 Хвилин",
     min_120: "120 Хвилин",
+    // Aid / BuT Page
+    nav_aid: "Допомога",
+    aid_title: "Безкоштовні додаткові заняття за програмою BuT",
+    aid_subtitle: "Ми підтримуємо вашу дитину",
+    aid_desc_1:
+      "Кожна дитина заслуговує на можливість успішно навчатися. Якщо ваша дитина має труднощі в навчанні, вона може мати право на безкоштовну навчальну підтримку в рамках програми BuT.",
+    aid_desc_2:
+      "Ми пропонуємо кваліфіковані індивідуальні заняття для учнів усіх класів і допомагаємо родинам отримати відповідне фінансування.",
+    aid_who_title: "Хто може скористатися програмою?",
+    aid_who_1: "Bürgergeld",
+    aid_who_2: "Соціальна допомога",
+    aid_who_3: "Житлова допомога",
+    aid_who_4: "Доплата на дитину",
+    aid_who_5: "Допомога шукачам притулку",
+    aid_what_title: "Що фінансується?",
+    aid_what_desc:
+      "Якщо школа підтверджує, що ваша дитина потребує додаткової підтримки, витрати на репетиторство часто можуть бути повністю покриті.",
+    aid_services_title: "Наші послуги",
+    aid_service_1: "Індивідуальні заняття з різних предметів",
+    aid_service_2: "Кваліфіковані викладачі",
+    aid_service_3: "Персональний підхід",
+    aid_service_4: "Гнучкий графік",
+    aid_service_5: "Допомога з документами",
+    aid_help_title: "Ми допомагаємо з оформленням заявки",
+    aid_help_desc:
+      "Зв’яжіться з нами для безкоштовної консультації. Разом ми знайдемо найкращу підтримку для вашої дитини.",
+  },
+  nl: {
+    nav_welcome: "Home",
+    nav_online: "Online",
+    nav_pricing: "Tarieven",
+    nav_jobs: "Vacatures",
+    nav_contact: "Contact",
+    footer_desc:
+      "Premium onderwijsplatform dat hoogwaardige offline en online bijles biedt.",
+    footer_info: "Informatie",
+    footer_cond: "Voorwaarden",
+    foot_about: "Over ons",
+    foot_priv: "Privacybeleid",
+    foot_terms: "Algemene voorwaarden",
+    foot_support: "Ondersteuning",
+    foot_rights: "© 2026 Nachhilfe2Go. Alle rechten voorbehouden.",
+    form_student_title: "Start je aanvraag",
+    form_student_sub: "Eenvoudig en snel indienen",
+    form_student_desc:
+      "Vul hieronder je gegevens in en we nemen direct contact met je op.",
+    form_name: "Naam",
+    form_email: "E-mail",
+    form_phone: "Telefoonnummer",
+    btn_submit: "Nu aanvragen",
+    form_tutor_title: "Word docent.",
+    form_tutor_sub: "Sluit je aan bij ons platform en geef les aan studenten.",
+    form_tutor_banner: "Wil je docent worden?",
+    form_tutor_banner_sub: "Start vandaag nog met solliciteren.",
+    form_full_name: "Volledige naam",
+    btn_submit_tutor: "Registreren",
+    hero_kicker: "WELKOM BIJ Nachhilfe2Go",
+    off_hero_title: "Individuele bijles voor betere cijfers.",
+    off_hero_subtitle:
+      "Ondersteuning op maat voor uw kind – individueel, professioneel en motiverend.",
+    btn_consult: "Gratis adviesgesprek aanvragen",
+    about_title: "Over ons",
+    about_me_title: "Wie we zijn",
+    about_me_desc:
+      "Elk kind leert anders. Daarom bieden we individuele bijles voor leerlingen van alle klassen.",
+    exp_title: "Onze ervaring",
+    exp_desc:
+      "Of het nu gaat om privéles of kleine leergroepen – wij begeleiden elk kind gericht op basis van hun persoonlijke behoeften.",
+    exp_point_1: "Ervaren en toegewijde docenten",
+    exp_point_2: "Aangepaste leerconcepten",
+    exp_point_3: "Hoogwaardig lesmateriaal",
+    gallery_title: "Onze faciliteiten",
+    off_pricing_title: "Onze prijzen – Bijles op locatie",
+    off_price_sub: "Transparant en eerlijk. Geen verborgen kosten.",
+    map_title: "Onze locatie",
+    map_sub: "Bezoek ons voor een persoonlijk gesprek.",
+    on_hero_title: "Online bijles die echt helpt.",
+    on_hero_subtitle:
+      "Individuele bijles van gecertificeerde docenten – flexibel, effectief en afgestemd op jouw doelen.",
+    on_trust_1: "Gecertificeerde docenten",
+    on_trust_2: "100% gekwalificeerd",
+    on_trust_3: "Geen contracten",
+    on_trust_4: "Geen abonnement, geen risico",
+    on_subj_title: "Gewenste vakken en klas",
+    on_subj_sub: "Vind de perfecte ondersteuning voor elk vak en elk niveau.",
+    subj_math: "Wiskunde",
+    subj_eng: "Engels",
+    subj_it: "Informatica",
+    subj_sci: "Natuurwetenschappen",
+    on_process_title: "Online bijles in 3 eenvoudige stappen.",
+    on_step_1: "Vind de leraar",
+    on_step_1_desc:
+      "In de docentenprofielen zie je snel welke docent bij jouw niveau past.",
+    on_step_2: "Gratis proeflessen",
+    on_step_2_desc:
+      "Je krijgt een gratis proefles om kennis te maken met de lessen.",
+    on_step_3: "Samen naar betere cijfers",
+    on_pricing_title: "Onze prijzen – Online bijles",
+    on_price_sub: "Transparant en eerlijk. Geen verborgen kosten.",
+    price_short: "Kort",
+    price_std: "Standaard",
+    price_int: "Intensief",
+    price_ext: "Uitgebreid",
+    min_45: "45 Minuten",
+    min_60: "60 Minuten",
+    min_90: "90 Minuten",
+    min_120: "120 Minuten",
+    // Aid / BuT Page
+    nav_aid: "Subsidies",
+    aid_title: "Gratis bijles met BuT-subsidie",
+    aid_subtitle: "Wij ondersteunen uw kind",
+    aid_desc_1:
+      "Elk kind verdient de kans op succes op school. Als uw kind moeite heeft op school, kan het onder bepaalde voorwaarden recht hebben op gratis leerondersteuning via het Onderwijs- en Participatiepakket (BuT).",
+    aid_desc_2:
+      "Wij bieden gekwalificeerde en individuele bijles voor leerlingen van alle klassen en ondersteunen gezinnen bij het verkrijgen van de juiste financiering.",
+    aid_who_title: "Wie kan de BuT-subsidie ontvangen?",
+    aid_who_1: "Burgergeld (Bürgergeld)",
+    aid_who_2: "Sociale bijstand",
+    aid_who_3: "Huurtoeslag",
+    aid_who_4: "Kindertoeslag",
+    aid_who_5: "Uitkeringen voor asielzoekers",
+    aid_what_title: "Wat wordt gefinancierd?",
+    aid_what_desc:
+      "Als de school bevestigt dat uw kind extra ondersteuning nodig heeft, kunnen de kosten voor bijles vaak volledig worden vergoed.",
+    aid_services_title: "Onze diensten",
+    aid_service_1: "Individuele bijles in verschillende vakken",
+    aid_service_2: "Ervaren en toegewijde docenten",
+    aid_service_3: "Persoonlijke begeleiding en leerplannen",
+    aid_service_4: "Flexibele afspraken",
+    aid_service_5: "Hulp bij aanvraagdocumenten",
+    aid_help_title: "Wij helpen u bij de aanvraag",
+    aid_help_desc:
+      "Neem contact met ons op voor een gratis en vrijblijvend adviesgesprek. Samen vinden we de beste ondersteuning voor uw kind.",
   },
 };
