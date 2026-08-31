@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nachhilfe2Go | Contact Us</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        nav: '#0B162C',
+                        primary: '#2A68FF',
+                        accent: '#FF9B24',
+                        dark: '#2D3748',
+                        light: '#718096',
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-dark overflow-x-hidden font-sans">
+    
+    <!-- NAVIGATION WRAPPER -->
+    <div class="fixed w-full top-0 z-50">
+<!-- TOP CONTACT BAR -->
+        <div class="bg-[#070e1c] text-slate-300 text-sm py-2 px-6 flex justify-end items-center border-b border-white/10 gap-6">
+            
+            <!-- Email -->
+            <a href="mailto:tahirielousrouti@gmail.com" class="hidden md:flex items-center gap-2 hover:text-accent transition-colors font-medium">
+                <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+                tahirielousrouti@gmail.com
+            </a>
+            
+            <!-- Phone Numbers -->
+            <div class="flex items-center gap-2 font-medium">
+                <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                </svg>
+                <div class="flex items-center gap-1.5">
+                    <a href="tel:015735315541" class="hover:text-accent transition-colors">015735315541</a>
+                    <span class="text-slate-500">/</span>
+                    <a href="tel:017687665327" class="hover:text-accent transition-colors">017687665327</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- MAIN HEADER -->
+        <header class="bg-nav w-full px-6 py-4 flex justify-between items-center shadow-md relative">
+            <a href="index.html" class="block">
+                <img src="assets/logo.png" alt="EduCenter Logo" class="h-10 w-auto">
+            </a>
+            
+            <!-- Desktop Nav -->
+            <nav class="hidden md:block">
+                <ul class="flex gap-8 text-white font-medium opacity-90 items-center">
+                    <li><a href="index.html" class="hover:text-accent transition-colors" data-i18n="nav_welcome">Home</a></li>
+                    <li><a href="online.html" class="hover:text-accent transition-colors" data-i18n="nav_online">Online</a></li>
+                    <li><a href="index.html#pricing" class="hover:text-accent transition-colors" data-i18n="nav_pricing">Pricing</a></li>
+                    <li><a href="index.html#jobs" class="hover:text-accent transition-colors" data-i18n="nav_jobs">Jobs</a></li>
+                    <li><a href="contact.html" class="text-accent transition-colors" data-i18n="nav_contact">Contact Us</a></li>
+                    <li>
+                        <select class="lang-select bg-transparent border border-white/20 text-white rounded px-3 py-1 outline-none cursor-pointer">
+                            <option value="de" class="text-black">DE</option>
+                            <option value="en" class="text-black">EN</option>
+                            <option value="ar" class="text-black">AR</option>
+                            <option value="uk" class="text-black">UK</option>
+                            <option value="nl" class="text-black">NL</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+
+            <!-- Mobile Dropdown Menu -->
+            <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-nav shadow-2xl border-t border-white/10 flex-col py-6 px-6 md:hidden">
+                <ul class="flex flex-col gap-6 text-white font-medium text-lg mb-6 text-center">
+                    <li><a href="index.html" class="mobile-link" data-i18n="nav_welcome">Home</a></li>
+                    <li><a href="online.html" class="mobile-link" data-i18n="nav_online">Online</a></li>
+                    <li><a href="index.html#pricing" class="mobile-link" data-i18n="nav_pricing">Pricing</a></li>
+                    <li><a href="index.html#jobs" class="mobile-link" data-i18n="nav_jobs">Jobs</a></li>
+                    <li><a href="contact.html" class="mobile-link text-accent" data-i18n="nav_contact">Contact Us</a></li>
+                </ul>
+                <div class="flex justify-center border-t border-white/10 pt-6">
+                    <select class="lang-select bg-transparent border border-white/20 text-white rounded px-4 py-2 outline-none cursor-pointer w-full max-w-[200px] text-center">
+                        <option value="de" class="text-black">DE</option>
+                        <option value="en" class="text-black">EN</option>
+                        <option value="ar" class="text-black">AR</option>
+                        <option value="uk" class="text-black">UK</option>
+                        <option value="nl" class="text-black">NL</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- MAIN CONTACT SECTION -->
+    <main class="pt-48 pb-24 px-6 bg-slate-50 min-h-screen">
+        <div class="max-w-7xl mx-auto w-full reveal">
+            
+            <!-- Header Text -->
+            <div class="text-center mb-16">
+                <h2 data-i18n="contact_title" class="text-4xl md:text-5xl font-extrabold text-nav mb-4 tracking-tight">Kontaktiere uns</h2>
+                <p data-i18n="contact_sub" class="text-light text-lg md:text-xl max-w-2xl mx-auto">Wir sind für dich da! Schreib uns eine Nachricht oder besuche uns vor Ort.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+                
+                <!-- LEFT: Simplified Contact Form -->
+                <div class="bg-white p-8 md:p-12 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.06)] border border-slate-100">
+                    <h3 data-i18n="contact_form_title" class="text-2xl font-bold text-nav mb-8">Schreib uns eine Nachricht</h3>
+                    <form  id="contact-form" class="space-y-6">
+                          <input type="hidden" name="apiKey" value="sf_0fb4fcfaf27fc235cf55df20">
+
+                        <!-- Full Name -->
+                        <div>
+                            <label data-i18n="label_name" class="block text-sm font-bold text-nav mb-1.5 ml-1">Vor- und Nachname*</label>
+                            <input name="Full name" type="text" data-i18n="placeholder_name" placeholder="Dein vollständiger Name" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium text-dark text-[15px]">
+                        </div>
+                        
+                        <!-- Email -->
+                        <div>
+                            <label data-i18n="label_email" class="block text-sm font-bold text-nav mb-1.5 ml-1">E-Mail-Adresse*</label>
+                            <input name="Email" type="email" data-i18n="placeholder_email" placeholder="Deine E-Mail-Adresse" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium text-dark text-[15px]">
+                        </div>
+
+                        <!-- Phone -->
+                        <div>
+                            <label data-i18n="label_phone" class="block text-sm font-bold text-nav mb-1.5 ml-1">Telefonnummer*</label>
+                            <input name="Phone" type="tel" data-i18n="placeholder_phone" placeholder="Deine Telefonnummer" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium text-dark text-[15px]">
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" data-i18n="btn_submit_contact" class="w-full bg-primary hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-colors mt-8 shadow-lg shadow-primary/30 text-lg">
+                            Jetzt anfragen
+                        </button>
+                    </form>
+                    <!-- Hidden Success Alert Box -->
+<div id="form-success" class="hidden mt-6 p-4 rounded-xl bg-green-50 border border-green-200 text-green-800 text-center font-medium">
+    Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.
+</div>
+                </div>
+
+                <!-- RIGHT: Map & Info -->
+                <div class="flex flex-col h-full">
+                    
+                    <!-- Contact Details Box -->
+                    <div class="bg-nav text-white p-8 md:p-10 rounded-3xl shadow-xl mb-8">
+                        <h3 data-i18n="contact_info_title" class="text-2xl font-bold mb-8">Unsere Kontaktdaten</h3>
+                        <div class="space-y-6">
+                            
+                            <!-- Address -->
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center shrink-0">
+                                    <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                </div>
+                                <div>
+                                    <p data-i18n="contact_location_label" class="text-slate-400 text-sm font-medium mb-1">Standort</p>
+                                    <p data-i18n="contact_address" class="text-lg font-semibold">Gebhardtstraße 1, 42329 Wuppertal-Vohwinkel, Deutschland</p>
+                                </div>
+                            </div>
+                            
+                           <!-- Phone -->
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center shrink-0">
+                                    <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                                </div>
+                                <div>
+                                    <p data-i18n="contact_phone_label" class="text-slate-400 text-sm font-medium mb-1">Telefonnummer</p>
+                                    <p class="text-lg font-semibold leading-tight">
+                                        <a href="tel:015735315541" class="hover:text-accent transition-colors block">015735315541</a>
+                                        <a href="tel:017687665327" class="hover:text-accent transition-colors block mt-1">017687665327</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center shrink-0">
+                                    <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                                </div>
+                                <div>
+                                    <p data-i18n="contact_email_label" class="text-slate-400 text-sm font-medium mb-1">E-Mail-Adresse</p>
+                                    <p class="text-[17px] font-semibold break-all">
+                                        <a href="mailto:tahirielousrouti@gmail.com" class="hover:text-accent transition-colors">tahirielousrouti@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map Container -->
+                    <div class="flex-grow rounded-3xl overflow-hidden border border-slate-200 shadow-lg min-h-[250px] relative bg-slate-200">
+                        <!-- Standard Google Maps Iframe placeholder -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2583.1261086652776!2d7.065835476697921!3d51.22754697175101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8d152bb540721%3A0x856d0a1a1c1bf97!2sGebhardtstra%C3%9Fe%201%2C%2042329%20Wuppertal-Vohwinkel%2C%20Germany!5e1!3m2!1sen!2sma!4v1788149556692!5m2!1sen!2sma" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; position:absolute; top:0; left:0; right:0; bottom:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-nav text-white pt-24 pb-12 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 border-b border-white/10 pb-16 mb-8 text-center md:text-start">
+            <div class="lg:col-span-2">
+                <a href="index.html" class="block text-3xl font-extrabold mb-6 tracking-wide">
+                    <img src="assets/logo.png" alt="Nachhilfe2Go Logo" class="h-12 w-auto mx-auto md:mx-0">
+                </a>
+                <p data-i18n="footer_desc" class="text-slate-400 text-lg leading-relaxed max-w-sm mx-auto md:mx-0">Premium education platform delivering high-quality offline and online tutoring.</p>
+            </div>
+            <div>
+                <h3 data-i18n="footer_info" class="text-xl font-bold mb-6 text-white">Information</h3>
+                <ul class="space-y-4">
+                    <li><a href="index.html#home" data-i18n="foot_about" class="text-slate-400 hover:text-accent font-medium transition-colors">About Us</a></li>
+                    <li><a href="index.html#pricing" data-i18n="nav_pricing" class="text-slate-400 hover:text-accent font-medium transition-colors">Pricing</a></li>
+                    <li><a href="index.html#jobs" data-i18n="nav_jobs" class="text-slate-400 hover:text-accent font-medium transition-colors">Jobs</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 data-i18n="footer_cond" class="text-xl font-bold mb-6 text-white">Conditions</h3>
+                <ul>
+                    <li><a href="#" data-i18n="foot_priv" class="text-slate-400 hover:text-accent font-medium transition-colors">Privacy Policy</a></li>
+                    <li><a href="#" data-i18n="foot_terms" class="text-slate-400 hover:text-accent font-medium transition-colors">Terms of Service</a></li>
+                    <li><a href="contact.html" data-i18n="foot_support" class="text-slate-400 hover:text-accent font-medium transition-colors">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center text-slate-500 font-medium" data-i18n="foot_rights">
+            © 2026 Nachhilfe2Go. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

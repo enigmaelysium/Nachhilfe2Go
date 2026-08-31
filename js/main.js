@@ -68,4 +68,44 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+const form = document.getElementById('contact-form');
+const successMsg = document.getElementById('form-success');
+
+form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const originalBtnText = submitBtn.innerText;
+    submitBtn.disabled = true;
+    submitBtn.innerText = "Wird gesendet...";
+
+    const formData = new FormData(form);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    try {
+        const response = await fetch('https://api.staticforms.xyz/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: json
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            form.reset();
+            successMsg.classList.remove('hidden');
+        } else {
+            alert('Fehler beim Senden: ' + (result.message || 'Bitte versuchen Sie es erneut.'));
+        }
+    } catch (error) {
+        alert('Netzwerkfehler. Bitte versuchen Sie es später erneut.');
+    } finally {
+        submitBtn.disabled = false;
+        submitBtn.innerText = originalBtnText;
+    }
+});
 });

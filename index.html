@@ -29,61 +29,87 @@
     </script>
 </head>
 <body class="bg-slate-50 text-dark overflow-x-hidden font-sans">
-<!-- NAVIGATION -->
-    <header class="bg-nav fixed w-full top-0 z-50 px-6 py-4 flex justify-between items-center shadow-md relative">
-        <a href="#home" class="block">
-            <img src="assets/logo.png" alt="Nachhilfe2Go Logo" class="h-10 w-auto">
-        </a>
-        
-        <!-- Desktop Nav -->
-        <nav class="hidden md:block">
-            <ul class="flex gap-8 text-white font-medium opacity-90 items-center">
-                <li><a href="#home" class="text-accent transition-colors" data-i18n="nav_welcome">Home</a></li>
-                <li><a href="online.html" class="hover:text-accent transition-colors" data-i18n="nav_online">Online</a></li>
-                <li><a href="aid.html" class="hover:text-accent transition-colors" data-i18n="nav_aid">Förderung</a></li>
-                <li><a href="#pricing" class="hover:text-accent transition-colors" data-i18n="nav_pricing">Pricing</a></li>
-                <li><a href="#jobs" class="hover:text-accent transition-colors" data-i18n="nav_jobs">Jobs</a></li>
-                <li><a href="#contact" class="hover:text-accent transition-colors" data-i18n="nav_contact">Contact Us</a></li>
-                <li>
-                    <select class="lang-select bg-transparent border border-white/20 text-white rounded px-3 py-1 outline-none cursor-pointer">
+<!-- NAVIGATION WRAPPER -->
+    <div class="fixed w-full top-0 z-50">
+<!-- TOP CONTACT BAR -->
+        <div class="bg-[#070e1c] text-slate-300 text-sm py-2 px-6 flex justify-end items-center border-b border-white/10 gap-6">
+            
+            <!-- Email -->
+            <a href="mailto:tahirielousrouti@gmail.com" class="hidden md:flex items-center gap-2 hover:text-accent transition-colors font-medium">
+                <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+                tahirielousrouti@gmail.com
+            </a>
+            
+            <!-- Phone Numbers -->
+            <div class="flex items-center gap-2 font-medium">
+                <svg class="w-4 h-4 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                </svg>
+                <div class="flex items-center gap-1.5">
+                    <a href="tel:015735315541" class="hover:text-accent transition-colors">015735315541</a>
+                    <span class="text-slate-500">/</span>
+                    <a href="tel:017687665327" class="hover:text-accent transition-colors">017687665327</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- MAIN HEADER -->
+        <header class="bg-nav w-full px-6 py-4 flex justify-between items-center shadow-md relative">
+            <a href="#home" class="block">
+                <img src="assets/logo.png" alt="EduCenter Logo" class="h-10 w-auto">
+            </a>
+            
+            <!-- Desktop Nav -->
+            <nav class="hidden md:block">
+                <ul class="flex gap-8 text-white font-medium opacity-90 items-center">
+                    <li><a href="#home" class="text-accent transition-colors" data-i18n="nav_welcome">Home</a></li>
+                    <li><a href="online.html" class="hover:text-accent transition-colors" data-i18n="nav_online">Online</a></li>
+                    <li><a href="#pricing" class="hover:text-accent transition-colors" data-i18n="nav_pricing">Pricing</a></li>
+                    <li><a href="#jobs" class="hover:text-accent transition-colors" data-i18n="nav_jobs">Jobs</a></li>
+                    <li><a href="contact.html" class="hover:text-accent transition-colors" data-i18n="nav_contact">Contact Us</a></li>
+                    <li>
+                        <select class="lang-select bg-transparent border border-white/20 text-white rounded px-3 py-1 outline-none cursor-pointer">
+                            <option value="de" class="text-black">DE</option>
+                            <option value="en" class="text-black">EN</option>
+                            <option value="ar" class="text-black">AR</option>
+                            <option value="uk" class="text-black">UK</option>
+                            <option value="nl" class="text-black">NL</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+
+            <!-- Mobile Dropdown Menu -->
+            <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-nav shadow-2xl border-t border-white/10 flex-col py-6 px-6 md:hidden">
+                <ul class="flex flex-col gap-6 text-white font-medium text-lg mb-6 text-center">
+                    <li><a href="#home" class="mobile-link text-accent" data-i18n="nav_welcome">Home</a></li>
+                    <li><a href="online.html" class="mobile-link" data-i18n="nav_online">Online</a></li>
+                    <li><a href="#pricing" class="mobile-link" data-i18n="nav_pricing">Pricing</a></li>
+                    <li><a href="#jobs" class="mobile-link" data-i18n="nav_jobs">Jobs</a></li>
+                    <li><a href="contact.html" class="mobile-link" data-i18n="nav_contact">Contact Us</a></li>
+                </ul>
+                <div class="flex justify-center border-t border-white/10 pt-6">
+                    <select class="lang-select bg-transparent border border-white/20 text-white rounded px-4 py-2 outline-none cursor-pointer w-full max-w-[200px] text-center">
                         <option value="de" class="text-black">DE</option>
                         <option value="en" class="text-black">EN</option>
                         <option value="ar" class="text-black">AR</option>
                         <option value="uk" class="text-black">UK</option>
                         <option value="nl" class="text-black">NL</option>
                     </select>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- Mobile Menu Button -->
-        <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
-            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-        </button>
-
-        <!-- Mobile Dropdown Menu -->
-        <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-nav shadow-2xl border-t border-white/10 flex-col py-6 px-6 md:hidden">
-            <ul class="flex flex-col gap-6 text-white font-medium text-lg mb-6 text-center">
-                <li><a href="#home" class="mobile-link text-accent" data-i18n="nav_welcome">Home</a></li>
-                <li><a href="online.html" class="mobile-link" data-i18n="nav_online">Online</a></li>
-                <li><a href="aid.html" class="hover:text-accent transition-colors" data-i18n="nav_aid">Förderung</a></li>
-                <li><a href="#pricing" class="mobile-link" data-i18n="nav_pricing">Pricing</a></li>
-                <li><a href="#jobs" class="mobile-link" data-i18n="nav_jobs">Jobs</a></li>
-                <li><a href="#contact" class="mobile-link" data-i18n="nav_contact">Contact Us</a></li>
-            </ul>
-            <div class="flex justify-center border-t border-white/10 pt-6">
-                <select class="lang-select bg-transparent border border-white/20 text-white rounded px-4 py-2 outline-none cursor-pointer w-full max-w-[200px] text-center">
-                    <option value="de" class="text-black">DE</option>
-                    <option value="en" class="text-black">EN</option>
-                    <option value="ar" class="text-black">AR</option>
-                    <option value="uk" class="text-black">UK</option>
-                    <option value="nl" class="text-black">NL</option>
-                </select>
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
+    </div>
 
     <main>
         <section id="home" class="bg-nav pt-48 pb-32 px-6 flex flex-col justify-center text-center items-center relative">
@@ -93,60 +119,104 @@
                 <div data-i18n="hero_kicker" class="text-accent font-semibold mb-6 tracking-[0.2em] uppercase text-sm">WELCOME TO Nachhilfe2Go</div>
                 <h1 data-i18n="off_hero_title" class="text-white text-4xl md:text-6xl font-extrabold mb-6 leading-tight tracking-tight">Individual tutoring for better grades.</h1>
                 <p data-i18n="off_hero_subtitle" class="text-slate-300 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl mx-auto">Tailor-made support for your child - individual, professional and motivating.</p>
-                <a href="#contact" data-i18n="btn_consult" class="inline-block bg-primary hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl shadow-lg shadow-primary/30 transition-transform transform hover:-translate-y-1">Request free consultation</a>
+                <a href="contact.html" data-i18n="btn_consult" class="inline-block bg-primary hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl shadow-lg shadow-primary/30 transition-transform transform hover:-translate-y-1">Request free consultation</a>
             </div>
         </section>
 
-        <section class="py-24 px-6 max-w-6xl mx-auto">
-            <div class="text-center mb-16 reveal">
-                <h2 data-i18n="about_title" class="text-3xl md:text-5xl font-extrabold text-nav tracking-tight">About Us</h2>
-                <div class="w-16 h-1 bg-accent mx-auto mt-6 rounded-full"></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch reveal">
-                <div class="bg-white rounded-[2rem] p-10 md:p-14 shadow-[0_20px_50px_rgba(0,0,0,0.04)]">
-                    <div class="w-12 h-12 rounded-xl bg-slate-50 flex items-center justify-center text-2xl mb-8">👋</div>
-                    <h3 data-i18n="about_me_title" class="text-2xl font-bold text-nav mb-4">Who We Are</h3>
-                    <p data-i18n="about_me_desc" class="text-light leading-relaxed">
-                        Every child learns differently. That is why we offer individual tutoring for students of all grades. Our goal is to close learning gaps, build knowledge sustainably and strengthen your child's confidence.
+<!-- ABOUT US SECTION (Dynamic Split Layout with SVG Icons & Cartoon Asset) -->
+        <section id="about" class="py-24 px-6 max-w-7xl mx-auto reveal overflow-hidden">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
+                
+                <!-- Left Side: Text & Stacked Features -->
+                <div class="relative z-10">
+                    <h3 data-i18n="about_subtitle" class="text-accent font-bold tracking-wider uppercase mb-3 text-sm md:text-base">Gemeinsam zum Lernerfolg</h3>
+                    <h2 data-i18n="about_title" class="text-4xl md:text-5xl font-extrabold text-nav mb-6 tracking-tight leading-tight">Warum unsere Nachhilfe?</h2>
+                    <p data-i18n="about_desc" class="text-light text-lg mb-10 leading-relaxed">
+                        Jedes Kind lernt anders. Deshalb bieten wir individuelle Nachhilfe für Schülerinnen und Schüler aller Klassenstufen. Lernen soll nicht zu Frust führen, sondern Erfolgserlebnisse schaffen. Mit der richtigen Unterstützung kann jedes Kind sein Potenzial entfalten.
                     </p>
+
+                    <!-- Interactive Stacked Cards -->
+                    <div class="space-y-4">
+                        
+                        <!-- Feature 1 (Teacher Icon) -->
+                        <div class="group flex items-start gap-5 p-5 rounded-2xl bg-white border border-slate-100 shadow-[0_5px_15px_rgba(0,0,0,0.03)] hover:shadow-[0_15px_35px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300">
+                            <div class="w-14 h-14 rounded-xl bg-blue-50 text-primary flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 data-i18n="about_feat1_title" class="text-lg font-bold text-nav mb-1">Erfahrene und engagierte Lehrkräfte</h4>
+                                <p data-i18n="about_feat1_desc" class="text-light text-[15px] leading-relaxed">Unsere qualifizierten Lehrkräfte begleiten Ihr Kind mit Fachwissen, Geduld und Motivation auf dem Weg zum Erfolg.</p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 2 (Target/Concept Icon) -->
+                        <div class="group flex items-start gap-5 p-5 rounded-2xl bg-white border border-slate-100 shadow-[0_5px_15px_rgba(0,0,0,0.03)] hover:shadow-[0_15px_35px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300">
+                            <div class="w-14 h-14 rounded-xl bg-orange-50 text-accent flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:bg-accent group-hover:text-white transition-all duration-300">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 data-i18n="about_feat2_title" class="text-lg font-bold text-nav mb-1">Individuell angepasste Lernkonzepte</h4>
+                                <p data-i18n="about_feat2_desc" class="text-light text-[15px] leading-relaxed">Jedes Kind erhält Unterstützung, die genau auf seine Stärken, Schwächen und Lernziele abgestimmt ist.</p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 3 (Book/Materials Icon) -->
+                        <div class="group flex items-start gap-5 p-5 rounded-2xl bg-white border border-slate-100 shadow-[0_5px_15px_rgba(0,0,0,0.03)] hover:shadow-[0_15px_35px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300">
+                            <div class="w-14 h-14 rounded-xl bg-blue-50 text-primary flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                            </div>
+                            <div>
+                                <h4 data-i18n="about_feat3_title" class="text-lg font-bold text-nav mb-1">Hochwertige Lernmaterialien</h4>
+                                <p data-i18n="about_feat3_desc" class="text-light text-[15px] leading-relaxed">Mit umfangreichen und sorgfältig ausgewählten Materialien erleichtern wir das Verstehen, Üben und Vertiefen der Lerninhalte.</p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 4 (Sparkles/Environment Icon) -->
+                        <div class="group flex items-start gap-5 p-5 rounded-2xl bg-white border border-slate-100 shadow-[0_5px_15px_rgba(0,0,0,0.03)] hover:shadow-[0_15px_35px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300">
+                            <div class="w-14 h-14 rounded-xl bg-orange-50 text-accent flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:bg-accent group-hover:text-white transition-all duration-300">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 data-i18n="about_feat4_title" class="text-lg font-bold text-nav mb-1">Motivierende Lernumgebung</h4>
+                                <p data-i18n="about_feat4_desc" class="text-light text-[15px] leading-relaxed">Eine angenehme Atmosphäre fördert Konzentration, Selbstvertrauen und Freude am Lernen.</p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
-                <div class="bg-gradient-to-b from-nav to-[#070e1c] rounded-[2rem] p-10 md:p-14 shadow-2xl">
-                    <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-2xl mb-8 text-accent">⭐</div>
-                    <h3 data-i18n="exp_title" class="text-2xl font-bold text-white mb-4">Our Experience</h3>
-                    <p data-i18n="exp_desc" class="text-slate-300 leading-relaxed mb-8">
-                        Whether one-on-one lessons or small learning groups - we target each child according to their personal needs. Through individual support, we create the best conditions for long-term success.
-                    </p>
-                    <ul class="space-y-4">
-                        <li class="flex items-center gap-3 text-white text-sm font-medium">
-                            <span class="text-accent">✓</span> <span data-i18n="exp_point_1">Experienced and dedicated teachers</span>
-                        </li>
-                        <li class="flex items-center gap-3 text-white text-sm font-medium">
-                            <span class="text-accent">✓</span> <span data-i18n="exp_point_2">Customized learning concepts</span>
-                        </li>
-                        <li class="flex items-center gap-3 text-white text-sm font-medium">
-                            <span class="text-accent">✓</span> <span data-i18n="exp_point_3">High-quality learning materials</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                <!-- Right Side: 2D Cartoon Artwork Layout -->
+                <div class="relative mt-12 lg:mt-0 px-4 md:px-10 lg:px-0">
+                    
+                    <!-- Decorative Glowing Blob -->
+                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] bg-gradient-to-tr from-blue-100 via-white to-orange-50 rounded-full blur-3xl -z-10"></div>
+                    
+                    <!-- Main Image Mask (Drop your 2D Cartoon asset here) -->
+                    <div class="relative rounded-[2.5rem] overflow-hidden border-8 border-white shadow-[0_20px_60px_rgba(0,0,0,0.1)] z-10 aspect-[4/5] bg-blue-50/50 flex items-center justify-center">
 
-            <div class="mt-24 reveal">
-                <h3 data-i18n="gallery_title" class="text-2xl md:text-3xl font-bold text-nav mb-8 text-center md:text-start">Our Facilities</h3>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-                    <div class="overflow-hidden rounded-2xl shadow-md group">
-                        <img src="https://images.unsplash.com/photo-1427504494785-319ce83723cf?auto=format&fit=crop&w=600&q=80" alt="Gallery 1" class="w-full aspect-square object-cover transform group-hover:scale-110 transition-transform duration-500">
+<img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80" alt="Konzentriertes Lernen" class="w-full h-full object-cover">
                     </div>
-                    <div class="overflow-hidden rounded-2xl shadow-md group">
-                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Gallery 2" class="w-full aspect-square object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    
+                    <!-- Overlapping Floating Badge (Star Icon) -->
+                    <div class="absolute -bottom-6 -left-6 md:-left-10 z-20 bg-white p-5 rounded-3xl shadow-[0_20px_40px_rgba(0,0,0,0.12)] border border-slate-100 flex items-center gap-4 hover:-translate-y-2 transition-transform duration-300 cursor-default">
+                        <div class="w-14 h-14 rounded-full bg-orange-100 text-accent flex items-center justify-center shrink-0">
+                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                        </div>
+                        <div class="pe-4">
+                            <p class="text-nav font-extrabold text-xl leading-none mb-1">100%</p>
+<p data-i18n="badge_motivation" class="text-light text-sm font-medium leading-none">Motivation</p>                        </div>
                     </div>
-                    <div class="overflow-hidden rounded-2xl shadow-md group">
-                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=80" alt="Gallery 3" class="w-full aspect-square object-cover transform group-hover:scale-110 transition-transform duration-500">
+
+                    <!-- Secondary Decorative Dots -->
+                    <div class="absolute -top-10 -right-10 z-0 opacity-50 hidden md:block">
+                        <svg width="100" height="100" fill="none" viewBox="0 0 100 100">
+                            <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                                <circle cx="2" cy="2" r="2" class="text-primary" fill="currentColor" />
+                            </pattern>
+                            <rect width="100" height="100" fill="url(#dots)" />
+                        </svg>
                     </div>
-                    <div class="overflow-hidden rounded-2xl shadow-md group">
-                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80" alt="Gallery 4" class="w-full aspect-square object-cover transform group-hover:scale-110 transition-transform duration-500">
-                    </div>
+
                 </div>
             </div>
         </section>
@@ -197,40 +267,176 @@
             </div>
         </section>
 
-        <section id="contact" class="py-16 px-6 reveal">
-            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div class="text-center lg:text-start pe-0 lg:pe-12">
-                    <h2 data-i18n="form_student_title" class="text-4xl md:text-5xl font-extrabold text-primary mb-4 tracking-tight">Start Your Application</h2>
-                    <h3 data-i18n="form_student_sub" class="text-2xl font-bold text-nav mb-6">Simple & Fast Submission</h3>
-                    <p data-i18n="form_student_desc" class="text-light text-lg leading-relaxed">Submit your details below and we will contact you immediately.</p>
+<!-- STUDENT FORM (CONTACT) -->
+        <section id="contact" class="py-24 px-6 reveal">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+                
+                <!-- Left Side: Text -->
+                <div class="text-center lg:text-start pe-0 lg:pe-12 lg:sticky lg:top-32">
+                    <h2 data-i18n="form_trial_title" class="text-4xl md:text-5xl font-extrabold text-primary mb-4 tracking-tight">Kostenlose Probestunde anfragen</h2>
+                    <p data-i18n="form_trial_sub" class="text-2xl font-bold text-nav mb-6 leading-tight">Bitte fülle das Formular vollständig aus. Wir melden uns schnellstmöglich bei dir.</p>
                 </div>
+                
+                <!-- Right Side: Form (Old Design, New Fields) -->
                 <div class="bg-white p-8 md:p-12 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.06)] border border-slate-100">
-                    <form onsubmit="event.preventDefault(); alert('Request Sent!');" class="space-y-5">
-                        <input type="text" data-i18n="form_name" placeholder="Name" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
-                        <input type="email" data-i18n="form_email" placeholder="Email" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
-                        <input type="tel" data-i18n="form_phone" placeholder="Phone" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
-                        <button type="submit" data-i18n="btn_submit" class="w-full bg-primary hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-colors mt-2 shadow-lg shadow-primary/30 text-lg">Apply Now</button>
+                    <form  id="contact-form" class="space-y-5 text-start">
+                          <input type="hidden" name="apiKey" value="sf_966afd87e1d57870042d90ba">
+
+                        <!-- Name -->
+                        <div>
+                            <label data-i18n="label_name" class="block text-sm font-bold text-nav mb-1.5 ml-1">Vor- und Nachname*</label>
+                            <input name="Name" type="text" data-i18n="placeholder_name" placeholder="Dein vollständiger Name" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
+                        </div>
+                        
+                        <!-- Email -->
+                        <div>
+                            <label data-i18n="label_email" class="block text-sm font-bold text-nav mb-1.5 ml-1">E-Mail-Adresse*</label>
+                            <input name="Email" type="email" data-i18n="placeholder_email" placeholder="Deine E-Mail-Adresse" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
+                        </div>
+
+                        <!-- Phone -->
+                        <div>
+                            <label data-i18n="label_phone" class="block text-sm font-bold text-nav mb-1.5 ml-1">Telefonnummer*</label>
+                            <input name="Phone" type="tel" data-i18n="placeholder_phone" placeholder="Deine Telefonnummer" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
+                        </div>
+
+                        <!-- Subject & Grade -->
+                        <div>
+                            <label data-i18n="label_subject" class="block text-sm font-bold text-nav mb-1.5 ml-1">Gewünschte Fächer und Klassenstufe*</label>
+                            <input name="Subject" type="text" data-i18n="placeholder_subject" placeholder="z. B. Mathematik, 8. Klasse Gymnasium" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
+                        </div>
+
+                        <!-- Amount -->
+                        <div>
+                            <label data-i18n="label_amount" class="block text-sm font-bold text-nav mb-1.5 ml-1">Gewünschter Nachhilfeumfang pro Woche*</label>
+                            <input name="Amount" type="text" data-i18n="placeholder_amount" placeholder="z. B. 1-2 Stunden pro Woche" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
+                        </div>
+
+                        <!-- Preferred Time -->
+                        <div>
+                            <label data-i18n="label_time" class="block text-sm font-bold text-nav mb-1.5 ml-1">Bevorzugte Unterrichtszeiten*</label>
+                            <input name="PreferredTime" type="text" data-i18n="placeholder_time" placeholder="z. B. Montag bis Donnerstag ab 16 Uhr" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium">
+                        </div>
+
+                        <!-- Additional Info -->
+                        <div>
+                            <label data-i18n="label_info" class="block text-sm font-bold text-nav mb-1.5 ml-1">Zusätzliche Informationen oder Wünsche</label>
+                            <textarea name="AdditionalInfo" data-i18n="placeholder_info" placeholder="Deine Wünsche, Ziele oder weitere Informationen" rows="3" class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all font-medium resize-none"></textarea>
+                        </div>
+
+                        <!-- Privacy Checkbox -->
+                        <div class="flex items-start gap-3 mt-4 ml-1">
+                            <input name="Privacy" type="checkbox" required class="mt-1 w-5 h-5 rounded border-slate-300 text-primary focus:ring-primary cursor-pointer shrink-0">
+                            <label class="text-[13px] text-light leading-relaxed">
+                                <span data-i18n="label_privacy_1">Ich bin damit einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage gespeichert und verarbeitet werden. Weitere Informationen findest du in unserer</span> 
+                                <a href="#" data-i18n="label_privacy_2" class="text-primary hover:underline font-medium">Datenschutzerklärung.</a>
+                            </label>
+                        </div>
+
+                        <!-- Mandatory Notice -->
+                        <p data-i18n="label_mandatory" class="text-[13px] text-slate-500 ml-1">* Pflichtfelder</p>
+
+                        <!-- Submit Button (Original blue style) -->
+                        <button type="submit" data-i18n="btn_trial" class="w-full bg-primary hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-colors mt-6 shadow-lg shadow-primary/30 text-lg">
+                            Kostenlose Probestunde anfragen
+                        </button>
                     </form>
+                    <!-- Hidden Success Alert Box -->
+<div id="form-success" class="hidden mt-6 p-4 rounded-xl bg-green-50 border border-green-200 text-green-800 text-center font-medium">
+    Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.
+</div>
                 </div>
             </div>
         </section>
 
-        <section id="jobs" class="py-16 px-6 max-w-7xl mx-auto text-center reveal">
-            <h2 data-i18n="form_tutor_title" class="text-3xl md:text-4xl font-extrabold text-nav mb-4 tracking-tight">Become An Instructor.</h2>
-            <p data-i18n="form_tutor_sub" class="text-light text-xl mb-12">Join our platform and teach students offline.</p>
-            
-            <div class="bg-gradient-to-br from-[#FF9B24] to-[#E65C00] rounded-3xl p-8 md:p-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-start shadow-2xl shadow-orange-500/20">
-                <div class="text-center lg:text-start">
-                    <h3 data-i18n="form_tutor_banner" class="text-white text-3xl md:text-5xl font-extrabold leading-tight mb-4 tracking-tight">Want to become an Instructor?</h3>
-                    <p data-i18n="form_tutor_banner_sub" class="text-white/90 text-xl font-medium">Start your application today.</p>
+<section id="jobs" class="py-24 px-6 max-w-7xl mx-auto reveal">
+            <div class="text-center mb-16">
+                <h2 data-i18n="job_title" class="text-3xl md:text-4xl font-extrabold text-nav mb-4 tracking-tight">Gestalte Bildung mit – werde Lehrkraft bei uns!</h2>
+                <p data-i18n="job_subtitle" class="text-light text-lg md:text-xl max-w-3xl mx-auto">Unterstütze Schüler:innen dabei, ihre Ziele zu erreichen – und profitiere von einem flexiblen Job mit Sinn.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center mb-16">
+                
+                <div class="text-start">
+                    <h3 data-i18n="job_req_title" class="text-2xl font-bold text-nav mb-6">Das bringst du mit</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_req_1" class="text-dark font-medium leading-tight pt-0.5">Sehr gute Kenntnisse in deinem Wunschfach</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_req_2" class="text-dark font-medium leading-tight pt-0.5">Abiturient:in, Student:in oder vergleichbare Qualifikation</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_req_3" class="text-dark font-medium leading-tight pt-0.5">Erfahrung in Nachhilfe oder Unterrichten ist von Vorteil</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_req_4" class="text-dark font-medium leading-tight pt-0.5">Sehr gute Deutschkenntnisse (mind. C1)</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_req_5" class="text-dark font-medium leading-tight pt-0.5">Vertrautheit mit dem deutschen Schulsystem</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_req_6" class="text-dark font-medium leading-tight pt-0.5">Freude daran, Wissen zu vermitteln und Schüler:innen zu motivieren</span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="bg-white p-8 rounded-3xl w-full max-w-md mx-auto lg:ms-auto lg:me-0 shadow-xl">
-                    <form onsubmit="event.preventDefault(); alert('Application Sent!');" class="space-y-5">
-                        <input type="text" data-i18n="form_full_name" placeholder="Full Name" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-500/10 transition-all font-medium">
-                        <input type="email" data-i18n="form_email" placeholder="Email Address" required class="w-full bg-slate-50 border border-slate-200 p-4 rounded-xl focus:outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-500/10 transition-all font-medium">
-                        <button type="submit" data-i18n="btn_submit_tutor" class="w-full bg-nav hover:bg-slate-800 text-white font-bold py-4 rounded-xl transition-all shadow-lg text-lg">Sign Up</button>
-                    </form>
+
+                <div class="flex justify-center lg:order-none order-first lg:mb-0 mb-8">
+<img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?auto=format&fit=crop&w=800&q=80" alt="Moderner Nachhilfelehrer" class="rounded-2xl shadow-[0_15px_40px_rgba(0,0,0,0.1)] w-full max-w-sm lg:max-w-full object-cover aspect-[4/5] border border-slate-100">
+</div>
+
+                <div class="text-start">
+                    <h3 data-i18n="job_offer_title" class="text-2xl font-bold text-nav mb-6">Das bieten wir dir</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_offer_1" class="text-dark font-medium leading-tight pt-0.5">Überdurchschnittliche Vergütung</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_offer_2" class="text-dark font-medium leading-tight pt-0.5">Flexible Arbeitszeiten – ideal neben Studium oder Beruf</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_offer_3" class="text-dark font-medium leading-tight pt-0.5">Ortsunabhängiges Arbeiten – online von überall</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_offer_4" class="text-dark font-medium leading-tight pt-0.5">Wir übernehmen Organisation und Koordination</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_offer_5" class="text-dark font-medium leading-tight pt-0.5">Wertvolle Praxiserfahrung im Bildungsbereich</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-nav shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span data-i18n="job_offer_6" class="text-dark font-medium leading-tight pt-0.5">Persönliche Betreuung und regelmäßiger Austausch</span>
+                        </li>
+                    </ul>
                 </div>
+            </div>
+
+            <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
+                <div class="flex items-center gap-6">
+                    <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 hidden md:flex shrink-0 text-nav">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="text-center md:text-start">
+                        <h4 data-i18n="job_cta_title" class="text-xl md:text-2xl font-bold text-nav mb-2">Klingt gut? Dann bewirb dich jetzt als Nachhilfelehrer:in!</h4>
+                        <p data-i18n="job_cta_sub" class="text-light text-lg">Wir freuen uns darauf, dich kennenzulernen.</p>
+                    </div>
+                </div>
+                <a href="mailto:tahirielousrouti@gmail.com" data-i18n="job_btn" class="shrink-0 bg-transparent border-2 border-nav text-nav hover:bg-nav hover:text-white font-bold py-3 px-8 rounded-xl transition-colors text-lg text-center w-full md:w-auto">
+                    Jetzt bewerben
+                </a>
             </div>
         </section>
 
@@ -241,7 +447,7 @@
                     <p data-i18n="map_sub" class="text-light text-lg">Visit us for a personal consultation.</p>
                 </div>
                 <div class="w-full h-[500px] rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.06)] border border-slate-100">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2522.7145719927645!2d7.203024315743452!3d50.7808269795228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDQ2JzUxLjAiTiA3wrAxMicyMC45IkU!5e0!3m2!1sen!2sde!4v1625581234567!5m2!1sen!2sde" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2583.1261086652776!2d7.065835476697921!3d51.22754697175101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8d152bb540721%3A0x856d0a1a1c1bf97!2sGebhardtstra%C3%9Fe%201%2C%2042329%20Wuppertal-Vohwinkel%2C%20Germany!5e1!3m2!1sen!2sma!4v1788149556692!5m2!1sen!2sma" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
@@ -269,7 +475,7 @@
                 <ul>
                     <li><a href="#" data-i18n="foot_priv" class="text-slate-400 hover:text-accent font-medium transition-colors">Privacy Policy</a></li>
                     <li><a href="#" data-i18n="foot_terms" class="text-slate-400 hover:text-accent font-medium transition-colors">Terms of Service</a></li>
-                    <li><a href="#contact" data-i18n="foot_support" class="text-slate-400 hover:text-accent font-medium transition-colors">Support</a></li>
+                    <li><a href="contact.html" data-i18n="foot_support" class="text-slate-400 hover:text-accent font-medium transition-colors">Support</a></li>
                 </ul>
             </div>
         </div>
