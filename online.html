@@ -125,29 +125,85 @@
             <div class="flex items-center gap-3 font-semibold text-dark"><span class="text-primary text-xl">✓</span> <span data-i18n="on_trust_4">Kein Abo, kein Risiko</span></div>
         </div>
 
-<section class="py-24 px-6 max-w-7xl mx-auto reveal">
-            <div class="text-center mb-16">
-                <h2 data-i18n="on_subj_title" class="text-3xl md:text-4xl font-bold text-nav mb-4 tracking-tight">Gewünschte Fächer und Klassenstufe</h2>
-                <p data-i18n="on_subj_sub" class="text-light text-lg">Finde die perfekte Unterstützung für jedes Fach und jedes Niveau.</p>
-            </div>
-            
-            <!-- Changed to 3 columns and added max-w-5xl to center it nicely -->
-            <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center hover:shadow-2xl hover:-translate-y-2 hover:border-primary transition-all duration-300">
-                    <div class="w-20 h-20 rounded-full bg-blue-50 text-primary flex items-center justify-center text-4xl mx-auto mb-6">📐</div>
-                    <h4 data-i18n="subj_math" class="font-bold text-xl text-nav">Mathematics</h4>
+<section class="py-24 px-6 bg-slate-50 overflow-hidden reveal">
+            <div class="max-w-7xl mx-auto">
+                
+                <!-- Section Header -->
+                <div class="mb-16 md:mb-20 text-center lg:text-start max-w-2xl">
+                    <h2 data-i18n="on_subj_title" class="text-4xl md:text-5xl font-extrabold text-nav mb-4 tracking-tight">Grades</h2>
+                    <p data-i18n="on_subj_sub" class="text-light text-lg md:text-xl">Find the perfect support for every subject and level.</p>
                 </div>
-                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center hover:shadow-xl hover:-translate-y-2 hover:border-primary transition-all duration-300">
-                    <div class="w-20 h-20 rounded-full bg-blue-50 text-primary flex items-center justify-center text-4xl mx-auto mb-6">💬</div>
-                    <h4 data-i18n="subj_dutch" class="font-bold text-xl text-nav">Dutch</h4>
-                </div>
-                <div class="bg-white border border-slate-100 p-8 rounded-3xl text-center hover:shadow-xl hover:-translate-y-2 hover:border-primary transition-all duration-300">
-                    <div class="w-20 h-20 rounded-full bg-blue-50 text-primary flex items-center justify-center text-4xl mx-auto mb-6">🌍</div>
-                    <h4 data-i18n="subj_eng" class="font-bold text-xl text-nav">English</h4>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+
+                    <!-- Left: Tilted Image with Sparkle Badge (Ready for 2D Cartoon Asset) -->
+                    <div class="relative w-[90%] md:w-[75%] max-w-md mx-auto lg:mx-0">
+                        <!-- Colorful glowing blob behind the image -->
+                        <div class="absolute inset-0 bg-gradient-to-tr from-blue-100 to-orange-50 rounded-full blur-3xl opacity-80 -z-10"></div>
+                        
+                        <!-- Image Frame -->
+                        <div class="relative bg-white p-2 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.08)] transform -rotate-2 hover:rotate-0 transition-transform duration-500">
+                            <!-- Replace src with your custom 2D character artwork -->
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80" alt="Learning Environment" class="w-full object-cover rounded-[2rem] aspect-[4/5]">
+                        </div>
+                        
+                        <!-- Floating Sparkle Badge -->
+                        <div class="absolute -top-6 right-8 bg-white p-4 rounded-2xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] z-20 flex items-center justify-center">
+                            <svg class="w-7 h-7 text-orange-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M11.602 13.759L13 12l-1.398-1.759a2.996 2.996 0 01-.659-1.921l.034-2.228-2.18-.46a3.003 3.003 0 01-2.03-1.63L5.86 2.052 4.67 3.86a2.996 2.996 0 01-1.895 1.258l-2.215.228.618 2.14a3.003 3.003 0 01-.32 2.58l-1.196 1.848 1.4 1.76a2.996 2.996 0 01.658 1.92l-.034 2.229 2.18.46a3.003 3.003 0 012.03 1.63l.908 1.95 1.19-1.808a2.996 2.996 0 011.894-1.257l2.216-.229-.619-2.14a3.003 3.003 0 01.321-2.58l1.195-1.847zM20 12l-1.5 3.5L15 17l3.5 1.5L20 22l1.5-3.5L25 17l-3.5-1.5L20 12zm0-10l-1 2.5L16.5 5.5l2.5 1L20 9l1-2.5L23.5 5.5l-2.5-1L20 2z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- Right: Pill-Shaped Subject Cards -->
+                    <div class="space-y-5 lg:pl-8">
+
+                        <!-- Subject 1: Math -->
+                        <div class="bg-white p-5 md:pr-6 rounded-[2rem] shadow-[0_8px_30px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                            <div class="w-16 h-16 rounded-2xl bg-[#eff6ff] text-blue-600 flex items-center justify-center shrink-0">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                            </div>
+                            <div class="flex-grow">
+                                <h4 data-i18n="subj_math" class="font-extrabold text-2xl text-nav mb-0.5 tracking-tight">Mathematics</h4>
+                                <p class="text-slate-400 text-sm font-medium">Klasse 1-13</p>
+                            </div>
+                            <div class="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+                            </div>
+                        </div>
+
+                        <!-- Subject 2: Deutsch -->
+                        <div class="bg-white p-5 md:pr-6 rounded-[2rem] shadow-[0_8px_30px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                            <div class="w-16 h-16 rounded-2xl bg-[#fff7ed] text-orange-400 flex items-center justify-center shrink-0">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                            </div>
+                            <div class="flex-grow">
+                                <h4 data-i18n="subj_german" class="font-extrabold text-2xl text-nav mb-0.5 tracking-tight">Deutsch</h4>
+                                <p class="text-slate-400 text-sm font-medium">Klasse 1-13</p>
+                            </div>
+                            <div class="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+                            </div>
+                        </div>
+
+                        <!-- Subject 3: English -->
+                        <div class="bg-white p-5 md:pr-6 rounded-[2rem] shadow-[0_8px_30px_rgba(0,0,0,0.03)] border border-slate-100 flex items-center gap-5 hover:shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                            <div class="w-16 h-16 rounded-2xl bg-[#f1f5f9] text-nav flex items-center justify-center shrink-0">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            </div>
+                            <div class="flex-grow">
+                                <h4 data-i18n="subj_eng" class="font-extrabold text-2xl text-nav mb-0.5 tracking-tight">English</h4>
+                                <p class="text-slate-400 text-sm font-medium">Klasse 1-13</p>
+                            </div>
+                            <div class="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </section>
-
 <!-- BENEFITS SECTION (Split Layout with Image + Grid) -->
         <section class="py-24 px-6 bg-white reveal">
             <div class="max-w-7xl mx-auto">
