@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
                     el.placeholder = translatedText;
                 } else {
-                    el.innerText = translatedText;
+                    el.innerHTML = translatedText;
                 }
             }
         });
@@ -71,7 +71,9 @@ document.addEventListener('DOMContentLoaded', () => {
 const form = document.getElementById('contact-form');
 const successMsg = document.getElementById('form-success');
 
-form.addEventListener('submit', async (e) => {
+if (form) {
+
+    form.addEventListener('submit', async (e) => {
     e.preventDefault();
     
     const submitBtn = form.querySelector('button[type="submit"]');
@@ -108,4 +110,5 @@ form.addEventListener('submit', async (e) => {
         submitBtn.innerText = originalBtnText;
     }
 });
+}
 });
