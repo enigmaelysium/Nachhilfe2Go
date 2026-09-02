@@ -13,7 +13,7 @@ const translations = {
     footer_cond: "Bedingungen",
     foot_about: "Über uns",
     foot_priv: "Datenschutzrichtlinie",
-    foot_terms: "Nutzungsbedingungen / Impressum",
+    foot_terms: "Impressum / Nutzungsbedingungen",
     foot_support: "Support",
     foot_rights: "© 2026 Nachhilfe2Go. Alle Rechte vorbehalten.",
 
@@ -269,7 +269,7 @@ const translations = {
     footer_cond: "Conditions",
     foot_about: "About Us",
     foot_priv: "Privacy Policy",
-foot_terms: "Terms of Service / Legal Notice",
+foot_terms: "Legal Notice / Terms of Service",
     foot_support: "Support",
     foot_rights: "© 2026 Nachhilfe2Go. All rights reserved.",
     // Trial Form Section
@@ -516,7 +516,7 @@ foot_terms: "Terms of Service / Legal Notice",
     footer_cond: "الشروط",
     foot_about: "من نحن",
     foot_priv: "سياسة الخصوصية",
-foot_terms: "شروط الخدمة / الإشعار القانوني",
+foot_terms: " الإشعار القانوني / شروط الخدمة",
     foot_support: "الدعم",
     foot_rights: "© 2026 Nachhilfe2Go. جميع الحقوق محفوظة.",
     // Trial Form Section
@@ -753,7 +753,7 @@ priv_p7_revoke: "حق سحب الموافقة وحق تقديم الشكاوى: 
     footer_cond: "Умови",
     foot_about: "Про нас",
     foot_priv: "Політика конфіденційності",
-foot_terms: "Умови використання / Юридична інформація",
+foot_terms: "Юридична інформація/ Умови використання",
     foot_support: "Підтримка",
     foot_rights: "© 2026 Nachhilfe2Go. Всі права захищені.",
     // Trial Form Section
@@ -1003,7 +1003,8 @@ foot_terms: "Умови використання / Юридична інформ
     footer_cond: "Voorwaarden",
     foot_about: "Over ons",
     foot_priv: "Privacybeleid",
-foot_terms: "Gebruiksvoorwaarden / Colofon",    foot_support: "Ondersteuning",
+foot_terms: "Colofon / Gebruiksvoorwaarden",
+    foot_support: "Ondersteuning",
     foot_rights: "© 2026 Nachhilfe2Go. Alle rechten voorbehouden.",
     // Trial Form Section
     form_trial_title: "Vraag een gratis proefles aan",
