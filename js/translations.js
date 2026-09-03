@@ -197,7 +197,7 @@ const translations = {
     priv_p1:
       "Allgemeine Hinweise: Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie unsere Website besuchen. Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
     priv_p1_contact:
-      "Nachhilfe2Go<br>Inhaber: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Deutschland<br>E-Mail: tahirielousrouti@gmail.com",
+      "Nachhilfe2Go<br>Inhaber: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Deutschland<br>E-Mail: kontakt@nachhilfe-2go.de",
     priv_h2: "2. Datenerfassung, Anfrage- und Vermittlungsdaten",
     priv_p2:
       "Wenn Sie über unser Formular, per E-Mail oder WhatsApp Kontakt aufnehmen, verarbeiten wir Ihre Angaben (wie Name, Adresse, E-Mail, Telefonnummer, sowie schulische Daten wie Klasse und Fach) zur Bearbeitung der Anfrage und zur Vertragserfüllung gemäß Art. 6 Abs. 1 lit. b DSGVO. Diese Daten werden streng vertraulich behandelt und nur an die zugewiesene Lehrkraft übermittelt, um die Nachhilfe zu organisieren. Ohne diese Daten können wir unsere Dienstleistung nicht erbringen.",
@@ -226,7 +226,7 @@ const translations = {
     imp_p1:
       "Nachhilfe2Go<br>Inhaber: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Deutschland",
     imp_p2_title: "Kontakt:",
-    imp_p2: "E-Mail: tahirielousrouti@gmail.com",
+    imp_p2: "E-Mail: kontakt@nachhilfe-2go.de",
     imp_p3_title: "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:",
     imp_p3: "Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal",
     imp_p4_title: "EU-Streitschlichtung:",
@@ -238,7 +238,7 @@ const translations = {
     agb_h1: "2. Allgemeine Geschäftsbedingungen (AGB)",
     agb_s1_title: "1. Geltungsbereich & Unternehmensgegenstand",
     agb_s1_1:
-      "<strong>1.1</strong> Diese Allgemeinen Geschäftsbedingungen („AGB“) gelten für alle Verträge und Vermittlungsleistungen über Nachhilfeunterricht (Präsenz und Online), die zwischen Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: tahirielousrouti@gmail.com (nachfolgend „Anbieter“) und den Kunden (Erziehungsberechtigte oder volljährige Schüler) über die Website, per E-Mail, WhatsApp oder Anfrageformular geschlossen werden.",
+      "<strong>1.1</strong> Diese Allgemeinen Geschäftsbedingungen („AGB“) gelten für alle Verträge und Vermittlungsleistungen über Nachhilfeunterricht (Präsenz und Online), die zwischen Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: kontakt@nachhilfe-2go.de (nachfolgend „Anbieter“) und den Kunden (Erziehungsberechtigte oder volljährige Schüler) über die Website, per E-Mail, WhatsApp oder Anfrageformular geschlossen werden.",
     agb_s1_2:
       "<strong>1.2</strong> Der Anbieter agiert als Vermittler von qualifizierten Lehrkräften für Nachhilfeunterricht in Präsenz sowie im Online-Bereich. Der Unterricht selbst wird von den vermittelten Lehrkräften eigenverantwortlich durchgeführt.",
     agb_s2_title: "2. Vermittlung & Qualifikation der Lehrkräfte",
@@ -278,13 +278,13 @@ const translations = {
     agb_s7_box_1_1:
       "Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen. Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsabschlusses.",
     agb_s7_box_1_2:
-      "Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: tahirielousrouti@gmail.com) mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder eine E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.",
+      "Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: kontakt@nachhilfe-2go.de) mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder eine E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.",
     agb_s7_box_2_title: "Folgen des Widerrufs:",
     agb_s7_box_2_1:
       "Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf bei uns eingegangen ist. Haben Sie verlangt, dass die Dienstleistungen während der Widerrufsfrist beginnen sollen, so haben Sie uns einen angemessenen Betrag zu zahlen, der dem Anteil der bis zum Zeitpunkt des Widerrufs erbrachten Leistungen im Vergleich zum Gesamtumfang der im Vertrag vorgesehenen Dienstleistungen entspricht.",
     agb_s8_title: "8. Muster-Widerrufsformular",
     agb_s8_form:
-      "(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.)\n\nAn: Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: tahirielousrouti@gmail.com\n\nHiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über die Erbringung der folgenden Dienstleistung: ____________________\n\nBestellt am (*) / erhalten am (*): ____________________\n\nName des/der Verbraucher(s): ____________________\n\nAnschrift des/der Verbraucher(s): ____________________\n\nUnterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier): ____________________\n\nDatum: ____________________\n\n(*) Unzutreffendes streichen.",
+      "(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.)\n\nAn: Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: kontakt@nachhilfe-2go.de\n\nHiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über die Erbringung der folgenden Dienstleistung: ____________________\n\nBestellt am (*) / erhalten am (*): ____________________\n\nName des/der Verbraucher(s): ____________________\n\nAnschrift des/der Verbraucher(s): ____________________\n\nUnterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier): ____________________\n\nDatum: ____________________\n\n(*) Unzutreffendes streichen.",
     agb_s9_title: "9. Haftungsbeschränkung & Lernerfolg",
     agb_s9_1:
       "<strong>9.1</strong> Der Anbieter haftet für die ordnungsgemäße Auswahl und Vermittlung der Lehrkräfte. Der Anbieter übernimmt keine Gewährleistung oder Haftung für den konkreten Lernerfolg, das Erreichen bestimmter Schulnoten oder das Bestehen von Prüfungen.",
@@ -484,7 +484,7 @@ const translations = {
     priv_p1:
       "General Information: The following information provides a simple overview of what happens to your personal data when you visit our website. The data controller responsible for data processing on this website is:",
     priv_p1_contact:
-      "Nachhilfe2Go<br>Owner: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Germany<br>Email: tahirielousrouti@gmail.com",
+      "Nachhilfe2Go<br>Owner: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Germany<br>Email: kontakt@nachhilfe-2go.de",
     priv_h2: "2. Data Collection, Inquiry and Placement Data",
     priv_p2:
       "If you contact us via our form, email, or WhatsApp, we process your details (such as name, address, email, phone number, as well as school data like grade and subject) to process the inquiry and fulfill the contract pursuant to Art. 6(1)(b) GDPR. This data is treated with strict confidentiality and is only transmitted to the assigned tutor to organize the tutoring. Without this data, we cannot provide our service.",
@@ -513,7 +513,7 @@ const translations = {
     imp_p1:
       "Nachhilfe2Go<br>Owner: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Germany",
     imp_p2_title: "Contact:",
-    imp_p2: "Email: tahirielousrouti@gmail.com",
+    imp_p2: "Email: kontakt@nachhilfe-2go.de",
     imp_p3_title: "Responsible for content according to § 18 Para. 2 MStV:",
     imp_p3: "Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal",
     imp_p4_title: "EU Dispute Resolution:",
@@ -525,7 +525,7 @@ const translations = {
     agb_h1: "2. General Terms and Conditions (GTC)",
     agb_s1_title: "1. Scope & Purpose of the Company",
     agb_s1_1:
-      "<strong>1.1</strong> These General Terms and Conditions ('GTC') apply to all contracts and placement services for tutoring (in-person and online) concluded between Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com (hereinafter 'Provider') and the customers (legal guardians or adult students) via the website, by email, WhatsApp, or request form.",
+      "<strong>1.1</strong> These General Terms and Conditions ('GTC') apply to all contracts and placement services for tutoring (in-person and online) concluded between Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: kontakt@nachhilfe-2go.de (hereinafter 'Provider') and the customers (legal guardians or adult students) via the website, by email, WhatsApp, or request form.",
     agb_s1_2:
       "<strong>1.2</strong> The Provider acts as an intermediary for qualified tutors for in-person and online tutoring. The lessons themselves are conducted independently by the placed tutors.",
     agb_s2_title: "2. Placement & Qualification of Tutors",
@@ -565,13 +565,13 @@ const translations = {
     agb_s7_box_1_1:
       "You have the right to withdraw from this contract within fourteen days without giving any reason. The withdrawal period is fourteen days from the day of the conclusion of the contract.",
     agb_s7_box_1_2:
-      "To exercise your right of withdrawal, you must inform us (Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com) by means of a clear declaration (e.g., a letter sent by post or an email) of your decision to withdraw from this contract.",
+      "To exercise your right of withdrawal, you must inform us (Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: kontakt@nachhilfe-2go.de) by means of a clear declaration (e.g., a letter sent by post or an email) of your decision to withdraw from this contract.",
     agb_s7_box_2_title: "Consequences of Withdrawal:",
     agb_s7_box_2_1:
       "If you withdraw from this contract, we shall reimburse you for all payments we have received from you without undue delay and no later than fourteen days from the day on which we received the notification of your withdrawal. If you requested that the services begin during the withdrawal period, you must pay us a reasonable amount corresponding to the proportion of the services provided up to the point of withdrawal compared to the total scope of services provided for in the contract.",
     agb_s8_title: "8. Sample Withdrawal Form",
     agb_s8_form:
-      "(If you want to withdraw from the contract, please fill out this form and send it back.)\n\nTo: Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com\n\nI/we (*) hereby withdraw from the contract concluded by me/us (*) for the provision of the following service: ____________________\n\nOrdered on (*) / received on (*): ____________________\n\nName of consumer(s): ____________________\n\nAddress of consumer(s): ____________________\n\nSignature of consumer(s) (only if notified on paper): ____________________\n\nDate: ____________________\n\n(*) Delete as appropriate.",
+      "(If you want to withdraw from the contract, please fill out this form and send it back.)\n\nTo: Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: kontakt@nachhilfe-2go.de\n\nI/we (*) hereby withdraw from the contract concluded by me/us (*) for the provision of the following service: ____________________\n\nOrdered on (*) / received on (*): ____________________\n\nName of consumer(s): ____________________\n\nAddress of consumer(s): ____________________\n\nSignature of consumer(s) (only if notified on paper): ____________________\n\nDate: ____________________\n\n(*) Delete as appropriate.",
     agb_s9_title: "9. Limitation of Liability & Learning Success",
     agb_s9_1:
       "<strong>9.1</strong> The Provider is liable for the proper selection and placement of the tutors. The Provider assumes no warranty or liability for specific learning success, achieving certain school grades, or passing exams.",
@@ -761,7 +761,7 @@ const translations = {
     priv_p1:
       "معلومات عامة: توفر الملاحظات التالية نظرة عامة بسيطة حول ما يحدث لبياناتك الشخصية عند زيارة موقعنا. المسؤول عن معالجة البيانات في هذا الموقع هو:",
     priv_p1_contact:
-      "Nachhilfe2Go<br>المالك: إسماعيل طاهري العسروتي<br>Gebhardtstr. 1, 42329 Wuppertal، ألمانيا<br>البريد الإلكتروني: tahirielousrouti@gmail.com",
+      "Nachhilfe2Go<br>المالك: إسماعيل طاهري العسروتي<br>Gebhardtstr. 1, 42329 Wuppertal، ألمانيا<br>البريد الإلكتروني: kontakt@nachhilfe-2go.de",
     priv_h2: "2. جمع البيانات، بيانات الاستفسار والوساطة",
     priv_p2:
       "إذا اتصلت بنا عبر نموذجنا أو البريد الإلكتروني أو واتساب، فإننا نقوم بمعالجة تفاصيلك (مثل الاسم والعنوان والبريد الإلكتروني ورقم الهاتف، بالإضافة إلى البيانات المدرسية مثل الصف والمادة) لمعالجة الاستفسار وتنفيذ العقد وفقًا للمادة 6(1)(ب) من اللائحة العامة لحماية البيانات (GDPR). يتم التعامل مع هذه البيانات بسرية تامة ولا يتم إرسالها إلا إلى المعلم المعين لتنظيم الدروس.",
@@ -790,7 +790,7 @@ const translations = {
     imp_p1:
       "Nachhilfe2Go<br>المالك: إسماعيل طاهري العسروتي<br>Gebhardtstr. 1<br>42329 Wuppertal<br>ألمانيا",
     imp_p2_title: "الاتصال:",
-    imp_p2: "البريد الإلكتروني: tahirielousrouti@gmail.com",
+    imp_p2: "البريد الإلكتروني: kontakt@nachhilfe-2go.de",
     imp_p3_title: "المسؤول عن المحتوى وفقاً للفقرة 18 (2) من MStV:",
     imp_p3: "إسماعيل طاهري العسروتي<br>Gebhardtstr. 1, 42329 Wuppertal",
     imp_p4_title: "تسوية المنازعات في الاتحاد الأوروبي:",
@@ -802,7 +802,7 @@ const translations = {
     agb_h1: "2. الشروط والأحكام العامة (AGB)",
     agb_s1_title: "1. النطاق والغرض من الشركة",
     agb_s1_1:
-      "<strong>1.1</strong> تنطبق هذه الشروط والأحكام العامة على جميع العقود وخدمات الوساطة للدروس الخصوصية (التي تتم حضورياً وعبر الإنترنت) المبرمة بين Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: tahirielousrouti@gmail.com (يشار إليه فيما يلي باسم 'المزود') والعملاء (أولياء الأمور أو الطلاب البالغين) عبر الموقع الإلكتروني، أو البريد الإلكتروني، أو واتساب، أو نموذج الطلب.",
+      "<strong>1.1</strong> تنطبق هذه الشروط والأحكام العامة على جميع العقود وخدمات الوساطة للدروس الخصوصية (التي تتم حضورياً وعبر الإنترنت) المبرمة بين Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: kontakt@nachhilfe-2go.de (يشار إليه فيما يلي باسم 'المزود') والعملاء (أولياء الأمور أو الطلاب البالغين) عبر الموقع الإلكتروني، أو البريد الإلكتروني، أو واتساب، أو نموذج الطلب.",
     agb_s1_2:
       "<strong>1.2</strong> يعمل المزود كوسيط للمعلمين المؤهلين للدروس الحضورية وعبر الإنترنت. يتم إجراء الدروس نفسها بشكل مستقل من قبل المعلمين المعينين.",
     agb_s2_title: "2. الوساطة ومؤهلات المعلمين",
@@ -842,13 +842,13 @@ const translations = {
     agb_s7_box_1_1:
       "لديك الحق في التراجع عن هذا العقد خلال أربعة عشر يوماً دون إبداء أي سبب. فترة التراجع هي أربعة عشر يوماً من تاريخ إبرام العقد.",
     agb_s7_box_1_2:
-      "لممارسة حقك في التراجع، يجب عليك إبلاغنا (Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: tahirielousrouti@gmail.com) من خلال إعلان واضح (مثل رسالة بالبريد أو بريد إلكتروني) بقرارك بالتراجع عن هذا العقد.",
+      "لممارسة حقك في التراجع، يجب عليك إبلاغنا (Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: kontakt@nachhilfe-2go.de) من خلال إعلان واضح (مثل رسالة بالبريد أو بريد إلكتروني) بقرارك بالتراجع عن هذا العقد.",
     agb_s7_box_2_title: "عواقب التراجع:",
     agb_s7_box_2_1:
       "إذا تراجعت عن هذا العقد، سنقوم برد جميع المدفوعات التي تلقيناها منك دون تأخير غير مبرر وفي موعد لا يتجاوز أربعة عشر يوماً من اليوم الذي تلقينا فيه إشعار التراجع الخاص بك. إذا طلبت أن تبدأ الخدمات خلال فترة التراجع، فيجب عليك أن تدفع لنا مبلغاً معقولاً يتناسب مع نسبة الخدمات المقدمة حتى نقطة التراجع مقارنة بالنطاق الإجمالي للخدمات المنصوص عليها في العقد.",
     agb_s8_title: "8. نموذج سحب عينة",
     agb_s8_form:
-      "(إذا كنت ترغب في التراجع عن العقد، يرجى ملء هذا النموذج وإرساله مرة أخرى.)\n\nإلى: Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: tahirielousrouti@gmail.com\n\nأنا/نحن (*) نتراجع بموجب هذا عن العقد المبرم من قبلي/قبلنا (*) لتوفير الخدمة التالية: ____________________\n\nتم الطلب في (*) / تم الاستلام في (*): ____________________\n\nاسم المستهلك(ين): ____________________\n\nعنوان المستهلك(ين): ____________________\n\nتوقيع المستهلك(ين) (فقط في حالة الإخطار الورقي): ____________________\n\nالتاريخ: ____________________\n\n(*) احذف ما لا ينطبق.",
+      "(إذا كنت ترغب في التراجع عن العقد، يرجى ملء هذا النموذج وإرساله مرة أخرى.)\n\nإلى: Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: kontakt@nachhilfe-2go.de\n\nأنا/نحن (*) نتراجع بموجب هذا عن العقد المبرم من قبلي/قبلنا (*) لتوفير الخدمة التالية: ____________________\n\nتم الطلب في (*) / تم الاستلام في (*): ____________________\n\nاسم المستهلك(ين): ____________________\n\nعنوان المستهلك(ين): ____________________\n\nتوقيع المستهلك(ين) (فقط في حالة الإخطار الورقي): ____________________\n\nالتاريخ: ____________________\n\n(*) احذف ما لا ينطبق.",
     agb_s9_title: "9. تحديد المسؤولية ونجاح التعلم",
     agb_s9_1:
       "<strong>9.1</strong> المزود مسؤول عن الاختيار والوساطة السليمة للمعلمين. لا يتحمل المزود أي ضمان أو مسؤولية عن نجاح التعلم المحدد، أو تحقيق درجات مدرسية معينة، أو اجتياز الامتحانات.",
@@ -1049,7 +1049,7 @@ const translations = {
     priv_p1:
       "Загальна інформація: Наступна інформація надає простий огляд того, що відбувається з вашими персональними даними під час відвідування нашого сайту. Контролером даних, відповідальним за обробку даних на цьому сайті, є:",
     priv_p1_contact:
-      "Nachhilfe2Go<br>Власник: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Німеччина<br>Email: tahirielousrouti@gmail.com",
+      "Nachhilfe2Go<br>Власник: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Німеччина<br>Email: kontakt@nachhilfe-2go.de",
     priv_h2: "2. Збір даних, дані запитів та посередництва",
     priv_p2:
       "Якщо ви зв'язуєтеся з нами через форму, email або WhatsApp, ми обробляємо ваші дані (ім'я, адреса, email, телефон, а також шкільні дані, такі як клас і предмет) для обробки запиту та виконання договору відповідно до ст. 6(1)(b) GDPR. Ці дані суворо конфіденційні і передаються лише призначеному репетитору для організації занять.",
@@ -1079,7 +1079,7 @@ const translations = {
     imp_p1:
       "Nachhilfe2Go<br>Власник: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Німеччина",
     imp_p2_title: "Контакти:",
-    imp_p2: "Email: tahirielousrouti@gmail.com",
+    imp_p2: "Email: kontakt@nachhilfe-2go.de",
     imp_p3_title: "Відповідальний за контент згідно з § 18 розд. 2 MStV:",
     imp_p3: "Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal",
     imp_p4_title: "Вирішення спорів у ЄС:",
@@ -1092,7 +1092,7 @@ const translations = {
     agb_h1: "2. Загальні умови та положення (AGB)",
     agb_s1_title: "1. Сфера застосування та мета компанії",
     agb_s1_1:
-      "<strong>1.1</strong> Ці Загальні умови застосовуються до всіх договорів та послуг з пошуку репетиторів (очних та онлайн), укладених між Nachhilfe2Go, власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com (надалі 'Провайдер') та клієнтами (законними представниками або повнолітніми учнями) через вебсайт, електронну пошту, WhatsApp або форму запиту.",
+      "<strong>1.1</strong> Ці Загальні умови застосовуються до всіх договорів та послуг з пошуку репетиторів (очних та онлайн), укладених між Nachhilfe2Go, власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: kontakt@nachhilfe-2go.de (надалі 'Провайдер') та клієнтами (законними представниками або повнолітніми учнями) через вебсайт, електронну пошту, WhatsApp або форму запиту.",
     agb_s1_2:
       "<strong>1.2</strong> Провайдер діє як посередник для кваліфікованих репетиторів для очних та онлайн-занять. Самі заняття проводяться незалежно призначеними репетиторами.",
     agb_s2_title: "2. Посередництво та кваліфікація репетиторів",
@@ -1132,13 +1132,13 @@ const translations = {
     agb_s7_box_1_1:
       "Ви маєте право відмовитися від цього договору протягом чотирнадцяти днів без пояснення причин. Строк відмови становить чотирнадцять днів з дня укладення договору.",
     agb_s7_box_1_2:
-      "Щоб скористатися правом на відмову, ви повинні повідомити нас (Nachhilfe2Go, Власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com) шляхом чіткої заяви (наприклад, лист поштою або email) про ваше рішення відмовитися від цього договору.",
+      "Щоб скористатися правом на відмову, ви повинні повідомити нас (Nachhilfe2Go, Власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: kontakt@nachhilfe-2go.de) шляхом чіткої заяви (наприклад, лист поштою або email) про ваше рішення відмовитися від цього договору.",
     agb_s7_box_2_title: "Наслідки відмови:",
     agb_s7_box_2_1:
       "Якщо ви відмовитеся від цього договору, ми відшкодуємо вам усі платежі, які ми отримали від вас, без невиправданої затримки і не пізніше ніж через чотирнадцять днів з дня отримання повідомлення про вашу відмову. Якщо ви просили розпочати надання послуг протягом періоду відмови, ви повинні сплатити нам розумну суму, пропорційну обсягу послуг, наданих до моменту відмови, порівняно із загальним обсягом послуг за договором.",
     agb_s8_title: "8. Зразок форми відмови",
     agb_s8_form:
-      "(Якщо ви хочете відмовитися від договору, будь ласка, заповніть цю форму і надішліть її назад.)\n\nКому: Nachhilfe2Go, Власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com\n\nЯ/ми (*) цим відмовляємося від укладеного мною/нами (*) договору про надання такої послуги: ____________________\n\nЗамовлено (*) / отримано (*): ____________________\n\nІм'я споживача(ів): ____________________\n\nАдреса споживача(ів): ____________________\n\nПідпис споживача(ів) (лише у разі паперового повідомлення): ____________________\n\nДата: ____________________\n\n(*) Непотрібне викреслити.",
+      "(Якщо ви хочете відмовитися від договору, будь ласка, заповніть цю форму і надішліть її назад.)\n\nКому: Nachhilfe2Go, Власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: kontakt@nachhilfe-2go.de\n\nЯ/ми (*) цим відмовляємося від укладеного мною/нами (*) договору про надання такої послуги: ____________________\n\nЗамовлено (*) / отримано (*): ____________________\n\nІм'я споживача(ів): ____________________\n\nАдреса споживача(ів): ____________________\n\nПідпис споживача(ів) (лише у разі паперового повідомлення): ____________________\n\nДата: ____________________\n\n(*) Непотрібне викреслити.",
     agb_s9_title: "9. Обмеження відповідальності та успішність",
     agb_s9_1:
       "<strong>9.1</strong> Провайдер несе відповідальність за належний відбір та призначення репетиторів. Провайдер не бере на себе гарантій або відповідальності за конкретний успіх у навчанні, досягнення певних шкільних оцінок або складання іспитів.",
@@ -1338,7 +1338,7 @@ const translations = {
     priv_p1:
       "Algemene informatie: De volgende informatie biedt een eenvoudig overzicht van wat er met uw persoonsgegevens gebeurt wanneer u onze website bezoekt. De verwerkingsverantwoordelijke voor deze website is:",
     priv_p1_contact:
-      "Nachhilfe2Go<br>Eigenaar: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Duitsland<br>E-mail: tahirielousrouti@gmail.com",
+      "Nachhilfe2Go<br>Eigenaar: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Duitsland<br>E-mail: kontakt@nachhilfe-2go.de",
     priv_h2: "2. Gegevensverzameling, Aanvraag- en Bemiddelingsgegevens",
     priv_p2:
       "Als u contact met ons opneemt via ons formulier, e-mail of WhatsApp, verwerken wij uw gegevens (zoals naam, adres, e-mail, telefoonnummer, en schoolgegevens zoals klas en vak) om de aanvraag te verwerken en het contract na te komen volgens Art. 6(1)(b) AVG. Deze gegevens worden strikt vertrouwelijk behandeld en alleen aan de toegewezen docent doorgegeven om de bijles te organiseren.",
@@ -1367,7 +1367,7 @@ const translations = {
     imp_p1:
       "Nachhilfe2Go<br>Eigenaar: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Duitsland",
     imp_p2_title: "Contact:",
-    imp_p2: "E-mail: tahirielousrouti@gmail.com",
+    imp_p2: "E-mail: kontakt@nachhilfe-2go.de",
     imp_p3_title: "Verantwoordelijk voor de inhoud volgens § 18 lid 2 MStV:",
     imp_p3: "Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal",
     imp_p4_title: "EU Geschillenbeslechting:",
@@ -1380,7 +1380,7 @@ const translations = {
     agb_h1: "2. Algemene Voorwaarden (AV)",
     agb_s1_title: "1. Toepassingsgebied & Doel van de onderneming",
     agb_s1_1:
-      "<strong>1.1</strong> Deze Algemene Voorwaarden ('AV') zijn van toepassing op alle contracten en bemiddelingsdiensten voor bijles (op locatie en online) gesloten tussen Nachhilfe2Go, eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: tahirielousrouti@gmail.com (hierna 'Aanbieder') en de klanten (wettelijke voogden of volwassen studenten) via de website, per e-mail, WhatsApp of aanvraagformulier.",
+      "<strong>1.1</strong> Deze Algemene Voorwaarden ('AV') zijn van toepassing op alle contracten en bemiddelingsdiensten voor bijles (op locatie en online) gesloten tussen Nachhilfe2Go, eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: kontakt@nachhilfe-2go.de (hierna 'Aanbieder') en de klanten (wettelijke voogden of volwassen studenten) via de website, per e-mail, WhatsApp of aanvraagformulier.",
     agb_s1_2:
       "<strong>1.2</strong> De Aanbieder treedt op als bemiddelaar van gekwalificeerde docenten voor bijles op locatie en online. De lessen zelf worden onafhankelijk uitgevoerd door de geplaatste docenten.",
     agb_s2_title: "2. Bemiddeling & Kwalificatie van docenten",
@@ -1420,13 +1420,13 @@ const translations = {
     agb_s7_box_1_1:
       "U heeft het recht om dit contract binnen veertien dagen zonder opgave van redenen te herroepen. De herroepingstermijn is veertien dagen vanaf de dag van de sluiting van het contract.",
     agb_s7_box_1_2:
-      "Om uw herroepingsrecht uit te oefenen, moet u ons (Nachhilfe2Go, eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: tahirielousrouti@gmail.com) door middel van een duidelijke verklaring (bijv. een brief per post of een e-mail) informeren over uw beslissing om dit contract te herroepen.",
+      "Om uw herroepingsrecht uit te oefenen, moet u ons (Nachhilfe2Go, eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: kontakt@nachhilfe-2go.de) door middel van een duidelijke verklaring (bijv. een brief per post of een e-mail) informeren over uw beslissing om dit contract te herroepen.",
     agb_s7_box_2_title: "Gevolgen van de herroeping:",
     agb_s7_box_2_1:
       "Als u dit contract herroept, zullen wij u alle betalingen die wij van u hebben ontvangen, onverwijld en uiterlijk binnen veertien dagen vanaf de dag waarop wij de melding van uw herroeping hebben ontvangen, terugbetalen. Indien u heeft verzocht dat de diensten beginnen tijdens de herroepingstermijn, dient u ons een redelijk bedrag te betalen dat evenredig is aan het deel van de geleverde diensten tot het moment van herroeping in vergelijking met de totale omvang van de in het contract voorziene diensten.",
     agb_s8_title: "8. Voorbeeld Herroepingsformulier",
     agb_s8_form:
-      "(Als u het contract wilt herroepen, vul dan dit formulier in en stuur het terug.)\n\nAan: Nachhilfe2Go, Eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: tahirielousrouti@gmail.com\n\nIk/wij (*) herroep(en) hierbij het door mij/ons (*) gesloten contract voor de levering van de volgende dienst: ____________________\n\nBesteld op (*) / ontvangen op (*): ____________________\n\nNaam consument(en): ____________________\n\nAdres consument(en): ____________________\n\nHandtekening consument(en) (alleen indien op papier gemeld): ____________________\n\nDatum: ____________________\n\n(*) Doorhalen wat niet van toepassing is.",
+      "(Als u het contract wilt herroepen, vul dan dit formulier in en stuur het terug.)\n\nAan: Nachhilfe2Go, Eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: kontakt@nachhilfe-2go.de\n\nIk/wij (*) herroep(en) hierbij het door mij/ons (*) gesloten contract voor de levering van de volgende dienst: ____________________\n\nBesteld op (*) / ontvangen op (*): ____________________\n\nNaam consument(en): ____________________\n\nAdres consument(en): ____________________\n\nHandtekening consument(en) (alleen indien op papier gemeld): ____________________\n\nDatum: ____________________\n\n(*) Doorhalen wat niet van toepassing is.",
     agb_s9_title: "9. Beperking van aansprakelijkheid & Leersucces",
     agb_s9_1:
       "<strong>9.1</strong> De Aanbieder is aansprakelijk voor de juiste selectie en bemiddeling van de docenten. De Aanbieder aanvaardt geen garantie of aansprakelijkheid voor specifiek leersucces, het behalen van bepaalde schoolcijfers of het slagen voor examens.",
