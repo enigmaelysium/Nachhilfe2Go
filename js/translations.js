@@ -191,71 +191,110 @@ const translations = {
 
     badge_motivation: "Motivation",
     // Legal & Privacy Pages
-   legal_date: "Stand: 31. August 2026",
-   priv_title: "Datenschutzerklärung",
+    legal_date: "Stand: 31. August 2026",
+    priv_title: "Datenschutzerklärung",
     priv_h1: "1. Datenschutz auf einen Blick & Verantwortlicher",
-    priv_p1: "Allgemeine Hinweise: Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie unsere Website besuchen. Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
-    priv_p1_contact: "Nachhilfe2Go<br>Inhaber: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Deutschland<br>E-Mail: tahirielousrouti@gmail.com",
+    priv_p1:
+      "Allgemeine Hinweise: Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie unsere Website besuchen. Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
+    priv_p1_contact:
+      "Nachhilfe2Go<br>Inhaber: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Deutschland<br>E-Mail: tahirielousrouti@gmail.com",
     priv_h2: "2. Datenerfassung, Anfrage- und Vermittlungsdaten",
-    priv_p2: "Wenn Sie über unser Formular, per E-Mail oder WhatsApp Kontakt aufnehmen, verarbeiten wir Ihre Angaben (wie Name, Adresse, E-Mail, Telefonnummer, sowie schulische Daten wie Klasse und Fach) zur Bearbeitung der Anfrage und zur Vertragserfüllung gemäß Art. 6 Abs. 1 lit. b DSGVO. Diese Daten werden streng vertraulich behandelt und nur an die zugewiesene Lehrkraft übermittelt, um die Nachhilfe zu organisieren. Ohne diese Daten können wir unsere Dienstleistung nicht erbringen.",
-    priv_p2_ssl: "Aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Anfragen, die Sie an uns senden, nutzt diese Website eine SSL- bzw. TLS-Verschlüsselung.",
+    priv_p2:
+      "Wenn Sie über unser Formular, per E-Mail oder WhatsApp Kontakt aufnehmen, verarbeiten wir Ihre Angaben (wie Name, Adresse, E-Mail, Telefonnummer, sowie schulische Daten wie Klasse und Fach) zur Bearbeitung der Anfrage und zur Vertragserfüllung gemäß Art. 6 Abs. 1 lit. b DSGVO. Diese Daten werden streng vertraulich behandelt und nur an die zugewiesene Lehrkraft übermittelt, um die Nachhilfe zu organisieren. Ohne diese Daten können wir unsere Dienstleistung nicht erbringen.",
+    priv_p2_ssl:
+      "Aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Anfragen, die Sie an uns senden, nutzt diese Website eine SSL- bzw. TLS-Verschlüsselung.",
     priv_h3: "3. Unterrichtsdokumentation",
-    priv_p3: "Die Lehrkräfte verarbeiten und dokumentieren stattgefundene Termine sowie behandelte Themen zur Leistungsnachverfolgung und Rechnungsstellung. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, da sie für die Erfüllung des Nachhilfevertrags erforderlich sind.",
+    priv_p3:
+      "Die Lehrkräfte verarbeiten und dokumentieren stattgefundene Termine sowie behandelte Themen zur Leistungsnachverfolgung und Rechnungsstellung. Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, da sie für die Erfüllung des Nachhilfevertrags erforderlich sind.",
     priv_h4: "4. Nutzung von Konferenz-Tools (Online-Nachhilfe)",
-    priv_p4: "Für die Durchführung von Online-Nachhilfe nutzen wir Audio- und Videokonferenzdienste (z. B. Zoom, Microsoft Teams, Google Meet). Wenn Sie mit uns über solche Dienste kommunizieren, werden Ihre Daten von uns und den Anbietern der Dienste verarbeitet. Die Anbieter erfassen Bestands-, Kommunikations- und Metadaten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO. Wir haben mit den Anbietern entsprechende Verträge zur Auftragsverarbeitung (AVV) geschlossen, um den Schutz Ihrer Daten zu gewährleisten.",
+    priv_p4:
+      "Für die Durchführung von Online-Nachhilfe nutzen wir Audio- und Videokonferenzdienste (z. B. Zoom, Microsoft Teams, Google Meet). Wenn Sie mit uns über solche Dienste kommunizieren, werden Ihre Daten von uns und den Anbietern der Dienste verarbeitet. Die Anbieter erfassen Bestands-, Kommunikations- und Metadaten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO. Wir haben mit den Anbietern entsprechende Verträge zur Auftragsverarbeitung (AVV) geschlossen, um den Schutz Ihrer Daten zu gewährleisten.",
     priv_h5: "5. Cookies & Tracking",
-    priv_p5: "Unsere Website verwendet teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Wir verwenden ausschließlich technisch notwendige Cookies, die erforderlich sind, um die grundlegenden Funktionen der Website bereitzustellen (Art. 6 Abs. 1 lit. f DSGVO). Es werden keine Tracking- oder Werbe-Cookies von Drittanbietern eingesetzt.",
+    priv_p5:
+      "Unsere Website verwendet teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Wir verwenden ausschließlich technisch notwendige Cookies, die erforderlich sind, um die grundlegenden Funktionen der Website bereitzustellen (Art. 6 Abs. 1 lit. f DSGVO). Es werden keine Tracking- oder Werbe-Cookies von Drittanbietern eingesetzt.",
     priv_h6: "6. Zahlungsabwicklung & Aufbewahrungsfristen",
-    priv_p6: "Rechnungs- und Zahlungsdaten werden zur Buchhaltung verarbeitet und aufgrund gesetzlicher handels- und steuerrechtlicher Aufbewahrungspflichten (z. B. nach HGB und AO) bis zu 10 Jahre gespeichert. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. c DSGVO.",
+    priv_p6:
+      "Rechnungs- und Zahlungsdaten werden zur Buchhaltung verarbeitet und aufgrund gesetzlicher handels- und steuerrechtlicher Aufbewahrungspflichten (z. B. nach HGB und AO) bis zu 10 Jahre gespeichert. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. c DSGVO.",
     priv_h7: "7. Ihre Rechte als betroffene Person",
-    priv_p7: "Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung (Art. 15 DSGVO) und ggf. ein Recht auf Berichtigung (Art. 16 DSGVO), Sperrung oder Löschung (Art. 17 DSGVO) dieser Daten. Zudem haben Sie das Recht auf Datenübertragbarkeit (Art. 20 DSGVO).",
-    priv_p7_revoke: "Widerruf und Beschwerderecht: Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu (Art. 77 DSGVO).",
+    priv_p7:
+      "Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung (Art. 15 DSGVO) und ggf. ein Recht auf Berichtigung (Art. 16 DSGVO), Sperrung oder Löschung (Art. 17 DSGVO) dieser Daten. Zudem haben Sie das Recht auf Datenübertragbarkeit (Art. 20 DSGVO).",
+    priv_p7_revoke:
+      "Widerruf und Beschwerderecht: Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu (Art. 77 DSGVO).",
     terms_title: "Impressum & AGB",
     imp_h1: "1. Impressum",
     imp_p1_title: "Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz):",
-    imp_p1: "Nachhilfe2Go<br>Inhaber: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Deutschland",
+    imp_p1:
+      "Nachhilfe2Go<br>Inhaber: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Deutschland",
     imp_p2_title: "Kontakt:",
     imp_p2: "E-Mail: tahirielousrouti@gmail.com",
     imp_p3_title: "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:",
     imp_p3: "Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal",
     imp_p4_title: "EU-Streitschlichtung:",
-    imp_p4: "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/.<br>Unsere E-Mail-Adresse finden Sie oben im Impressum.",
+    imp_p4:
+      "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/.<br>Unsere E-Mail-Adresse finden Sie oben im Impressum.",
     imp_p5_title: "Verbraucherstreitbeilegung / Universalschlichtungsstelle:",
-    imp_p5: "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+    imp_p5:
+      "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
     agb_h1: "2. Allgemeine Geschäftsbedingungen (AGB)",
     agb_s1_title: "1. Geltungsbereich & Unternehmensgegenstand",
-    agb_s1_1: "<strong>1.1</strong> Diese Allgemeinen Geschäftsbedingungen („AGB“) gelten für alle Verträge und Vermittlungsleistungen über Nachhilfeunterricht (Präsenz und Online), die zwischen Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: tahirielousrouti@gmail.com (nachfolgend „Anbieter“) und den Kunden (Erziehungsberechtigte oder volljährige Schüler) über die Website, per E-Mail, WhatsApp oder Anfrageformular geschlossen werden.",
-    agb_s1_2: "<strong>1.2</strong> Der Anbieter agiert als Vermittler von qualifizierten Lehrkräften für Nachhilfeunterricht in Präsenz sowie im Online-Bereich. Der Unterricht selbst wird von den vermittelten Lehrkräften eigenverantwortlich durchgeführt.",
+    agb_s1_1:
+      "<strong>1.1</strong> Diese Allgemeinen Geschäftsbedingungen („AGB“) gelten für alle Verträge und Vermittlungsleistungen über Nachhilfeunterricht (Präsenz und Online), die zwischen Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: tahirielousrouti@gmail.com (nachfolgend „Anbieter“) und den Kunden (Erziehungsberechtigte oder volljährige Schüler) über die Website, per E-Mail, WhatsApp oder Anfrageformular geschlossen werden.",
+    agb_s1_2:
+      "<strong>1.2</strong> Der Anbieter agiert als Vermittler von qualifizierten Lehrkräften für Nachhilfeunterricht in Präsenz sowie im Online-Bereich. Der Unterricht selbst wird von den vermittelten Lehrkräften eigenverantwortlich durchgeführt.",
     agb_s2_title: "2. Vermittlung & Qualifikation der Lehrkräfte",
-    agb_s2_1: "<strong>2.1</strong> Der Anbieter prüft die Qualifikation der Lehrkräfte sorgfältig (mindestens Abitur oder laufendes fachrelevantes Studium) und vermittelt passende Lehrkräfte an den Kunden.",
-    agb_s2_2: "<strong>2.2</strong> Der konkrete Unterrichtsinhalt und der zeitliche Umfang werden im Rahmen der Anfrage und Vermittlungsbestätigung abgestimmt.",
-    agb_s2_3: "<strong>2.3</strong> Kunden und Lehrkräften ist es untersagt, unter Umgehung des Anbieters Direktverträge abzuschließen oder Vermittlungsverhältnisse privat auf eigene Rechnung fortzuführen.",
+    agb_s2_1:
+      "<strong>2.1</strong> Der Anbieter prüft die Qualifikation der Lehrkräfte sorgfältig (mindestens Abitur oder laufendes fachrelevantes Studium) und vermittelt passende Lehrkräfte an den Kunden.",
+    agb_s2_2:
+      "<strong>2.2</strong> Der konkrete Unterrichtsinhalt und der zeitliche Umfang werden im Rahmen der Anfrage und Vermittlungsbestätigung abgestimmt.",
+    agb_s2_3:
+      "<strong>2.3</strong> Kunden und Lehrkräften ist es untersagt, unter Umgehung des Anbieters Direktverträge abzuschließen oder Vermittlungsverhältnisse privat auf eigene Rechnung fortzuführen.",
     agb_s3_title: "3. Anfragedaten & Vertragsschluss",
-    agb_s3_1: "<strong>3.1</strong> Die Präsentation der Nachhilfeangebote stellt kein bindendes Angebot dar. Über das Anfrageformular übermitteln Kunden Kontaktdaten, Angaben zum Kind (Name, Schulklasse), Fach und gewünschte Stundenanzahl.",
-    agb_s3_2: "<strong>3.2</strong> Ein Vertrag kommt erst durch die schriftliche Auftragsbestätigung (z. B. per E-Mail) durch den Anbieter zustande.",
+    agb_s3_1:
+      "<strong>3.1</strong> Die Präsentation der Nachhilfeangebote stellt kein bindendes Angebot dar. Über das Anfrageformular übermitteln Kunden Kontaktdaten, Angaben zum Kind (Name, Schulklasse), Fach und gewünschte Stundenanzahl.",
+    agb_s3_2:
+      "<strong>3.2</strong> Ein Vertrag kommt erst durch die schriftliche Auftragsbestätigung (z. B. per E-Mail) durch den Anbieter zustande.",
     agb_s4_title: "4. Unterrichtsdokumentation, Termine & Absageregelung",
-    agb_s4_1: "<strong>4.1</strong> Erbrachte Unterrichtsstunden sowie Unterrichtsinhalte werden von den Lehrkräften zur Nachvollziehbarkeit und Abrechnung dokumentiert.",
-    agb_s4_2: "<strong>4.2</strong> Vereinbarte Unterrichtstermine sind verbindlich. Eine kostenfreie Absage durch den Kunden ist bis spätestens 24 Stunden vor Unterrichtsbeginn möglich. Bei nicht rechtzeitiger Absage oder Nichterscheinen wird das Honorar für die Unterrichtseinheit voll berechnet, da die Vorhaltezeit der Lehrkraft reserviert wurde.",
+    agb_s4_1:
+      "<strong>4.1</strong> Erbrachte Unterrichtsstunden sowie Unterrichtsinhalte werden von den Lehrkräften zur Nachvollziehbarkeit und Abrechnung dokumentiert.",
+    agb_s4_2:
+      "<strong>4.2</strong> Vereinbarte Unterrichtstermine sind verbindlich. Eine kostenfreie Absage durch den Kunden ist bis spätestens 24 Stunden vor Unterrichtsbeginn möglich. Bei nicht rechtzeitiger Absage oder Nichterscheinen wird das Honorar für die Unterrichtseinheit voll berechnet, da die Vorhaltezeit der Lehrkraft reserviert wurde.",
     agb_s5_title: "5. Online-Nachhilfe & Technische Voraussetzungen",
-    agb_s5_1: "<strong>5.1</strong> Bei Online-Unterricht erfolgt die Durchführung über Videokonferenz-Dienste (z. B. Zoom, Microsoft Teams, Google Meet).",
-    agb_s5_2: "<strong>5.2</strong> Der Kunde stellt die nötigen technischen Voraussetzungen (Endgerät, Kamera, Mikrofon, Internetverbindung) auf eigene Verantwortung bereit. Störungen auf Kundenseite befreien nicht von der Zahlungspflicht.",
+    agb_s5_1:
+      "<strong>5.1</strong> Bei Online-Unterricht erfolgt die Durchführung über Videokonferenz-Dienste (z. B. Zoom, Microsoft Teams, Google Meet).",
+    agb_s5_2:
+      "<strong>5.2</strong> Der Kunde stellt die nötigen technischen Voraussetzungen (Endgerät, Kamera, Mikrofon, Internetverbindung) auf eigene Verantwortung bereit. Störungen auf Kundenseite befreien nicht von der Zahlungspflicht.",
     agb_s6_title: "6. Preise und Zahlungsbedingungen",
-    agb_s6_1: "<strong>6.1</strong> Die angebotenen Nachhilfeleistungen sind gemäß § 4 Nr. 21 UStG von der Umsatzsteuer befreit (sofern eine Bescheinigung der zuständigen Landesbehörde für das jeweilige Fach vorliegt). Die angegebenen Preise verstehen sich als Endpreise.",
-    agb_s6_2: "<strong>6.2</strong> Die Abrechnung erfolgt nach Erbringung der Nachhilfe auf Rechnungsbasis.",
-    agb_s6_3: "<strong>6.3</strong> Die Bezahlung erfolgt ausschließlich per Banküberweisung auf das in der Rechnung angegebene Bankkonto innerhalb von 14 Tagen ab Rechnungsdatum.",
+    agb_s6_1:
+      "<strong>6.1</strong> Die angebotenen Nachhilfeleistungen sind gemäß § 4 Nr. 21 UStG von der Umsatzsteuer befreit (sofern eine Bescheinigung der zuständigen Landesbehörde für das jeweilige Fach vorliegt). Die angegebenen Preise verstehen sich als Endpreise.",
+    agb_s6_2:
+      "<strong>6.2</strong> Die Abrechnung erfolgt nach Erbringung der Nachhilfe auf Rechnungsbasis.",
+    agb_s6_3:
+      "<strong>6.3</strong> Die Bezahlung erfolgt ausschließlich per Banküberweisung auf das in der Rechnung angegebene Bankkonto innerhalb von 14 Tagen ab Rechnungsdatum.",
     agb_s7_title: "7. Widerrufsrecht für Verbraucher",
-    agb_s7_intro: "Verbrauchern steht bei außerhalb von Geschäftsräumen oder im Fernabsatz geschlossenen Verträgen ein gesetzliches Widerrufsrecht zu.",
+    agb_s7_intro:
+      "Verbrauchern steht bei außerhalb von Geschäftsräumen oder im Fernabsatz geschlossenen Verträgen ein gesetzliches Widerrufsrecht zu.",
     agb_s7_box_title: "Widerrufsbelehrung",
     agb_s7_box_1_title: "Widerrufsrecht:",
-    agb_s7_box_1_1: "Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen. Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsabschlusses.",
-    agb_s7_box_1_2: "Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: tahirielousrouti@gmail.com) mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder eine E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.",
+    agb_s7_box_1_1:
+      "Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen. Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsabschlusses.",
+    agb_s7_box_1_2:
+      "Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: tahirielousrouti@gmail.com) mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder eine E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.",
     agb_s7_box_2_title: "Folgen des Widerrufs:",
-    agb_s7_box_2_1: "Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf bei uns eingegangen ist. Haben Sie verlangt, dass die Dienstleistungen während der Widerrufsfrist beginnen sollen, so haben Sie uns einen angemessenen Betrag zu zahlen, der dem Anteil der bis zum Zeitpunkt des Widerrufs erbrachten Leistungen im Vergleich zum Gesamtumfang der im Vertrag vorgesehenen Dienstleistungen entspricht.",
+    agb_s7_box_2_1:
+      "Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf bei uns eingegangen ist. Haben Sie verlangt, dass die Dienstleistungen während der Widerrufsfrist beginnen sollen, so haben Sie uns einen angemessenen Betrag zu zahlen, der dem Anteil der bis zum Zeitpunkt des Widerrufs erbrachten Leistungen im Vergleich zum Gesamtumfang der im Vertrag vorgesehenen Dienstleistungen entspricht.",
     agb_s8_title: "8. Muster-Widerrufsformular",
-    agb_s8_form: "(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.)\n\nAn: Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: tahirielousrouti@gmail.com\n\nHiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über die Erbringung der folgenden Dienstleistung: ____________________\n\nBestellt am (*) / erhalten am (*): ____________________\n\nName des/der Verbraucher(s): ____________________\n\nAnschrift des/der Verbraucher(s): ____________________\n\nUnterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier): ____________________\n\nDatum: ____________________\n\n(*) Unzutreffendes streichen.",
+    agb_s8_form:
+      "(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.)\n\nAn: Nachhilfe2Go, Inhaber Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-Mail: tahirielousrouti@gmail.com\n\nHiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über die Erbringung der folgenden Dienstleistung: ____________________\n\nBestellt am (*) / erhalten am (*): ____________________\n\nName des/der Verbraucher(s): ____________________\n\nAnschrift des/der Verbraucher(s): ____________________\n\nUnterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier): ____________________\n\nDatum: ____________________\n\n(*) Unzutreffendes streichen.",
     agb_s9_title: "9. Haftungsbeschränkung & Lernerfolg",
-    agb_s9_1: "<strong>9.1</strong> Der Anbieter haftet für die ordnungsgemäße Auswahl und Vermittlung der Lehrkräfte. Der Anbieter übernimmt keine Gewährleistung oder Haftung für den konkreten Lernerfolg, das Erreichen bestimmter Schulnoten oder das Bestehen von Prüfungen.",
-    agb_s9_2: "<strong>9.2</strong> Für Inhalte und Durchführung des Unterrichts sind die jeweiligen Lehrkräfte im Rahmen ihrer pädagogischen Freiheit verantwortlich.",
+    agb_s9_1:
+      "<strong>9.1</strong> Der Anbieter haftet für die ordnungsgemäße Auswahl und Vermittlung der Lehrkräfte. Der Anbieter übernimmt keine Gewährleistung oder Haftung für den konkreten Lernerfolg, das Erreichen bestimmter Schulnoten oder das Bestehen von Prüfungen.",
+    agb_s9_2:
+      "<strong>9.2</strong> Für Inhalte und Durchführung des Unterrichts sind die jeweiligen Lehrkräfte im Rahmen ihrer pädagogischen Freiheit verantwortlich.",
+    form_sending: "Wird gesendet...",
+    form_success_msg: "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.",
+    alert_error_title: "Fehler",
+    alert_error_msg: "Netzwerkfehler. Bitte versuchen Sie es später erneut.",
+    btn_close: "Schließen",
   },
   en: {
     nav_welcome: "Home",
@@ -269,7 +308,7 @@ const translations = {
     footer_cond: "Conditions",
     foot_about: "About Us",
     foot_priv: "Privacy Policy",
-foot_terms: "Legal Notice / Terms of Service",
+    foot_terms: "Legal Notice / Terms of Service",
     foot_support: "Support",
     foot_rights: "© 2026 Nachhilfe2Go. All rights reserved.",
     // Trial Form Section
@@ -442,68 +481,107 @@ foot_terms: "Legal Notice / Terms of Service",
     legal_date: "As of: August 31, 2026",
     priv_title: "Privacy Policy",
     priv_h1: "1. Privacy at a Glance & Data Controller",
-    priv_p1: "General Information: The following information provides a simple overview of what happens to your personal data when you visit our website. The data controller responsible for data processing on this website is:",
-    priv_p1_contact: "Nachhilfe2Go<br>Owner: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Germany<br>Email: tahirielousrouti@gmail.com",
+    priv_p1:
+      "General Information: The following information provides a simple overview of what happens to your personal data when you visit our website. The data controller responsible for data processing on this website is:",
+    priv_p1_contact:
+      "Nachhilfe2Go<br>Owner: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Germany<br>Email: tahirielousrouti@gmail.com",
     priv_h2: "2. Data Collection, Inquiry and Placement Data",
-    priv_p2: "If you contact us via our form, email, or WhatsApp, we process your details (such as name, address, email, phone number, as well as school data like grade and subject) to process the inquiry and fulfill the contract pursuant to Art. 6(1)(b) GDPR. This data is treated with strict confidentiality and is only transmitted to the assigned tutor to organize the tutoring. Without this data, we cannot provide our service.",
-    priv_p2_ssl: "For security reasons and to protect the transmission of confidential content, such as inquiries you send to us, this website uses SSL or TLS encryption.",
+    priv_p2:
+      "If you contact us via our form, email, or WhatsApp, we process your details (such as name, address, email, phone number, as well as school data like grade and subject) to process the inquiry and fulfill the contract pursuant to Art. 6(1)(b) GDPR. This data is treated with strict confidentiality and is only transmitted to the assigned tutor to organize the tutoring. Without this data, we cannot provide our service.",
+    priv_p2_ssl:
+      "For security reasons and to protect the transmission of confidential content, such as inquiries you send to us, this website uses SSL or TLS encryption.",
     priv_h3: "3. Lesson Documentation",
-    priv_p3: "The tutors process and document completed appointments and covered topics for performance tracking and invoicing. This data is processed on the basis of Art. 6(1)(b) GDPR, as it is necessary for fulfilling the tutoring contract.",
+    priv_p3:
+      "The tutors process and document completed appointments and covered topics for performance tracking and invoicing. This data is processed on the basis of Art. 6(1)(b) GDPR, as it is necessary for fulfilling the tutoring contract.",
     priv_h4: "4. Use of Conferencing Tools (Online Tutoring)",
-    priv_p4: "For conducting online tutoring, we use audio and video conferencing services (e.g., Zoom, Microsoft Teams, Google Meet). When you communicate with us via such services, your data is processed by us and the service providers. Providers collect inventory, communication, and metadata. The legal basis is Art. 6(1)(b) GDPR. We have concluded data processing agreements (DPA) with the providers to ensure data protection.",
+    priv_p4:
+      "For conducting online tutoring, we use audio and video conferencing services (e.g., Zoom, Microsoft Teams, Google Meet). When you communicate with us via such services, your data is processed by us and the service providers. Providers collect inventory, communication, and metadata. The legal basis is Art. 6(1)(b) GDPR. We have concluded data processing agreements (DPA) with the providers to ensure data protection.",
     priv_h5: "5. Cookies & Tracking",
-    priv_p5: "Our website occasionally uses so-called cookies. Cookies do not harm your computer and do not contain viruses. We exclusively use technically necessary cookies required to provide the basic functions of the website (Art. 6(1)(f) GDPR). No third-party tracking or advertising cookies are used.",
+    priv_p5:
+      "Our website occasionally uses so-called cookies. Cookies do not harm your computer and do not contain viruses. We exclusively use technically necessary cookies required to provide the basic functions of the website (Art. 6(1)(f) GDPR). No third-party tracking or advertising cookies are used.",
     priv_h6: "6. Payment Processing & Retention Periods",
-    priv_p6: "Invoice and payment data are processed for accounting purposes and stored for up to 10 years due to legal commercial and tax retention obligations (e.g., under the German Commercial Code and Fiscal Code). The legal basis for this is Art. 6(1)(c) GDPR.",
+    priv_p6:
+      "Invoice and payment data are processed for accounting purposes and stored for up to 10 years due to legal commercial and tax retention obligations (e.g., under the German Commercial Code and Fiscal Code). The legal basis for this is Art. 6(1)(c) GDPR.",
     priv_h7: "7. Your Rights as a Data Subject",
-    priv_p7: "Under applicable legal provisions, you have the right to free information about your stored personal data, its origin, recipient, and the purpose of data processing at any time (Art. 15 GDPR), and if applicable, a right to correct (Art. 16 GDPR), block, or delete (Art. 17 GDPR) this data. You also have the right to data portability (Art. 20 GDPR).",
-    priv_p7_revoke: "Revocation and Right to Complain: You can revoke any consent you have given at any time. An informal email to us is sufficient. Furthermore, you have the right to lodge a complaint with the competent supervisory authority (Art. 77 GDPR).",
+    priv_p7:
+      "Under applicable legal provisions, you have the right to free information about your stored personal data, its origin, recipient, and the purpose of data processing at any time (Art. 15 GDPR), and if applicable, a right to correct (Art. 16 GDPR), block, or delete (Art. 17 GDPR) this data. You also have the right to data portability (Art. 20 GDPR).",
+    priv_p7_revoke:
+      "Revocation and Right to Complain: You can revoke any consent you have given at any time. An informal email to us is sufficient. Furthermore, you have the right to lodge a complaint with the competent supervisory authority (Art. 77 GDPR).",
     terms_title: "Legal Notice & T&C",
     imp_h1: "1. Legal Notice (Impressum)",
     imp_p1_title: "Information pursuant to § 5 DDG (Digital Services Act):",
-    imp_p1: "Nachhilfe2Go<br>Owner: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Germany",
+    imp_p1:
+      "Nachhilfe2Go<br>Owner: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Germany",
     imp_p2_title: "Contact:",
     imp_p2: "Email: tahirielousrouti@gmail.com",
     imp_p3_title: "Responsible for content according to § 18 Para. 2 MStV:",
     imp_p3: "Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal",
     imp_p4_title: "EU Dispute Resolution:",
-    imp_p4: "The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/.<br>Our email address can be found above in the imprint.",
+    imp_p4:
+      "The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/.<br>Our email address can be found above in the imprint.",
     imp_p5_title: "Consumer dispute resolution / Universal arbitration board:",
-    imp_p5: "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+    imp_p5:
+      "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
     agb_h1: "2. General Terms and Conditions (GTC)",
     agb_s1_title: "1. Scope & Purpose of the Company",
-    agb_s1_1: "<strong>1.1</strong> These General Terms and Conditions ('GTC') apply to all contracts and placement services for tutoring (in-person and online) concluded between Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com (hereinafter 'Provider') and the customers (legal guardians or adult students) via the website, by email, WhatsApp, or request form.",
-    agb_s1_2: "<strong>1.2</strong> The Provider acts as an intermediary for qualified tutors for in-person and online tutoring. The lessons themselves are conducted independently by the placed tutors.",
+    agb_s1_1:
+      "<strong>1.1</strong> These General Terms and Conditions ('GTC') apply to all contracts and placement services for tutoring (in-person and online) concluded between Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com (hereinafter 'Provider') and the customers (legal guardians or adult students) via the website, by email, WhatsApp, or request form.",
+    agb_s1_2:
+      "<strong>1.2</strong> The Provider acts as an intermediary for qualified tutors for in-person and online tutoring. The lessons themselves are conducted independently by the placed tutors.",
     agb_s2_title: "2. Placement & Qualification of Tutors",
-    agb_s2_1: "<strong>2.1</strong> The Provider carefully checks the qualification of the tutors (at least high school diploma or ongoing subject-relevant studies) and places suitable tutors with the customer.",
-    agb_s2_2: "<strong>2.2</strong> The specific lesson content and the time frame are coordinated as part of the request and placement confirmation.",
-    agb_s2_3: "<strong>2.3</strong> Customers and tutors are prohibited from concluding direct contracts bypassing the Provider or continuing placement relationships privately on their own account.",
+    agb_s2_1:
+      "<strong>2.1</strong> The Provider carefully checks the qualification of the tutors (at least high school diploma or ongoing subject-relevant studies) and places suitable tutors with the customer.",
+    agb_s2_2:
+      "<strong>2.2</strong> The specific lesson content and the time frame are coordinated as part of the request and placement confirmation.",
+    agb_s2_3:
+      "<strong>2.3</strong> Customers and tutors are prohibited from concluding direct contracts bypassing the Provider or continuing placement relationships privately on their own account.",
     agb_s3_title: "3. Request Data & Conclusion of Contract",
-    agb_s3_1: "<strong>3.1</strong> The presentation of tutoring offers does not constitute a binding offer. Via the request form, customers transmit contact details, information about the child (name, school grade), subject, and desired number of hours.",
-    agb_s3_2: "<strong>3.2</strong> A contract is only concluded upon written order confirmation (e.g., by email) by the Provider.",
+    agb_s3_1:
+      "<strong>3.1</strong> The presentation of tutoring offers does not constitute a binding offer. Via the request form, customers transmit contact details, information about the child (name, school grade), subject, and desired number of hours.",
+    agb_s3_2:
+      "<strong>3.2</strong> A contract is only concluded upon written order confirmation (e.g., by email) by the Provider.",
     agb_s4_title: "4. Lesson Documentation, Dates & Cancellation Policy",
-    agb_s4_1: "<strong>4.1</strong> Provided lesson hours and lesson contents are documented by the tutors for traceability and billing.",
-    agb_s4_2: "<strong>4.2</strong> Agreed lesson dates are binding. Free cancellation by the customer is possible up to 24 hours before the start of the lesson at the latest. In the event of late cancellation or no-show, the fee for the lesson unit will be charged in full, as the tutor's holding time was reserved.",
+    agb_s4_1:
+      "<strong>4.1</strong> Provided lesson hours and lesson contents are documented by the tutors for traceability and billing.",
+    agb_s4_2:
+      "<strong>4.2</strong> Agreed lesson dates are binding. Free cancellation by the customer is possible up to 24 hours before the start of the lesson at the latest. In the event of late cancellation or no-show, the fee for the lesson unit will be charged in full, as the tutor's holding time was reserved.",
     agb_s5_title: "5. Online Tutoring & Technical Requirements",
-    agb_s5_1: "<strong>5.1</strong> For online lessons, execution takes place via video conferencing services (e.g., Zoom, Microsoft Teams, Google Meet).",
-    agb_s5_2: "<strong>5.2</strong> The customer provides the necessary technical requirements (device, camera, microphone, internet connection) on their own responsibility. Disruptions on the customer side do not release them from the obligation to pay.",
+    agb_s5_1:
+      "<strong>5.1</strong> For online lessons, execution takes place via video conferencing services (e.g., Zoom, Microsoft Teams, Google Meet).",
+    agb_s5_2:
+      "<strong>5.2</strong> The customer provides the necessary technical requirements (device, camera, microphone, internet connection) on their own responsibility. Disruptions on the customer side do not release them from the obligation to pay.",
     agb_s6_title: "6. Prices and Payment Terms",
-    agb_s6_1: "<strong>6.1</strong> The offered tutoring services are exempt from VAT in accordance with § 4 No. 21 UStG (provided a certificate from the responsible state authority is available for the respective subject). The stated prices are final prices.",
-    agb_s6_2: "<strong>6.2</strong> Billing takes place after the provision of tutoring on an invoice basis.",
-    agb_s6_3: "<strong>6.3</strong> Payment must be made exclusively by bank transfer to the bank account specified in the invoice within 14 days of the invoice date.",
+    agb_s6_1:
+      "<strong>6.1</strong> The offered tutoring services are exempt from VAT in accordance with § 4 No. 21 UStG (provided a certificate from the responsible state authority is available for the respective subject). The stated prices are final prices.",
+    agb_s6_2:
+      "<strong>6.2</strong> Billing takes place after the provision of tutoring on an invoice basis.",
+    agb_s6_3:
+      "<strong>6.3</strong> Payment must be made exclusively by bank transfer to the bank account specified in the invoice within 14 days of the invoice date.",
     agb_s7_title: "7. Right of Withdrawal for Consumers",
-    agb_s7_intro: "Consumers are entitled to a statutory right of withdrawal for contracts concluded outside of business premises or via distance selling.",
+    agb_s7_intro:
+      "Consumers are entitled to a statutory right of withdrawal for contracts concluded outside of business premises or via distance selling.",
     agb_s7_box_title: "Cancellation Policy",
     agb_s7_box_1_title: "Right of Withdrawal:",
-    agb_s7_box_1_1: "You have the right to withdraw from this contract within fourteen days without giving any reason. The withdrawal period is fourteen days from the day of the conclusion of the contract.",
-    agb_s7_box_1_2: "To exercise your right of withdrawal, you must inform us (Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com) by means of a clear declaration (e.g., a letter sent by post or an email) of your decision to withdraw from this contract.",
+    agb_s7_box_1_1:
+      "You have the right to withdraw from this contract within fourteen days without giving any reason. The withdrawal period is fourteen days from the day of the conclusion of the contract.",
+    agb_s7_box_1_2:
+      "To exercise your right of withdrawal, you must inform us (Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com) by means of a clear declaration (e.g., a letter sent by post or an email) of your decision to withdraw from this contract.",
     agb_s7_box_2_title: "Consequences of Withdrawal:",
-    agb_s7_box_2_1: "If you withdraw from this contract, we shall reimburse you for all payments we have received from you without undue delay and no later than fourteen days from the day on which we received the notification of your withdrawal. If you requested that the services begin during the withdrawal period, you must pay us a reasonable amount corresponding to the proportion of the services provided up to the point of withdrawal compared to the total scope of services provided for in the contract.",
+    agb_s7_box_2_1:
+      "If you withdraw from this contract, we shall reimburse you for all payments we have received from you without undue delay and no later than fourteen days from the day on which we received the notification of your withdrawal. If you requested that the services begin during the withdrawal period, you must pay us a reasonable amount corresponding to the proportion of the services provided up to the point of withdrawal compared to the total scope of services provided for in the contract.",
     agb_s8_title: "8. Sample Withdrawal Form",
-    agb_s8_form: "(If you want to withdraw from the contract, please fill out this form and send it back.)\n\nTo: Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com\n\nI/we (*) hereby withdraw from the contract concluded by me/us (*) for the provision of the following service: ____________________\n\nOrdered on (*) / received on (*): ____________________\n\nName of consumer(s): ____________________\n\nAddress of consumer(s): ____________________\n\nSignature of consumer(s) (only if notified on paper): ____________________\n\nDate: ____________________\n\n(*) Delete as appropriate.",
+    agb_s8_form:
+      "(If you want to withdraw from the contract, please fill out this form and send it back.)\n\nTo: Nachhilfe2Go, Owner Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com\n\nI/we (*) hereby withdraw from the contract concluded by me/us (*) for the provision of the following service: ____________________\n\nOrdered on (*) / received on (*): ____________________\n\nName of consumer(s): ____________________\n\nAddress of consumer(s): ____________________\n\nSignature of consumer(s) (only if notified on paper): ____________________\n\nDate: ____________________\n\n(*) Delete as appropriate.",
     agb_s9_title: "9. Limitation of Liability & Learning Success",
-    agb_s9_1: "<strong>9.1</strong> The Provider is liable for the proper selection and placement of the tutors. The Provider assumes no warranty or liability for specific learning success, achieving certain school grades, or passing exams.",
-    agb_s9_2: "<strong>9.2</strong> The respective tutors are responsible for the content and execution of the lessons within the framework of their pedagogical freedom.",
+    agb_s9_1:
+      "<strong>9.1</strong> The Provider is liable for the proper selection and placement of the tutors. The Provider assumes no warranty or liability for specific learning success, achieving certain school grades, or passing exams.",
+    agb_s9_2:
+      "<strong>9.2</strong> The respective tutors are responsible for the content and execution of the lessons within the framework of their pedagogical freedom.",
+    form_sending: "Sending...",
+    form_success_msg: "Thank you! Your message has been sent successfully.",
+    alert_error_title: "Error",
+    alert_error_msg: "Network error. Please try again later.",
+    btn_close: "Close",
   },
   ar: {
     nav_welcome: "الرئيسية",
@@ -516,7 +594,7 @@ foot_terms: "Legal Notice / Terms of Service",
     footer_cond: "الشروط",
     foot_about: "من نحن",
     foot_priv: "سياسة الخصوصية",
-foot_terms: " الإشعار القانوني / شروط الخدمة",
+    foot_terms: " الإشعار القانوني / شروط الخدمة",
     foot_support: "الدعم",
     foot_rights: "© 2026 Nachhilfe2Go. جميع الحقوق محفوظة.",
     // Trial Form Section
@@ -677,71 +755,111 @@ foot_terms: " الإشعار القانوني / شروط الخدمة",
     form_sending: "جاري الإرسال...",
     badge_motivation: "تحفيز",
     // Legal & Privacy Pages
-   legal_date: "اعتباراً من: 31 أغسطس 2026",
-   priv_title: "سياسة الخصوصية",
+    legal_date: "اعتباراً من: 31 أغسطس 2026",
+    priv_title: "سياسة الخصوصية",
     priv_h1: "1. الخصوصية في لمحة والمسؤول عن البيانات",
-    priv_p1: "معلومات عامة: توفر الملاحظات التالية نظرة عامة بسيطة حول ما يحدث لبياناتك الشخصية عند زيارة موقعنا. المسؤول عن معالجة البيانات في هذا الموقع هو:",
-    priv_p1_contact: "Nachhilfe2Go<br>المالك: إسماعيل طاهري العسروتي<br>Gebhardtstr. 1, 42329 Wuppertal، ألمانيا<br>البريد الإلكتروني: tahirielousrouti@gmail.com",
+    priv_p1:
+      "معلومات عامة: توفر الملاحظات التالية نظرة عامة بسيطة حول ما يحدث لبياناتك الشخصية عند زيارة موقعنا. المسؤول عن معالجة البيانات في هذا الموقع هو:",
+    priv_p1_contact:
+      "Nachhilfe2Go<br>المالك: إسماعيل طاهري العسروتي<br>Gebhardtstr. 1, 42329 Wuppertal، ألمانيا<br>البريد الإلكتروني: tahirielousrouti@gmail.com",
     priv_h2: "2. جمع البيانات، بيانات الاستفسار والوساطة",
-    priv_p2: "إذا اتصلت بنا عبر نموذجنا أو البريد الإلكتروني أو واتساب، فإننا نقوم بمعالجة تفاصيلك (مثل الاسم والعنوان والبريد الإلكتروني ورقم الهاتف، بالإضافة إلى البيانات المدرسية مثل الصف والمادة) لمعالجة الاستفسار وتنفيذ العقد وفقًا للمادة 6(1)(ب) من اللائحة العامة لحماية البيانات (GDPR). يتم التعامل مع هذه البيانات بسرية تامة ولا يتم إرسالها إلا إلى المعلم المعين لتنظيم الدروس.",
-    priv_p2_ssl: "لأسباب أمنية ولحماية نقل المحتوى السري، مثل الاستفسارات التي ترسلها إلينا، يستخدم هذا الموقع تشفير SSL أو TLS.",
+    priv_p2:
+      "إذا اتصلت بنا عبر نموذجنا أو البريد الإلكتروني أو واتساب، فإننا نقوم بمعالجة تفاصيلك (مثل الاسم والعنوان والبريد الإلكتروني ورقم الهاتف، بالإضافة إلى البيانات المدرسية مثل الصف والمادة) لمعالجة الاستفسار وتنفيذ العقد وفقًا للمادة 6(1)(ب) من اللائحة العامة لحماية البيانات (GDPR). يتم التعامل مع هذه البيانات بسرية تامة ولا يتم إرسالها إلا إلى المعلم المعين لتنظيم الدروس.",
+    priv_p2_ssl:
+      "لأسباب أمنية ولحماية نقل المحتوى السري، مثل الاستفسارات التي ترسلها إلينا، يستخدم هذا الموقع تشفير SSL أو TLS.",
     priv_h3: "3. توثيق الدروس",
-    priv_p3: "يقوم المعلمون بمعالجة وتوثيق المواعيد المكتملة والمواضيع التي تمت تغطيتها لتتبع الأداء والفوترة. تتم معالجة هذه البيانات على أساس المادة 6(1)(ب) من GDPR، حيث أنها ضرورية لتنفيذ عقد التدريس.",
+    priv_p3:
+      "يقوم المعلمون بمعالجة وتوثيق المواعيد المكتملة والمواضيع التي تمت تغطيتها لتتبع الأداء والفوترة. تتم معالجة هذه البيانات على أساس المادة 6(1)(ب) من GDPR، حيث أنها ضرورية لتنفيذ عقد التدريس.",
     priv_h4: "4. استخدام أدوات المؤتمرات (الدروس عبر الإنترنت)",
-    priv_p4: "لإجراء الدروس عبر الإنترنت، نستخدم خدمات مؤتمرات الصوت والفيديو (مثل Zoom و Microsoft Teams و Google Meet). عند التواصل معنا عبر هذه الخدمات، تتم معالجة بياناتك من قبلنا ومقدمي الخدمات. الأساس القانوني هو المادة 6(1)(ب) من GDPR. لقد أبرمنا عقود معالجة البيانات (DPA) مع مقدمي الخدمات لضمان حماية بياناتك.",
+    priv_p4:
+      "لإجراء الدروس عبر الإنترنت، نستخدم خدمات مؤتمرات الصوت والفيديو (مثل Zoom و Microsoft Teams و Google Meet). عند التواصل معنا عبر هذه الخدمات، تتم معالجة بياناتك من قبلنا ومقدمي الخدمات. الأساس القانوني هو المادة 6(1)(ب) من GDPR. لقد أبرمنا عقود معالجة البيانات (DPA) مع مقدمي الخدمات لضمان حماية بياناتك.",
     priv_h5: "5. ملفات تعريف الارتباط والتتبع",
-    priv_p5: "يستخدم موقعنا في بعض الأحيان ملفات تعريف الارتباط. نحن نستخدم حصريًا ملفات تعريف الارتباط الضرورية تقنيًا والمطلوبة لتوفير الوظائف الأساسية للموقع (المادة 6(1)(f) من GDPR). لا يتم استخدام ملفات تعريف ارتباط لتتبع الطرف الثالث أو الإعلانات.",
+    priv_p5:
+      "يستخدم موقعنا في بعض الأحيان ملفات تعريف الارتباط. نحن نستخدم حصريًا ملفات تعريف الارتباط الضرورية تقنيًا والمطلوبة لتوفير الوظائف الأساسية للموقع (المادة 6(1)(f) من GDPR). لا يتم استخدام ملفات تعريف ارتباط لتتبع الطرف الثالث أو الإعلانات.",
     priv_h6: "6. معالجة الدفع وفترات الاحتفاظ",
-    priv_p6: "تتم معالجة بيانات الفواتير والدفع لأغراض المحاسبة ويتم تخزينها لمدة تصل إلى 10 سنوات بسبب الالتزامات القانونية التجارية والضريبية للاحتفاظ بها. الأساس القانوني لذلك هو المادة 6(1)(ج) من GDPR.",
+    priv_p6:
+      "تتم معالجة بيانات الفواتير والدفع لأغراض المحاسبة ويتم تخزينها لمدة تصل إلى 10 سنوات بسبب الالتزامات القانونية التجارية والضريبية للاحتفاظ بها. الأساس القانوني لذلك هو المادة 6(1)(ج) من GDPR.",
     priv_h7: "7. حقوقك كصاحب بيانات",
-    priv_p7: "بموجب الأحكام القانونية المعمول بها، يحق لك الحصول على معلومات مجانية حول بياناتك الشخصية المخزنة، وأصلها، والمستلم، والغرض من معالجة البيانات في أي وقت، وإذا لزم الأمر، الحق في تصحيح أو حظر أو حذف هذه البيانات. لديك أيضًا الحق في نقل البيانات.",
-priv_p7_revoke: "حق سحب الموافقة وحق تقديم الشكاوى: يمكنك سحب أي موافقة منحتها في أي وقت. يكفي إرسال بريد إلكتروني غير رسمي إلينا. علاوة على ذلك، يحق لك تقديم شكوى إلى السلطة الإشرافية المختصة (المادة 77 من اللائحة العامة لحماية البيانات GDPR).",   terms_title: "الإشعار القانوني والشروط",
+    priv_p7:
+      "بموجب الأحكام القانونية المعمول بها، يحق لك الحصول على معلومات مجانية حول بياناتك الشخصية المخزنة، وأصلها، والمستلم، والغرض من معالجة البيانات في أي وقت، وإذا لزم الأمر، الحق في تصحيح أو حظر أو حذف هذه البيانات. لديك أيضًا الحق في نقل البيانات.",
+    priv_p7_revoke:
+      "حق سحب الموافقة وحق تقديم الشكاوى: يمكنك سحب أي موافقة منحتها في أي وقت. يكفي إرسال بريد إلكتروني غير رسمي إلينا. علاوة على ذلك، يحق لك تقديم شكوى إلى السلطة الإشرافية المختصة (المادة 77 من اللائحة العامة لحماية البيانات GDPR).",
+    terms_title: "الإشعار القانوني والشروط",
     imp_h1: "1. الإشعار القانوني (Impressum)",
     imp_p1_title: "المعلومات وفقاً للفقرة 5 من قانون الخدمات الرقمية (DDG):",
-    imp_p1: "Nachhilfe2Go<br>المالك: إسماعيل طاهري العسروتي<br>Gebhardtstr. 1<br>42329 Wuppertal<br>ألمانيا",
+    imp_p1:
+      "Nachhilfe2Go<br>المالك: إسماعيل طاهري العسروتي<br>Gebhardtstr. 1<br>42329 Wuppertal<br>ألمانيا",
     imp_p2_title: "الاتصال:",
     imp_p2: "البريد الإلكتروني: tahirielousrouti@gmail.com",
     imp_p3_title: "المسؤول عن المحتوى وفقاً للفقرة 18 (2) من MStV:",
     imp_p3: "إسماعيل طاهري العسروتي<br>Gebhardtstr. 1, 42329 Wuppertal",
     imp_p4_title: "تسوية المنازعات في الاتحاد الأوروبي:",
-    imp_p4: "توفر المفوضية الأوروبية منصة لتسوية المنازعات عبر الإنترنت (OS): https://ec.europa.eu/consumers/odr/.<br>يمكن العثور على عنوان بريدنا الإلكتروني أعلاه في الإشعار القانوني.",
+    imp_p4:
+      "توفر المفوضية الأوروبية منصة لتسوية المنازعات عبر الإنترنت (OS): https://ec.europa.eu/consumers/odr/.<br>يمكن العثور على عنوان بريدنا الإلكتروني أعلاه في الإشعار القانوني.",
     imp_p5_title: "تسوية منازعات المستهلكين / هيئة التحكيم العالمية:",
-    imp_p5: "نحن لسنا مستعدين أو ملزمين بالمشاركة في إجراءات تسوية المنازعات أمام هيئة تحكيم المستهلكين.",
+    imp_p5:
+      "نحن لسنا مستعدين أو ملزمين بالمشاركة في إجراءات تسوية المنازعات أمام هيئة تحكيم المستهلكين.",
     agb_h1: "2. الشروط والأحكام العامة (AGB)",
     agb_s1_title: "1. النطاق والغرض من الشركة",
-    agb_s1_1: "<strong>1.1</strong> تنطبق هذه الشروط والأحكام العامة على جميع العقود وخدمات الوساطة للدروس الخصوصية (التي تتم حضورياً وعبر الإنترنت) المبرمة بين Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: tahirielousrouti@gmail.com (يشار إليه فيما يلي باسم 'المزود') والعملاء (أولياء الأمور أو الطلاب البالغين) عبر الموقع الإلكتروني، أو البريد الإلكتروني، أو واتساب، أو نموذج الطلب.",
-    agb_s1_2: "<strong>1.2</strong> يعمل المزود كوسيط للمعلمين المؤهلين للدروس الحضورية وعبر الإنترنت. يتم إجراء الدروس نفسها بشكل مستقل من قبل المعلمين المعينين.",
+    agb_s1_1:
+      "<strong>1.1</strong> تنطبق هذه الشروط والأحكام العامة على جميع العقود وخدمات الوساطة للدروس الخصوصية (التي تتم حضورياً وعبر الإنترنت) المبرمة بين Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: tahirielousrouti@gmail.com (يشار إليه فيما يلي باسم 'المزود') والعملاء (أولياء الأمور أو الطلاب البالغين) عبر الموقع الإلكتروني، أو البريد الإلكتروني، أو واتساب، أو نموذج الطلب.",
+    agb_s1_2:
+      "<strong>1.2</strong> يعمل المزود كوسيط للمعلمين المؤهلين للدروس الحضورية وعبر الإنترنت. يتم إجراء الدروس نفسها بشكل مستقل من قبل المعلمين المعينين.",
     agb_s2_title: "2. الوساطة ومؤهلات المعلمين",
-    agb_s2_1: "<strong>2.1</strong> يقوم المزود بفحص مؤهلات المعلمين بعناية (على الأقل شهادة الثانوية العامة أو دراسات جامعية ذات صلة) ويقوم بتعيين معلمين مناسبين للعميل.",
-    agb_s2_2: "<strong>2.2</strong> يتم تنسيق محتوى الدرس المحدد والإطار الزمني كجزء من الطلب وتأكيد الوساطة.",
-    agb_s2_3: "<strong>2.3</strong> يُحظر على العملاء والمعلمين إبرام عقود مباشرة تتجاوز المزود أو الاستمرار في علاقات الوساطة بشكل خاص على حسابهم الخاص.",
+    agb_s2_1:
+      "<strong>2.1</strong> يقوم المزود بفحص مؤهلات المعلمين بعناية (على الأقل شهادة الثانوية العامة أو دراسات جامعية ذات صلة) ويقوم بتعيين معلمين مناسبين للعميل.",
+    agb_s2_2:
+      "<strong>2.2</strong> يتم تنسيق محتوى الدرس المحدد والإطار الزمني كجزء من الطلب وتأكيد الوساطة.",
+    agb_s2_3:
+      "<strong>2.3</strong> يُحظر على العملاء والمعلمين إبرام عقود مباشرة تتجاوز المزود أو الاستمرار في علاقات الوساطة بشكل خاص على حسابهم الخاص.",
     agb_s3_title: "3. بيانات الطلب وإبرام العقد",
-    agb_s3_1: "<strong>3.1</strong> عرض خدمات الدروس الخصوصية لا يشكل عرضاً ملزماً. عبر نموذج الطلب، يرسل العملاء تفاصيل الاتصال، ومعلومات حول الطفل (الاسم، الصف المدرسي)، والمادة، وعدد الساعات المطلوبة.",
-    agb_s3_2: "<strong>3.2</strong> يتم إبرام العقد فقط بناءً على تأكيد الطلب الكتابي (على سبيل المثال، عبر البريد الإلكتروني) من قبل المزود.",
+    agb_s3_1:
+      "<strong>3.1</strong> عرض خدمات الدروس الخصوصية لا يشكل عرضاً ملزماً. عبر نموذج الطلب، يرسل العملاء تفاصيل الاتصال، ومعلومات حول الطفل (الاسم، الصف المدرسي)، والمادة، وعدد الساعات المطلوبة.",
+    agb_s3_2:
+      "<strong>3.2</strong> يتم إبرام العقد فقط بناءً على تأكيد الطلب الكتابي (على سبيل المثال، عبر البريد الإلكتروني) من قبل المزود.",
     agb_s4_title: "4. توثيق الدروس، المواعيد، وسياسة الإلغاء",
-    agb_s4_1: "<strong>4.1</strong> يتم توثيق ساعات الدروس المقدمة ومحتوياتها من قبل المعلمين لتتبع الأداء والفوترة.",
-    agb_s4_2: "<strong>4.2</strong> مواعيد الدروس المتفق عليها ملزمة. الإلغاء المجاني من قبل العميل ممكن حتى 24 ساعة قبل بدء الدرس كحد أقصى. في حالة الإلغاء المتأخر أو عدم الحضور، سيتم احتساب رسوم وحدة الدرس بالكامل، حيث تم حجز وقت المعلم.",
+    agb_s4_1:
+      "<strong>4.1</strong> يتم توثيق ساعات الدروس المقدمة ومحتوياتها من قبل المعلمين لتتبع الأداء والفوترة.",
+    agb_s4_2:
+      "<strong>4.2</strong> مواعيد الدروس المتفق عليها ملزمة. الإلغاء المجاني من قبل العميل ممكن حتى 24 ساعة قبل بدء الدرس كحد أقصى. في حالة الإلغاء المتأخر أو عدم الحضور، سيتم احتساب رسوم وحدة الدرس بالكامل، حيث تم حجز وقت المعلم.",
     agb_s5_title: "5. الدروس عبر الإنترنت والمتطلبات الفنية",
-    agb_s5_1: "<strong>5.1</strong> للدروس عبر الإنترنت، يتم التنفيذ عبر خدمات مؤتمرات الفيديو (مثل Zoom و Microsoft Teams و Google Meet).",
-    agb_s5_2: "<strong>5.2</strong> يوفر العميل المتطلبات الفنية اللازمة (الجهاز، الكاميرا، الميكروفون، اتصال الإنترنت) على مسؤوليته الخاصة. الأعطال من جانب العميل لا تعفيه من التزام الدفع.",
+    agb_s5_1:
+      "<strong>5.1</strong> للدروس عبر الإنترنت، يتم التنفيذ عبر خدمات مؤتمرات الفيديو (مثل Zoom و Microsoft Teams و Google Meet).",
+    agb_s5_2:
+      "<strong>5.2</strong> يوفر العميل المتطلبات الفنية اللازمة (الجهاز، الكاميرا، الميكروفون، اتصال الإنترنت) على مسؤوليته الخاصة. الأعطال من جانب العميل لا تعفيه من التزام الدفع.",
     agb_s6_title: "6. الأسعار وشروط الدفع",
-    agb_s6_1: "<strong>6.1</strong> خدمات التدريس المقدمة معفاة من ضريبة القيمة المضافة وفقاً للمادة § 4 رقم 21 من قانون ضريبة القيمة المضافة الألماني (UStG) (بشرط توفر شهادة من السلطة الحكومية المسؤولة للمادة المعنية). الأسعار المذكورة هي أسعار نهائية.",
-    agb_s6_2: "<strong>6.2</strong> تتم الفوترة بعد تقديم الدروس بناءً على الفاتورة.",
-    agb_s6_3: "<strong>6.3</strong> يجب أن يتم الدفع حصرياً عن طريق التحويل البنكي إلى الحساب البنكي المحدد في الفاتورة في غضون 14 يوماً من تاريخ الفاتورة.",
+    agb_s6_1:
+      "<strong>6.1</strong> خدمات التدريس المقدمة معفاة من ضريبة القيمة المضافة وفقاً للمادة § 4 رقم 21 من قانون ضريبة القيمة المضافة الألماني (UStG) (بشرط توفر شهادة من السلطة الحكومية المسؤولة للمادة المعنية). الأسعار المذكورة هي أسعار نهائية.",
+    agb_s6_2:
+      "<strong>6.2</strong> تتم الفوترة بعد تقديم الدروس بناءً على الفاتورة.",
+    agb_s6_3:
+      "<strong>6.3</strong> يجب أن يتم الدفع حصرياً عن طريق التحويل البنكي إلى الحساب البنكي المحدد في الفاتورة في غضون 14 يوماً من تاريخ الفاتورة.",
     agb_s7_title: "7. حق التراجع للمستهلكين",
-    agb_s7_intro: "يحق للمستهلكين حق التراجع القانوني للعقود المبرمة خارج المباني التجارية أو عبر البيع عن بعد.",
+    agb_s7_intro:
+      "يحق للمستهلكين حق التراجع القانوني للعقود المبرمة خارج المباني التجارية أو عبر البيع عن بعد.",
     agb_s7_box_title: "سياسة الإلغاء",
     agb_s7_box_1_title: "حق التراجع:",
-    agb_s7_box_1_1: "لديك الحق في التراجع عن هذا العقد خلال أربعة عشر يوماً دون إبداء أي سبب. فترة التراجع هي أربعة عشر يوماً من تاريخ إبرام العقد.",
-    agb_s7_box_1_2: "لممارسة حقك في التراجع، يجب عليك إبلاغنا (Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: tahirielousrouti@gmail.com) من خلال إعلان واضح (مثل رسالة بالبريد أو بريد إلكتروني) بقرارك بالتراجع عن هذا العقد.",
+    agb_s7_box_1_1:
+      "لديك الحق في التراجع عن هذا العقد خلال أربعة عشر يوماً دون إبداء أي سبب. فترة التراجع هي أربعة عشر يوماً من تاريخ إبرام العقد.",
+    agb_s7_box_1_2:
+      "لممارسة حقك في التراجع، يجب عليك إبلاغنا (Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: tahirielousrouti@gmail.com) من خلال إعلان واضح (مثل رسالة بالبريد أو بريد إلكتروني) بقرارك بالتراجع عن هذا العقد.",
     agb_s7_box_2_title: "عواقب التراجع:",
-    agb_s7_box_2_1: "إذا تراجعت عن هذا العقد، سنقوم برد جميع المدفوعات التي تلقيناها منك دون تأخير غير مبرر وفي موعد لا يتجاوز أربعة عشر يوماً من اليوم الذي تلقينا فيه إشعار التراجع الخاص بك. إذا طلبت أن تبدأ الخدمات خلال فترة التراجع، فيجب عليك أن تدفع لنا مبلغاً معقولاً يتناسب مع نسبة الخدمات المقدمة حتى نقطة التراجع مقارنة بالنطاق الإجمالي للخدمات المنصوص عليها في العقد.",
+    agb_s7_box_2_1:
+      "إذا تراجعت عن هذا العقد، سنقوم برد جميع المدفوعات التي تلقيناها منك دون تأخير غير مبرر وفي موعد لا يتجاوز أربعة عشر يوماً من اليوم الذي تلقينا فيه إشعار التراجع الخاص بك. إذا طلبت أن تبدأ الخدمات خلال فترة التراجع، فيجب عليك أن تدفع لنا مبلغاً معقولاً يتناسب مع نسبة الخدمات المقدمة حتى نقطة التراجع مقارنة بالنطاق الإجمالي للخدمات المنصوص عليها في العقد.",
     agb_s8_title: "8. نموذج سحب عينة",
-    agb_s8_form: "(إذا كنت ترغب في التراجع عن العقد، يرجى ملء هذا النموذج وإرساله مرة أخرى.)\n\nإلى: Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: tahirielousrouti@gmail.com\n\nأنا/نحن (*) نتراجع بموجب هذا عن العقد المبرم من قبلي/قبلنا (*) لتوفير الخدمة التالية: ____________________\n\nتم الطلب في (*) / تم الاستلام في (*): ____________________\n\nاسم المستهلك(ين): ____________________\n\nعنوان المستهلك(ين): ____________________\n\nتوقيع المستهلك(ين) (فقط في حالة الإخطار الورقي): ____________________\n\nالتاريخ: ____________________\n\n(*) احذف ما لا ينطبق.",
+    agb_s8_form:
+      "(إذا كنت ترغب في التراجع عن العقد، يرجى ملء هذا النموذج وإرساله مرة أخرى.)\n\nإلى: Nachhilfe2Go، المالك إسماعيل طاهري العسروتي، Gebhardtstr. 1, 42329 Wuppertal، البريد الإلكتروني: tahirielousrouti@gmail.com\n\nأنا/نحن (*) نتراجع بموجب هذا عن العقد المبرم من قبلي/قبلنا (*) لتوفير الخدمة التالية: ____________________\n\nتم الطلب في (*) / تم الاستلام في (*): ____________________\n\nاسم المستهلك(ين): ____________________\n\nعنوان المستهلك(ين): ____________________\n\nتوقيع المستهلك(ين) (فقط في حالة الإخطار الورقي): ____________________\n\nالتاريخ: ____________________\n\n(*) احذف ما لا ينطبق.",
     agb_s9_title: "9. تحديد المسؤولية ونجاح التعلم",
-    agb_s9_1: "<strong>9.1</strong> المزود مسؤول عن الاختيار والوساطة السليمة للمعلمين. لا يتحمل المزود أي ضمان أو مسؤولية عن نجاح التعلم المحدد، أو تحقيق درجات مدرسية معينة، أو اجتياز الامتحانات.",
-    agb_s9_2: "<strong>9.2</strong> يتحمل المعلمون المعنيون مسؤولية محتوى وتنفيذ الدروس في إطار حريتهم التربوية.",
-    },
+    agb_s9_1:
+      "<strong>9.1</strong> المزود مسؤول عن الاختيار والوساطة السليمة للمعلمين. لا يتحمل المزود أي ضمان أو مسؤولية عن نجاح التعلم المحدد، أو تحقيق درجات مدرسية معينة، أو اجتياز الامتحانات.",
+    agb_s9_2:
+      "<strong>9.2</strong> يتحمل المعلمون المعنيون مسؤولية محتوى وتنفيذ الدروس في إطار حريتهم التربوية.",
+    form_sending: "يتم الإرسال...",
+    form_success_msg: "شكراً لك! تم إرسال رسالتك بنجاح.",
+    alert_error_title: "خطأ",
+    alert_error_msg: "خطأ في الشبكة. يرجى المحاولة مرة أخرى لاحقاً.",
+    btn_close: "إغلاق",
+  },
   uk: {
     nav_welcome: "Головна",
     nav_online: "Онлайн",
@@ -753,7 +871,7 @@ priv_p7_revoke: "حق سحب الموافقة وحق تقديم الشكاوى: 
     footer_cond: "Умови",
     foot_about: "Про нас",
     foot_priv: "Політика конфіденційності",
-foot_terms: "Юридична інформація/ Умови використання",
+    foot_terms: "Юридична інформація/ Умови використання",
     foot_support: "Підтримка",
     foot_rights: "© 2026 Nachhilfe2Go. Всі права захищені.",
     // Trial Form Section
@@ -925,71 +1043,112 @@ foot_terms: "Юридична інформація/ Умови використ�
     badge_motivation: "Мотивація",
     // Legal & Privacy Pages
     legal_date: "Станом на: 31 серпня 2026",
-    
+
     priv_title: "Політика конфіденційності",
     priv_h1: "1. Короткий огляд конфіденційності та Контролер даних",
-    priv_p1: "Загальна інформація: Наступна інформація надає простий огляд того, що відбувається з вашими персональними даними під час відвідування нашого сайту. Контролером даних, відповідальним за обробку даних на цьому сайті, є:",
-    priv_p1_contact: "Nachhilfe2Go<br>Власник: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Німеччина<br>Email: tahirielousrouti@gmail.com",
+    priv_p1:
+      "Загальна інформація: Наступна інформація надає простий огляд того, що відбувається з вашими персональними даними під час відвідування нашого сайту. Контролером даних, відповідальним за обробку даних на цьому сайті, є:",
+    priv_p1_contact:
+      "Nachhilfe2Go<br>Власник: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Німеччина<br>Email: tahirielousrouti@gmail.com",
     priv_h2: "2. Збір даних, дані запитів та посередництва",
-    priv_p2: "Якщо ви зв'язуєтеся з нами через форму, email або WhatsApp, ми обробляємо ваші дані (ім'я, адреса, email, телефон, а також шкільні дані, такі як клас і предмет) для обробки запиту та виконання договору відповідно до ст. 6(1)(b) GDPR. Ці дані суворо конфіденційні і передаються лише призначеному репетитору для організації занять.",
-    priv_p2_ssl: "З міркувань безпеки та для захисту передачі конфіденційного контенту, наприклад, запитів, які ви нам надсилаєте, цей сайт використовує шифрування SSL або TLS.",
+    priv_p2:
+      "Якщо ви зв'язуєтеся з нами через форму, email або WhatsApp, ми обробляємо ваші дані (ім'я, адреса, email, телефон, а також шкільні дані, такі як клас і предмет) для обробки запиту та виконання договору відповідно до ст. 6(1)(b) GDPR. Ці дані суворо конфіденційні і передаються лише призначеному репетитору для організації занять.",
+    priv_p2_ssl:
+      "З міркувань безпеки та для захисту передачі конфіденційного контенту, наприклад, запитів, які ви нам надсилаєте, цей сайт використовує шифрування SSL або TLS.",
     priv_h3: "3. Документація занять",
-    priv_p3: "Репетитори обробляють та документують проведені зустрічі та пройдені теми для відстеження успішності та виставлення рахунків. Ці дані обробляються на основі ст. 6(1)(b) GDPR, оскільки вони необхідні для виконання договору про репетиторство.",
+    priv_p3:
+      "Репетитори обробляють та документують проведені зустрічі та пройдені теми для відстеження успішності та виставлення рахунків. Ці дані обробляються на основі ст. 6(1)(b) GDPR, оскільки вони необхідні для виконання договору про репетиторство.",
     priv_h4: "4. Використання інструментів для конференцій (Онлайн-заняття)",
-    priv_p4: "Для проведення онлайн-занять ми використовуємо сервіси аудіо- та відеоконференцій (наприклад, Zoom, Microsoft Teams, Google Meet). Коли ви спілкуєтеся з нами через такі сервіси, ваші дані обробляються нами та постачальниками послуг. Правовою основою є ст. 6(1)(b) GDPR. Ми уклали договори про обробку даних (DPA) з постачальниками для забезпечення захисту даних.",
+    priv_p4:
+      "Для проведення онлайн-занять ми використовуємо сервіси аудіо- та відеоконференцій (наприклад, Zoom, Microsoft Teams, Google Meet). Коли ви спілкуєтеся з нами через такі сервіси, ваші дані обробляються нами та постачальниками послуг. Правовою основою є ст. 6(1)(b) GDPR. Ми уклали договори про обробку даних (DPA) з постачальниками для забезпечення захисту даних.",
     priv_h5: "5. Файли cookie та відстеження",
-    priv_p5: "Наш сайт іноді використовує так звані файли cookie. Ми використовуємо виключно технічно необхідні файли cookie, потрібні для забезпечення базових функцій сайту (ст. 6(1)(f) GDPR). Жодні сторонні файли cookie для відстеження або реклами не використовуються.",
+    priv_p5:
+      "Наш сайт іноді використовує так звані файли cookie. Ми використовуємо виключно технічно необхідні файли cookie, потрібні для забезпечення базових функцій сайту (ст. 6(1)(f) GDPR). Жодні сторонні файли cookie для відстеження або реклами не використовуються.",
     priv_h6: "6. Обробка платежів та строки зберігання",
-    priv_p6: "Дані рахунків та платежів обробляються для бухгалтерського обліку та зберігаються до 10 років у зв'язку з юридичними комерційними та податковими зобов'язаннями щодо зберігання інформації. Правовою основою для цього є ст. 6(1)(c) GDPR.",
+    priv_p6:
+      "Дані рахунків та платежів обробляються для бухгалтерського обліку та зберігаються до 10 років у зв'язку з юридичними комерційними та податковими зобов'язаннями щодо зберігання інформації. Правовою основою для цього є ст. 6(1)(c) GDPR.",
     priv_h7: "7. Ваші права як суб'єкта даних",
-    priv_p7: "Відповідно до чинних правових положень, ви маєте право на безкоштовну інформацію про ваші збережені персональні дані, їхнє походження, одержувача та мету обробки даних у будь-який час, а за необхідності - право на виправлення, блокування або видалення цих даних. Ви також маєте право на перенесення даних.",
-    priv_p7_revoke: "Відкликання та право на подання скарги: Ви можете відкликати будь-яку надану згоду в будь-який час. Для цього достатньо надіслати нам електронний лист у довільній формі. Крім того, ви маєте право подати скаргу до компетентного наглядового органу (ст. 77 GDPR).",
+    priv_p7:
+      "Відповідно до чинних правових положень, ви маєте право на безкоштовну інформацію про ваші збережені персональні дані, їхнє походження, одержувача та мету обробки даних у будь-який час, а за необхідності - право на виправлення, блокування або видалення цих даних. Ви також маєте право на перенесення даних.",
+    priv_p7_revoke:
+      "Відкликання та право на подання скарги: Ви можете відкликати будь-яку надану згоду в будь-який час. Для цього достатньо надіслати нам електронний лист у довільній формі. Крім того, ви маєте право подати скаргу до компетентного наглядового органу (ст. 77 GDPR).",
     terms_title: "Вихідні дані та Умови",
     imp_h1: "1. Юридична інформація (Impressum)",
-    imp_p1_title: "Інформація відповідно до § 5 DDG (Закон про цифрові послуги):",
-    imp_p1: "Nachhilfe2Go<br>Власник: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Німеччина",
+    imp_p1_title:
+      "Інформація відповідно до § 5 DDG (Закон про цифрові послуги):",
+    imp_p1:
+      "Nachhilfe2Go<br>Власник: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Німеччина",
     imp_p2_title: "Контакти:",
     imp_p2: "Email: tahirielousrouti@gmail.com",
     imp_p3_title: "Відповідальний за контент згідно з § 18 розд. 2 MStV:",
     imp_p3: "Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal",
     imp_p4_title: "Вирішення спорів у ЄС:",
-    imp_p4: "Європейська комісія надає платформу для онлайн-вирішення спорів (OS): https://ec.europa.eu/consumers/odr/.<br>Нашу електронну адресу можна знайти вище в юридичній інформації.",
-    imp_p5_title: "Вирішення споживчих спорів / Універсальна арбітражна комісія:",
-    imp_p5: "Ми не готові і не зобов'язані брати участь у процедурах вирішення спорів перед споживчою арбітражною комісією.",
+    imp_p4:
+      "Європейська комісія надає платформу для онлайн-вирішення спорів (OS): https://ec.europa.eu/consumers/odr/.<br>Нашу електронну адресу можна знайти вище в юридичній інформації.",
+    imp_p5_title:
+      "Вирішення споживчих спорів / Універсальна арбітражна комісія:",
+    imp_p5:
+      "Ми не готові і не зобов'язані брати участь у процедурах вирішення спорів перед споживчою арбітражною комісією.",
     agb_h1: "2. Загальні умови та положення (AGB)",
     agb_s1_title: "1. Сфера застосування та мета компанії",
-    agb_s1_1: "<strong>1.1</strong> Ці Загальні умови застосовуються до всіх договорів та послуг з пошуку репетиторів (очних та онлайн), укладених між Nachhilfe2Go, власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com (надалі 'Провайдер') та клієнтами (законними представниками або повнолітніми учнями) через вебсайт, електронну пошту, WhatsApp або форму запиту.",
-    agb_s1_2: "<strong>1.2</strong> Провайдер діє як посередник для кваліфікованих репетиторів для очних та онлайн-занять. Самі заняття проводяться незалежно призначеними репетиторами.",
+    agb_s1_1:
+      "<strong>1.1</strong> Ці Загальні умови застосовуються до всіх договорів та послуг з пошуку репетиторів (очних та онлайн), укладених між Nachhilfe2Go, власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com (надалі 'Провайдер') та клієнтами (законними представниками або повнолітніми учнями) через вебсайт, електронну пошту, WhatsApp або форму запиту.",
+    agb_s1_2:
+      "<strong>1.2</strong> Провайдер діє як посередник для кваліфікованих репетиторів для очних та онлайн-занять. Самі заняття проводяться незалежно призначеними репетиторами.",
     agb_s2_title: "2. Посередництво та кваліфікація репетиторів",
-    agb_s2_1: "<strong>2.1</strong> Провайдер ретельно перевіряє кваліфікацію репетиторів (принаймні атестат про повну загальну середню освіту або поточне навчання за фахом) та призначає відповідних репетиторів клієнту.",
-    agb_s2_2: "<strong>2.2</strong> Конкретний зміст заняття та часові рамки узгоджуються в рамках запиту та підтвердження призначення.",
-    agb_s2_3: "<strong>2.3</strong> Клієнтам та репетиторам заборонено укладати прямі договори в обхід Провайдера або продовжувати відносини приватно за власний рахунок.",
+    agb_s2_1:
+      "<strong>2.1</strong> Провайдер ретельно перевіряє кваліфікацію репетиторів (принаймні атестат про повну загальну середню освіту або поточне навчання за фахом) та призначає відповідних репетиторів клієнту.",
+    agb_s2_2:
+      "<strong>2.2</strong> Конкретний зміст заняття та часові рамки узгоджуються в рамках запиту та підтвердження призначення.",
+    agb_s2_3:
+      "<strong>2.3</strong> Клієнтам та репетиторам заборонено укладати прямі договори в обхід Провайдера або продовжувати відносини приватно за власний рахунок.",
     agb_s3_title: "3. Дані запиту та укладення договору",
-    agb_s3_1: "<strong>3.1</strong> Презентація пропозицій репетиторства не є обов'язковою пропозицією. Через форму запиту клієнти передають контактні дані, інформацію про дитину (ім'я, клас), предмет та бажану кількість годин.",
-    agb_s3_2: "<strong>3.2</strong> Договір укладається лише після письмового підтвердження замовлення (наприклад, електронною поштою) Провайдером.",
+    agb_s3_1:
+      "<strong>3.1</strong> Презентація пропозицій репетиторства не є обов'язковою пропозицією. Через форму запиту клієнти передають контактні дані, інформацію про дитину (ім'я, клас), предмет та бажану кількість годин.",
+    agb_s3_2:
+      "<strong>3.2</strong> Договір укладається лише після письмового підтвердження замовлення (наприклад, електронною поштою) Провайдером.",
     agb_s4_title: "4. Документація занять, дати та політика скасування",
-    agb_s4_1: "<strong>4.1</strong> Надані години та зміст занять документуються репетиторами для відстеження та виставлення рахунків.",
-    agb_s4_2: "<strong>4.2</strong> Узгоджені дати занять є обов'язковими. Безкоштовне скасування клієнтом можливе щонайпізніше за 24 години до початку заняття. У разі несвоєчасного скасування або неявки, плата за заняття стягується в повному обсязі, оскільки час репетитора був зарезервований.",
+    agb_s4_1:
+      "<strong>4.1</strong> Надані години та зміст занять документуються репетиторами для відстеження та виставлення рахунків.",
+    agb_s4_2:
+      "<strong>4.2</strong> Узгоджені дати занять є обов'язковими. Безкоштовне скасування клієнтом можливе щонайпізніше за 24 години до початку заняття. У разі несвоєчасного скасування або неявки, плата за заняття стягується в повному обсязі, оскільки час репетитора був зарезервований.",
     agb_s5_title: "5. Онлайн-репетиторство та технічні вимоги",
-    agb_s5_1: "<strong>5.1</strong> Онлайн-заняття проводяться через сервіси відеоконференцій (наприклад, Zoom, Microsoft Teams, Google Meet).",
-    agb_s5_2: "<strong>5.2</strong> Клієнт забезпечує необхідні технічні вимоги (пристрій, камера, мікрофон, підключення до інтернету) під власну відповідальність. Перебої на стороні клієнта не звільняють від обов'язку оплати.",
+    agb_s5_1:
+      "<strong>5.1</strong> Онлайн-заняття проводяться через сервіси відеоконференцій (наприклад, Zoom, Microsoft Teams, Google Meet).",
+    agb_s5_2:
+      "<strong>5.2</strong> Клієнт забезпечує необхідні технічні вимоги (пристрій, камера, мікрофон, підключення до інтернету) під власну відповідальність. Перебої на стороні клієнта не звільняють від обов'язку оплати.",
     agb_s6_title: "6. Ціни та умови оплати",
-    agb_s6_1: "<strong>6.1</strong> Запропоновані послуги репетиторства звільняються від ПДВ відповідно до § 4 № 21 UStG (за умови наявності сертифіката від відповідального органу землі для відповідного предмета). Зазначені ціни є кінцевими.",
-    agb_s6_2: "<strong>6.2</strong> Виставлення рахунків відбувається після надання послуг.",
-    agb_s6_3: "<strong>6.3</strong> Оплата здійснюється виключно банківським переказом на банківський рахунок, вказаний у рахунку-фактурі, протягом 14 днів з дати виставлення рахунку.",
+    agb_s6_1:
+      "<strong>6.1</strong> Запропоновані послуги репетиторства звільняються від ПДВ відповідно до § 4 № 21 UStG (за умови наявності сертифіката від відповідального органу землі для відповідного предмета). Зазначені ціни є кінцевими.",
+    agb_s6_2:
+      "<strong>6.2</strong> Виставлення рахунків відбувається після надання послуг.",
+    agb_s6_3:
+      "<strong>6.3</strong> Оплата здійснюється виключно банківським переказом на банківський рахунок, вказаний у рахунку-фактурі, протягом 14 днів з дати виставлення рахунку.",
     agb_s7_title: "7. Право на відмову для споживачів",
-    agb_s7_intro: "Споживачі мають встановлене законом право на відмову для договорів, укладених поза комерційними приміщеннями або дистанційно.",
+    agb_s7_intro:
+      "Споживачі мають встановлене законом право на відмову для договорів, укладених поза комерційними приміщеннями або дистанційно.",
     agb_s7_box_title: "Політика скасування",
     agb_s7_box_1_title: "Право на відмову:",
-    agb_s7_box_1_1: "Ви маєте право відмовитися від цього договору протягом чотирнадцяти днів без пояснення причин. Строк відмови становить чотирнадцять днів з дня укладення договору.",
-    agb_s7_box_1_2: "Щоб скористатися правом на відмову, ви повинні повідомити нас (Nachhilfe2Go, Власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com) шляхом чіткої заяви (наприклад, лист поштою або email) про ваше рішення відмовитися від цього договору.",
+    agb_s7_box_1_1:
+      "Ви маєте право відмовитися від цього договору протягом чотирнадцяти днів без пояснення причин. Строк відмови становить чотирнадцять днів з дня укладення договору.",
+    agb_s7_box_1_2:
+      "Щоб скористатися правом на відмову, ви повинні повідомити нас (Nachhilfe2Go, Власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com) шляхом чіткої заяви (наприклад, лист поштою або email) про ваше рішення відмовитися від цього договору.",
     agb_s7_box_2_title: "Наслідки відмови:",
-    agb_s7_box_2_1: "Якщо ви відмовитеся від цього договору, ми відшкодуємо вам усі платежі, які ми отримали від вас, без невиправданої затримки і не пізніше ніж через чотирнадцять днів з дня отримання повідомлення про вашу відмову. Якщо ви просили розпочати надання послуг протягом періоду відмови, ви повинні сплатити нам розумну суму, пропорційну обсягу послуг, наданих до моменту відмови, порівняно із загальним обсягом послуг за договором.",
+    agb_s7_box_2_1:
+      "Якщо ви відмовитеся від цього договору, ми відшкодуємо вам усі платежі, які ми отримали від вас, без невиправданої затримки і не пізніше ніж через чотирнадцять днів з дня отримання повідомлення про вашу відмову. Якщо ви просили розпочати надання послуг протягом періоду відмови, ви повинні сплатити нам розумну суму, пропорційну обсягу послуг, наданих до моменту відмови, порівняно із загальним обсягом послуг за договором.",
     agb_s8_title: "8. Зразок форми відмови",
-    agb_s8_form: "(Якщо ви хочете відмовитися від договору, будь ласка, заповніть цю форму і надішліть її назад.)\n\nКому: Nachhilfe2Go, Власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com\n\nЯ/ми (*) цим відмовляємося від укладеного мною/нами (*) договору про надання такої послуги: ____________________\n\nЗамовлено (*) / отримано (*): ____________________\n\nІм'я споживача(ів): ____________________\n\nАдреса споживача(ів): ____________________\n\nПідпис споживача(ів) (лише у разі паперового повідомлення): ____________________\n\nДата: ____________________\n\n(*) Непотрібне викреслити.",
+    agb_s8_form:
+      "(Якщо ви хочете відмовитися від договору, будь ласка, заповніть цю форму і надішліть її назад.)\n\nКому: Nachhilfe2Go, Власник Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, Email: tahirielousrouti@gmail.com\n\nЯ/ми (*) цим відмовляємося від укладеного мною/нами (*) договору про надання такої послуги: ____________________\n\nЗамовлено (*) / отримано (*): ____________________\n\nІм'я споживача(ів): ____________________\n\nАдреса споживача(ів): ____________________\n\nПідпис споживача(ів) (лише у разі паперового повідомлення): ____________________\n\nДата: ____________________\n\n(*) Непотрібне викреслити.",
     agb_s9_title: "9. Обмеження відповідальності та успішність",
-    agb_s9_1: "<strong>9.1</strong> Провайдер несе відповідальність за належний відбір та призначення репетиторів. Провайдер не бере на себе гарантій або відповідальності за конкретний успіх у навчанні, досягнення певних шкільних оцінок або складання іспитів.",
-    agb_s9_2: "<strong>9.2</strong> Відповідні репетитори несуть відповідальність за зміст та проведення занять у рамках своєї педагогічної свободи.",
+    agb_s9_1:
+      "<strong>9.1</strong> Провайдер несе відповідальність за належний відбір та призначення репетиторів. Провайдер не бере на себе гарантій або відповідальності за конкретний успіх у навчанні, досягнення певних шкільних оцінок або складання іспитів.",
+    agb_s9_2:
+      "<strong>9.2</strong> Відповідні репетитори несуть відповідальність за зміст та проведення занять у рамках своєї педагогічної свободи.",
+    form_sending: "Надсилання...",
+    form_success_msg: "Дякуємо! Ваше повідомлення успішно надіслано.",
+    alert_error_title: "Помилка",
+    alert_error_msg: "Помилка мережі. Будь ласка, спробуйте пізніше.",
+    btn_close: "Закрити",
   },
   nl: {
     nav_welcome: "Home",
@@ -1003,7 +1162,7 @@ foot_terms: "Юридична інформація/ Умови використ�
     footer_cond: "Voorwaarden",
     foot_about: "Over ons",
     foot_priv: "Privacybeleid",
-foot_terms: "Colofon / Gebruiksvoorwaarden",
+    foot_terms: "Colofon / Gebruiksvoorwaarden",
     foot_support: "Ondersteuning",
     foot_rights: "© 2026 Nachhilfe2Go. Alle rechten voorbehouden.",
     // Trial Form Section
@@ -1173,70 +1332,110 @@ foot_terms: "Colofon / Gebruiksvoorwaarden",
     badge_motivation: "Motivatie",
     // Legal & Privacy Pages
     legal_date: "Stand: 31 augustus 2026",
-    
+
     priv_title: "Privacybeleid",
     priv_h1: "1. Privacy in één oogopslag & Verwerkingsverantwoordelijke",
-    priv_p1: "Algemene informatie: De volgende informatie biedt een eenvoudig overzicht van wat er met uw persoonsgegevens gebeurt wanneer u onze website bezoekt. De verwerkingsverantwoordelijke voor deze website is:",
-    priv_p1_contact: "Nachhilfe2Go<br>Eigenaar: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Duitsland<br>E-mail: tahirielousrouti@gmail.com",
+    priv_p1:
+      "Algemene informatie: De volgende informatie biedt een eenvoudig overzicht van wat er met uw persoonsgegevens gebeurt wanneer u onze website bezoekt. De verwerkingsverantwoordelijke voor deze website is:",
+    priv_p1_contact:
+      "Nachhilfe2Go<br>Eigenaar: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal, Duitsland<br>E-mail: tahirielousrouti@gmail.com",
     priv_h2: "2. Gegevensverzameling, Aanvraag- en Bemiddelingsgegevens",
-    priv_p2: "Als u contact met ons opneemt via ons formulier, e-mail of WhatsApp, verwerken wij uw gegevens (zoals naam, adres, e-mail, telefoonnummer, en schoolgegevens zoals klas en vak) om de aanvraag te verwerken en het contract na te komen volgens Art. 6(1)(b) AVG. Deze gegevens worden strikt vertrouwelijk behandeld en alleen aan de toegewezen docent doorgegeven om de bijles te organiseren.",
-    priv_p2_ssl: "Om veiligheidsredenen en ter bescherming van de overdracht van vertrouwelijke inhoud, zoals aanvragen die u naar ons stuurt, maakt deze website gebruik van SSL- of TLS-encryptie.",
+    priv_p2:
+      "Als u contact met ons opneemt via ons formulier, e-mail of WhatsApp, verwerken wij uw gegevens (zoals naam, adres, e-mail, telefoonnummer, en schoolgegevens zoals klas en vak) om de aanvraag te verwerken en het contract na te komen volgens Art. 6(1)(b) AVG. Deze gegevens worden strikt vertrouwelijk behandeld en alleen aan de toegewezen docent doorgegeven om de bijles te organiseren.",
+    priv_p2_ssl:
+      "Om veiligheidsredenen en ter bescherming van de overdracht van vertrouwelijke inhoud, zoals aanvragen die u naar ons stuurt, maakt deze website gebruik van SSL- of TLS-encryptie.",
     priv_h3: "3. Lesdocumentatie",
-    priv_p3: "De docenten verwerken en documenteren afgeronde afspraken en behandelde onderwerpen voor prestatie-tracking en facturering. Deze gegevens worden verwerkt op basis van Art. 6(1)(b) AVG, omdat ze nodig zijn voor de uitvoering van het bijlescontract.",
+    priv_p3:
+      "De docenten verwerken en documenteren afgeronde afspraken en behandelde onderwerpen voor prestatie-tracking en facturering. Deze gegevens worden verwerkt op basis van Art. 6(1)(b) AVG, omdat ze nodig zijn voor de uitvoering van het bijlescontract.",
     priv_h4: "4. Gebruik van Conferentietools (Online Bijles)",
-    priv_p4: "Voor het geven van online bijles maken wij gebruik van audio- en videoconferentiediensten (bijv. Zoom, Microsoft Teams, Google Meet). De aanbieders verzamelen inventaris-, communicatie- en metagegevens. De wettelijke basis is Art. 6(1)(b) AVG. Wij hebben met de aanbieders verwerkersovereenkomsten (DPA) gesloten om gegevensbescherming te garanderen.",
+    priv_p4:
+      "Voor het geven van online bijles maken wij gebruik van audio- en videoconferentiediensten (bijv. Zoom, Microsoft Teams, Google Meet). De aanbieders verzamelen inventaris-, communicatie- en metagegevens. De wettelijke basis is Art. 6(1)(b) AVG. Wij hebben met de aanbieders verwerkersovereenkomsten (DPA) gesloten om gegevensbescherming te garanderen.",
     priv_h5: "5. Cookies & Tracking",
-    priv_p5: "Onze website maakt soms gebruik van zogenaamde cookies. Wij gebruiken uitsluitend technisch noodzakelijke cookies die vereist zijn om de basisfuncties van de website te leveren (Art. 6(1)(f) AVG). Er worden geen tracking- of advertentiecookies van derden gebruikt.",
+    priv_p5:
+      "Onze website maakt soms gebruik van zogenaamde cookies. Wij gebruiken uitsluitend technisch noodzakelijke cookies die vereist zijn om de basisfuncties van de website te leveren (Art. 6(1)(f) AVG). Er worden geen tracking- of advertentiecookies van derden gebruikt.",
     priv_h6: "6. Betalingsverwerking & Bewaartermijnen",
-    priv_p6: "Factuur- en betalingsgegevens worden verwerkt voor boekhoudkundige doeleinden en tot 10 jaar bewaard op grond van wettelijke commerciële en fiscale bewaarplichten. De wettelijke basis hiervoor is Art. 6(1)(c) AVG.",
+    priv_p6:
+      "Factuur- en betalingsgegevens worden verwerkt voor boekhoudkundige doeleinden en tot 10 jaar bewaard op grond van wettelijke commerciële en fiscale bewaarplichten. De wettelijke basis hiervoor is Art. 6(1)(c) AVG.",
     priv_h7: "7. Uw Rechten als Betrokkene",
-    priv_p7: "Onder de toepasselijke wettelijke bepalingen heeft u te allen tijde recht op gratis informatie over uw opgeslagen persoonsgegevens, de herkomst en ontvanger ervan, en het doel van de gegevensverwerking, en indien van toepassing recht op rectificatie, blokkering of verwijdering van deze gegevens. U heeft ook recht op dataportabiliteit.",
-    priv_p7_revoke: "Herroeping en Klachtrecht: U kunt een eenmaal gegeven toestemming te allen tijde herroepen. Een informeel e-mailtje naar ons is voldoende. Daarnaast heeft u het recht om een klacht in te dienen bij de bevoegde toezichthoudende autoriteit (Art. 77 AVG).",
+    priv_p7:
+      "Onder de toepasselijke wettelijke bepalingen heeft u te allen tijde recht op gratis informatie over uw opgeslagen persoonsgegevens, de herkomst en ontvanger ervan, en het doel van de gegevensverwerking, en indien van toepassing recht op rectificatie, blokkering of verwijdering van deze gegevens. U heeft ook recht op dataportabiliteit.",
+    priv_p7_revoke:
+      "Herroeping en Klachtrecht: U kunt een eenmaal gegeven toestemming te allen tijde herroepen. Een informeel e-mailtje naar ons is voldoende. Daarnaast heeft u het recht om een klacht in te dienen bij de bevoegde toezichthoudende autoriteit (Art. 77 AVG).",
     terms_title: "Colofon & AV",
     imp_h1: "1. Colofon (Impressum)",
     imp_p1_title: "Informatie volgens § 5 DDG (Digitale Diensten Wet):",
-    imp_p1: "Nachhilfe2Go<br>Eigenaar: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Duitsland",
+    imp_p1:
+      "Nachhilfe2Go<br>Eigenaar: Smail Tahiri El Ousrouti<br>Gebhardtstr. 1<br>42329 Wuppertal<br>Duitsland",
     imp_p2_title: "Contact:",
     imp_p2: "E-mail: tahirielousrouti@gmail.com",
     imp_p3_title: "Verantwoordelijk voor de inhoud volgens § 18 lid 2 MStV:",
     imp_p3: "Smail Tahiri El Ousrouti<br>Gebhardtstr. 1, 42329 Wuppertal",
     imp_p4_title: "EU Geschillenbeslechting:",
-    imp_p4: "De Europese Commissie biedt een platform voor online geschillenbeslechting (OS): https://ec.europa.eu/consumers/odr/.<br>Ons e-mailadres is hierboven te vinden in het colofon.",
-    imp_p5_title: "Geschillenbeslechting voor consumenten / Universele arbitragecommissie:",
-    imp_p5: "Wij zijn niet bereid of verplicht om deel te nemen aan geschillenbeslechtingsprocedures voor een arbitragecommissie voor consumenten.",
+    imp_p4:
+      "De Europese Commissie biedt een platform voor online geschillenbeslechting (OS): https://ec.europa.eu/consumers/odr/.<br>Ons e-mailadres is hierboven te vinden in het colofon.",
+    imp_p5_title:
+      "Geschillenbeslechting voor consumenten / Universele arbitragecommissie:",
+    imp_p5:
+      "Wij zijn niet bereid of verplicht om deel te nemen aan geschillenbeslechtingsprocedures voor een arbitragecommissie voor consumenten.",
     agb_h1: "2. Algemene Voorwaarden (AV)",
     agb_s1_title: "1. Toepassingsgebied & Doel van de onderneming",
-    agb_s1_1: "<strong>1.1</strong> Deze Algemene Voorwaarden ('AV') zijn van toepassing op alle contracten en bemiddelingsdiensten voor bijles (op locatie en online) gesloten tussen Nachhilfe2Go, eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: tahirielousrouti@gmail.com (hierna 'Aanbieder') en de klanten (wettelijke voogden of volwassen studenten) via de website, per e-mail, WhatsApp of aanvraagformulier.",
-    agb_s1_2: "<strong>1.2</strong> De Aanbieder treedt op als bemiddelaar van gekwalificeerde docenten voor bijles op locatie en online. De lessen zelf worden onafhankelijk uitgevoerd door de geplaatste docenten.",
+    agb_s1_1:
+      "<strong>1.1</strong> Deze Algemene Voorwaarden ('AV') zijn van toepassing op alle contracten en bemiddelingsdiensten voor bijles (op locatie en online) gesloten tussen Nachhilfe2Go, eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: tahirielousrouti@gmail.com (hierna 'Aanbieder') en de klanten (wettelijke voogden of volwassen studenten) via de website, per e-mail, WhatsApp of aanvraagformulier.",
+    agb_s1_2:
+      "<strong>1.2</strong> De Aanbieder treedt op als bemiddelaar van gekwalificeerde docenten voor bijles op locatie en online. De lessen zelf worden onafhankelijk uitgevoerd door de geplaatste docenten.",
     agb_s2_title: "2. Bemiddeling & Kwalificatie van docenten",
-    agb_s2_1: "<strong>2.1</strong> De Aanbieder controleert zorgvuldig de kwalificatie van de docenten (minimaal vwo-diploma of lopende vakrelevante studie) en plaatst geschikte docenten bij de klant.",
-    agb_s2_2: "<strong>2.2</strong> De specifieke lesinhoud en het tijdsbestek worden afgestemd als onderdeel van de aanvraag en bemiddelingsbevestiging.",
-    agb_s2_3: "<strong>2.3</strong> Het is klanten en docenten verboden om directe contracten af te sluiten buiten de Aanbieder om of bemiddelingsrelaties privé voor eigen rekening voort te zetten.",
+    agb_s2_1:
+      "<strong>2.1</strong> De Aanbieder controleert zorgvuldig de kwalificatie van de docenten (minimaal vwo-diploma of lopende vakrelevante studie) en plaatst geschikte docenten bij de klant.",
+    agb_s2_2:
+      "<strong>2.2</strong> De specifieke lesinhoud en het tijdsbestek worden afgestemd als onderdeel van de aanvraag en bemiddelingsbevestiging.",
+    agb_s2_3:
+      "<strong>2.3</strong> Het is klanten en docenten verboden om directe contracten af te sluiten buiten de Aanbieder om of bemiddelingsrelaties privé voor eigen rekening voort te zetten.",
     agb_s3_title: "3. Aanvraaggegevens & Sluiting van het contract",
-    agb_s3_1: "<strong>3.1</strong> De presentatie van bijlesaanbiedingen vormt geen bindend aanbod. Via het aanvraagformulier sturen klanten contactgegevens, informatie over het kind (naam, klas), vak en gewenst aantal uren.",
-    agb_s3_2: "<strong>3.2</strong> Een contract komt pas tot stand bij schriftelijke orderbevestiging (bijv. per e-mail) door de Aanbieder.",
+    agb_s3_1:
+      "<strong>3.1</strong> De presentatie van bijlesaanbiedingen vormt geen bindend aanbod. Via het aanvraagformulier sturen klanten contactgegevens, informatie over het kind (naam, klas), vak en gewenst aantal uren.",
+    agb_s3_2:
+      "<strong>3.2</strong> Een contract komt pas tot stand bij schriftelijke orderbevestiging (bijv. per e-mail) door de Aanbieder.",
     agb_s4_title: "4. Lesdocumentatie, Data & Annuleringsbeleid",
-    agb_s4_1: "<strong>4.1</strong> Gegeven lesuren en lesinhoud worden door de docenten gedocumenteerd voor traceerbaarheid en facturering.",
-    agb_s4_2: "<strong>4.2</strong> Afgesproken lesdata zijn bindend. Kosteloos annuleren door de klant is mogelijk tot uiterlijk 24 uur voor aanvang van de les. Bij te late annulering of no-show wordt het honorarium voor de leseenheid volledig in rekening gebracht, aangezien de tijd van de docent was gereserveerd.",
+    agb_s4_1:
+      "<strong>4.1</strong> Gegeven lesuren en lesinhoud worden door de docenten gedocumenteerd voor traceerbaarheid en facturering.",
+    agb_s4_2:
+      "<strong>4.2</strong> Afgesproken lesdata zijn bindend. Kosteloos annuleren door de klant is mogelijk tot uiterlijk 24 uur voor aanvang van de les. Bij te late annulering of no-show wordt het honorarium voor de leseenheid volledig in rekening gebracht, aangezien de tijd van de docent was gereserveerd.",
     agb_s5_title: "5. Online Bijles & Technische vereisten",
-    agb_s5_1: "<strong>5.1</strong> Voor online lessen verloopt de uitvoering via videoconferentiediensten (bijv. Zoom, Microsoft Teams, Google Meet).",
-    agb_s5_2: "<strong>5.2</strong> De klant zorgt op eigen verantwoordelijkheid voor de noodzakelijke technische vereisten (apparaat, camera, microfoon, internetverbinding). Storingen aan de kant van de klant ontslaan hen niet van de betalingsverplichting.",
+    agb_s5_1:
+      "<strong>5.1</strong> Voor online lessen verloopt de uitvoering via videoconferentiediensten (bijv. Zoom, Microsoft Teams, Google Meet).",
+    agb_s5_2:
+      "<strong>5.2</strong> De klant zorgt op eigen verantwoordelijkheid voor de noodzakelijke technische vereisten (apparaat, camera, microfoon, internetverbinding). Storingen aan de kant van de klant ontslaan hen niet van de betalingsverplichting.",
     agb_s6_title: "6. Prijzen en Betalingsvoorwaarden",
-    agb_s6_1: "<strong>6.1</strong> De aangeboden bijlesdiensten zijn vrijgesteld van btw in overeenstemming met § 4 nr. 21 UStG (mits een certificaat van de verantwoordelijke overheidsinstantie beschikbaar is voor het betreffende vak). De vermelde prijzen zijn eindprijzen.",
-    agb_s6_2: "<strong>6.2</strong> Facturering vindt plaats na het verlenen van de bijles op basis van een factuur.",
-    agb_s6_3: "<strong>6.3</strong> Betaling dient uitsluitend te geschieden via bankoverschrijving naar de op de factuur vermelde bankrekening binnen 14 dagen na factuurdatum.",
+    agb_s6_1:
+      "<strong>6.1</strong> De aangeboden bijlesdiensten zijn vrijgesteld van btw in overeenstemming met § 4 nr. 21 UStG (mits een certificaat van de verantwoordelijke overheidsinstantie beschikbaar is voor het betreffende vak). De vermelde prijzen zijn eindprijzen.",
+    agb_s6_2:
+      "<strong>6.2</strong> Facturering vindt plaats na het verlenen van de bijles op basis van een factuur.",
+    agb_s6_3:
+      "<strong>6.3</strong> Betaling dient uitsluitend te geschieden via bankoverschrijving naar de op de factuur vermelde bankrekening binnen 14 dagen na factuurdatum.",
     agb_s7_title: "7. Herroepingsrecht voor Consumenten",
-    agb_s7_intro: "Consumenten hebben een wettelijk herroepingsrecht voor contracten die buiten verkoopruimten of via verkoop op afstand zijn gesloten.",
+    agb_s7_intro:
+      "Consumenten hebben een wettelijk herroepingsrecht voor contracten die buiten verkoopruimten of via verkoop op afstand zijn gesloten.",
     agb_s7_box_title: "Annuleringsbeleid",
     agb_s7_box_1_title: "Herroepingsrecht:",
-    agb_s7_box_1_1: "U heeft het recht om dit contract binnen veertien dagen zonder opgave van redenen te herroepen. De herroepingstermijn is veertien dagen vanaf de dag van de sluiting van het contract.",
-    agb_s7_box_1_2: "Om uw herroepingsrecht uit te oefenen, moet u ons (Nachhilfe2Go, eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: tahirielousrouti@gmail.com) door middel van een duidelijke verklaring (bijv. een brief per post of een e-mail) informeren over uw beslissing om dit contract te herroepen.",
+    agb_s7_box_1_1:
+      "U heeft het recht om dit contract binnen veertien dagen zonder opgave van redenen te herroepen. De herroepingstermijn is veertien dagen vanaf de dag van de sluiting van het contract.",
+    agb_s7_box_1_2:
+      "Om uw herroepingsrecht uit te oefenen, moet u ons (Nachhilfe2Go, eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: tahirielousrouti@gmail.com) door middel van een duidelijke verklaring (bijv. een brief per post of een e-mail) informeren over uw beslissing om dit contract te herroepen.",
     agb_s7_box_2_title: "Gevolgen van de herroeping:",
-    agb_s7_box_2_1: "Als u dit contract herroept, zullen wij u alle betalingen die wij van u hebben ontvangen, onverwijld en uiterlijk binnen veertien dagen vanaf de dag waarop wij de melding van uw herroeping hebben ontvangen, terugbetalen. Indien u heeft verzocht dat de diensten beginnen tijdens de herroepingstermijn, dient u ons een redelijk bedrag te betalen dat evenredig is aan het deel van de geleverde diensten tot het moment van herroeping in vergelijking met de totale omvang van de in het contract voorziene diensten.",
+    agb_s7_box_2_1:
+      "Als u dit contract herroept, zullen wij u alle betalingen die wij van u hebben ontvangen, onverwijld en uiterlijk binnen veertien dagen vanaf de dag waarop wij de melding van uw herroeping hebben ontvangen, terugbetalen. Indien u heeft verzocht dat de diensten beginnen tijdens de herroepingstermijn, dient u ons een redelijk bedrag te betalen dat evenredig is aan het deel van de geleverde diensten tot het moment van herroeping in vergelijking met de totale omvang van de in het contract voorziene diensten.",
     agb_s8_title: "8. Voorbeeld Herroepingsformulier",
-    agb_s8_form: "(Als u het contract wilt herroepen, vul dan dit formulier in en stuur het terug.)\n\nAan: Nachhilfe2Go, Eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: tahirielousrouti@gmail.com\n\nIk/wij (*) herroep(en) hierbij het door mij/ons (*) gesloten contract voor de levering van de volgende dienst: ____________________\n\nBesteld op (*) / ontvangen op (*): ____________________\n\nNaam consument(en): ____________________\n\nAdres consument(en): ____________________\n\nHandtekening consument(en) (alleen indien op papier gemeld): ____________________\n\nDatum: ____________________\n\n(*) Doorhalen wat niet van toepassing is.",
+    agb_s8_form:
+      "(Als u het contract wilt herroepen, vul dan dit formulier in en stuur het terug.)\n\nAan: Nachhilfe2Go, Eigenaar Smail Tahiri El Ousrouti, Gebhardtstr. 1, 42329 Wuppertal, E-mail: tahirielousrouti@gmail.com\n\nIk/wij (*) herroep(en) hierbij het door mij/ons (*) gesloten contract voor de levering van de volgende dienst: ____________________\n\nBesteld op (*) / ontvangen op (*): ____________________\n\nNaam consument(en): ____________________\n\nAdres consument(en): ____________________\n\nHandtekening consument(en) (alleen indien op papier gemeld): ____________________\n\nDatum: ____________________\n\n(*) Doorhalen wat niet van toepassing is.",
     agb_s9_title: "9. Beperking van aansprakelijkheid & Leersucces",
-    agb_s9_1: "<strong>9.1</strong> De Aanbieder is aansprakelijk voor de juiste selectie en bemiddeling van de docenten. De Aanbieder aanvaardt geen garantie of aansprakelijkheid voor specifiek leersucces, het behalen van bepaalde schoolcijfers of het slagen voor examens.",
-    agb_s9_2: "<strong>9.2</strong> De betreffende docenten zijn verantwoordelijk voor de inhoud en uitvoering van de lessen binnen het kader van hun pedagogische vrijheid.",
+    agb_s9_1:
+      "<strong>9.1</strong> De Aanbieder is aansprakelijk voor de juiste selectie en bemiddeling van de docenten. De Aanbieder aanvaardt geen garantie of aansprakelijkheid voor specifiek leersucces, het behalen van bepaalde schoolcijfers of het slagen voor examens.",
+    agb_s9_2:
+      "<strong>9.2</strong> De betreffende docenten zijn verantwoordelijk voor de inhoud en uitvoering van de lessen binnen het kader van hun pedagogische vrijheid.",
+    form_sending: "Verzenden...",
+    form_success_msg: "Dank u! Uw bericht is succesvol verzonden.",
+    alert_error_title: "Fout",
+    alert_error_msg: "Netwerkfout. Probeer het later opnieuw.",
+    btn_close: "Sluiten",
   },
 };

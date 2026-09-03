@@ -70,45 +70,79 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 const form = document.getElementById('contact-form');
 const successMsg = document.getElementById('form-success');
+const customAlert = document.getElementById('custom-alert');
+const closeAlertBtn = document.getElementById('close-alert-btn');
+const email = "kontakt@nachhilfe-2go.de";
 
 if (form) {
-
     form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    
-    const submitBtn = form.querySelector('button[type="submit"]');
-    const originalBtnText = submitBtn.innerText;
-    submitBtn.disabled = true;
-    submitBtn.innerText = "Wird gesendet...";
-
-    const formData = new FormData(form);
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
-
-    try {
-        const response = await fetch('https://api.staticforms.xyz/submit', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            },
-            body: json
-        });
-
-        const result = await response.json();
-
-        if (result.success) {
-            form.reset();
-            successMsg.classList.remove('hidden');
-        } else {
-            alert('Fehler beim Senden: ' + (result.message || 'Bitte versuchen Sie es erneut.'));
+        e.preventDefault();
+        
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const btnText = submitBtn.querySelector('.btn-text');
+        const btnLoading = submitBtn.querySelector('.btn-loading');
+        
+        // Show loading state
+        submitBtn.disabled = true;
+        submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
+        if (btnText && btnLoading) {
+            btnText.classList.add('hidden');
+            btnLoading.classList.remove('hidden');
         }
-    } catch (error) {
-        alert('Netzwerkfehler. Bitte versuchen Sie es später erneut.');
-    } finally {
-        submitBtn.disabled = false;
-        submitBtn.innerText = originalBtnText;
-    }
-});
+
+        const formData = new FormData(form);
+        const object = Object.fromEntries(formData);
+        
+        // FormSubmit backend configurations
+        object._captcha = "false"; // Disable captcha for AJAX to prevent CORS errors
+        object._subject = "Neue Kontaktanfrage von Nachhilfe2Go"; 
+        
+        const json = JSON.stringify(object);
+
+        try {
+            // Using FormSubmit AJAX endpoint directed to the new email
+            const response = await fetch(`https://formsubmit.co/ajax/${email}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                form.reset();
+                successMsg.classList.remove('hidden');
+                
+                // Hide success message after 5 seconds
+                setTimeout(() => {
+                    successMsg.classList.add('hidden');
+                }, 5000);
+            } else {
+                // Trigger Custom Error Modal
+                customAlert.classList.remove('hidden');
+            }
+        } catch (error) {
+            // Trigger Custom Error Modal
+            customAlert.classList.remove('hidden');
+        } finally {
+            // Restore button state
+            submitBtn.disabled = false;
+            submitBtn.classList.remove('opacity-75', 'cursor-not-allowed');
+            if (btnText && btnLoading) {
+                btnLoading.classList.add('hidden');
+                btnText.classList.remove('hidden');
+            }
+        }
+    });
+}
+
+// Close Custom Alert Modal
+if (closeAlertBtn) {
+    closeAlertBtn.addEventListener('click', () => {
+        customAlert.classList.add('hidden');
+    });
 }
 });
